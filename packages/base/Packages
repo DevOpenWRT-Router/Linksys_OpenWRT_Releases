@@ -35,10 +35,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 262355
+Installed-Size: 262356
 Filename: busybox_1.35.0-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263494
-SHA256sum: ff9a72385ebdc53dc3ee2f1e818771aae0757b770c0df416f20ef44346f52778
+Size: 263495
+SHA256sum: 44df8bed05e3f4a7f591892796863cd72c6554f96f6616b9f25ba66fa4e4c392
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -90,8 +90,8 @@ CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 207340
 Filename: dnsmasq-full_2.86-15_arm_cortex-a9_vfpv3-d16.ipk
-Size: 208663
-SHA256sum: 5d36cc1f72dd36fcb09e7e36979f8ae95e3ce6d3c50af8d154f87b7268870324
+Size: 208669
+SHA256sum: 5a0ecc2edb11fc691630c8943efaf89395d0bdd59cb67d4b33a96c435294a5df
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -393,10 +393,10 @@ Section: libs
 ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41173
+Installed-Size: 41172
 Filename: libelf1_0.187-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42117
-SHA256sum: 4aae19eb6c3de568fb9a4f72aee4a98ea72eb5a9bb503ddfbfae184bb1acf7b4
+Size: 42115
+SHA256sum: 3606b3f736680ec09dcdc1fce9d2f14d900d8f10f2ac2423550d32bd5ab3acce
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -812,10 +812,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1230567
+Installed-Size: 1230566
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1221405
-SHA256sum: ea537b0f169cf5b9226e03eb92083faf4ae1a6cf1e6649b899b26210c96b8ff9
+Size: 1221408
+SHA256sum: 005a4cc0c18fc71f5a6434b41b46b92b3e657751aa88dd23d0730151425ac9b8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1135,10 +1135,10 @@ Depends: libc, e2fsprogs, parted, smartmontools, blkid, btrfs-progs, lsblk
 License: AGPL-3.0
 Section: luci
 Architecture: all
-Installed-Size: 23430
+Installed-Size: 23432
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25070
-SHA256sum: ee0dce1f015ebf016c82d31f0f4dbb9177e539bc36b10de5b0ef77909b1c9305
+Size: 25067
+SHA256sum: c2b7ec9004f9a710c9bfb64835ffdef70c310e87a39467b2716bf2e657f6360f
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1229,10 +1229,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1649
+Installed-Size: 1647
 Filename: luci-app-multilog_0.6-0_all.ipk
-Size: 2986
-SHA256sum: 96c64f31b3285aae90162270482bcf97eaaf060cc2b3f126c727407d54042b27
+Size: 2985
+SHA256sum: 6a196f62556b4d03e537377768417f17e3ddfdbf7989f63d0efb5fb67e40dc80
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1277,8 +1277,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2083
 Filename: luci-app-textarea_0.6-0_all.ipk
-Size: 3135
-SHA256sum: e2a67385bc38a396e59f7b76d07d404dea7df273612f91fc2794f7f1b5895a54
+Size: 3132
+SHA256sum: 19948d643ff50a82dc904a5240d426c50afd736272c78509b05b53a30cd5d1cf
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1328,14 +1328,14 @@ SHA256sum: 6a8b95518963e8dc1e32ec8d156c398767e31cfc6cedc81516eba0e88206bc58
 Description:  LAFITE Theme
 
 Package: luci-theme-tano
-Version: git-22.165.32697-73bc385
+Version: git-22.242.58930-7a7ada2
 Depends: libc
 Section: luci
 Architecture: all
-Installed-Size: 406212
-Filename: luci-theme-tano_git-22.165.32697-73bc385_all.ipk
-Size: 408042
-SHA256sum: 366ce0ae7365850aaaeba5c73cd125cb985f0141f1548836a9364b5245280679
+Installed-Size: 419036
+Filename: luci-theme-tano_git-22.242.58930-7a7ada2_all.ipk
+Size: 420917
+SHA256sum: e1fa59d40b937de6f193c6bbfe2955c7a42803c903113be40bdfe8b04f996d3b
 Description:  Tano theme
 
 Package: miniupnpd
@@ -1344,10 +1344,10 @@ Depends: libc, iptables, libip4tc2, libuuid1
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 59064
+Installed-Size: 59063
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60384
-SHA256sum: ce7f1ac3fb5c844800c2353c4d995d7361b0f52efe316850332bdfe2cb1c552b
+Size: 60382
+SHA256sum: 722b8634dbcfafb2d5bf20e583bf7cb4facce1d8109e573186b9b8b88b3bb995
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1484,10 +1484,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 596450
+Installed-Size: 596454
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 596626
-SHA256sum: edb7778ecbdab85f584348f9fed2c3e586d68cc50f9e6cf65033f32afb4a1070
+Size: 596718
+SHA256sum: aa7309096bb28552f7b01b9e7981138c310820d46921355a9f37a42f87d54245
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1756,10 +1756,10 @@ Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7383
+Installed-Size: 7385
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8423
-SHA256sum: 8a46bdaa79bdd87096434ae5024d7a5277d20b9f98c7903a319c3933114d0eeb
+Size: 8425
+SHA256sum: 305e89523d7fc6effe7912474fccd0ed50be0f92f0ae6a33c09fef521200ddac
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1771,8 +1771,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25695
 Filename: uhttpd_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26680
-SHA256sum: 158f746633a3506b335fc0a9b8947a12fa32ea1b940ea2f323e1455aeae81973
+Size: 26681
+SHA256sum: 42174bdc69c31ab21a06cb04ec70d0da92bd31a79b6f7d32f6cde69a3d86c201
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
