@@ -51,8 +51,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262355
 Filename: busybox_1.35.0-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263502
-SHA256sum: c733173435b8ee36a4d1db582db1b5d095c9f233a1537873a7e4a975c6434e72
+Size: 263490
+SHA256sum: 5d1d4a71c6538c05f71bb70fe11cbd273632ea289b7cddcf55e14552e8856d68
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -115,13 +115,13 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1662468601
+SourceDateEpoch: 1662555063
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 207336
+Installed-Size: 207342
 Filename: dnsmasq-full_2.86-15_arm_cortex-a9_vfpv3-d16.ipk
-Size: 208666
-SHA256sum: b7a5e16164d699c3aa332250d23f2d532d807d1e3bbdd16a952f9439126a9e4f
+Size: 208660
+SHA256sum: 26ef59d11b7701ac54726aab41c50d9862b90b75ad17e6910421b6c8bf58e1ed
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -464,20 +464,21 @@ Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This packages provides libbz2 library.
 
 Package: libcap
-Version: 2.65-1
+Version: 2.65-2
 Depends: libc
 Source: package/libs/libcap
 SourceName: libcap
 License: GPL-2.0-only
 LicenseFiles: License
 Section: libs
-SourceDateEpoch: 1659217844
+SourceDateEpoch: 1662478492
+CPE-ID: cpe:/a:libcap_project:libcap
 Maintainer: Paul Wassi <p.wassi@gmx.at>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 13760
-Filename: libcap_2.65-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 14613
-SHA256sum: aff041a3f53469a43f360e1cfc96358802895b19504765afd4b7b24ba2c67b4d
+Installed-Size: 13761
+Filename: libcap_2.65-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 14640
+SHA256sum: aa655203093ced4e8cfec359e58af3007db4c1212ede31ba44a0cc55b860d4c6
 Description:  Linux capabilities library library
 
 Package: libcomerr0
@@ -514,10 +515,10 @@ ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41172
+Installed-Size: 41173
 Filename: libelf1_0.187-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42116
-SHA256sum: d78f70ac44073e1ca96ccc951b3721ee29e785b6441f1dd031832b52f8e164ec
+Size: 42121
+SHA256sum: 0b52cb6d7a5f185a5cee14821dd64dc0f4286629930f736ca85faa07e2a5e5da
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -764,14 +765,15 @@ Source: package/libs/libmnl
 SourceName: libmnl
 License: LGPL-2.1+
 Section: libs
-SourceDateEpoch: 1659292220
+SourceDateEpoch: 1662478604
 ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libmnl
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 5866
 Filename: libmnl0_1.0.5-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7259
-SHA256sum: a335105f6c8a370347a5dfdadfee729472d52d24c3c3759fe147e9d89230e959
+Size: 7277
+SHA256sum: 5328980b694c350153c1067ce430144715b4345afccb673df9556d6ba7d002a7
 Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
  There are a lot of common tasks in parsing, validating, constructing of
  both the Netlink header and TLVs that are repetitive and easy to get wrong.
@@ -856,7 +858,7 @@ Description:  libnetfilter_conntrack is a userspace library providing a programm
  used by conntrack-tools among many other applications.
 
 Package: libnettle8
-Version: 3.8.1-1
+Version: 3.8.1-2
 Depends: libc, libgmp10
 Provides: libnettle
 Source: package/libs/nettle
@@ -864,13 +866,14 @@ SourceName: libnettle
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1661981139
+SourceDateEpoch: 1662478466
 ABIVersion: 8
+CPE-ID: cpe:/a:nettle_project:nettle
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 346067
-Filename: libnettle8_3.8.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 346125
-SHA256sum: 45075457fbeb7c05f2a2042c987881bd7d6e293b43ef03fe978adb4a08719fb1
+Filename: libnettle8_3.8.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 346155
+SHA256sum: df3af101310bdf1b1e12e3fce8c14047e5aed00e15fe8ae6fdf95db35ae4e260
 Description:  GNU crypto library
 
 Package: libnfnetlink0
@@ -881,14 +884,15 @@ Source: package/libs/libnfnetlink
 SourceName: libnfnetlink
 License: GPL-2.0+
 Section: libs
-SourceDateEpoch: 1649522004
+SourceDateEpoch: 1662478605
 ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libnfnetlink
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 10022
 Filename: libnfnetlink0_1.0.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11049
-SHA256sum: 5f52887933eec884cca8cfed4124798a7a1336777850a6179d3930cf026936f9
+Size: 11065
+SHA256sum: e6e450e479176c06a1c0686b6423728f9d23e7504b44ca1f0cf1b225c5b04488
 Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
  It provides a generic messaging infrastructure for in-kernel netfilter subsystems
  (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
@@ -923,13 +927,14 @@ SourceName: libnl-core
 License: LGPL-2.1
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1657468550
+SourceDateEpoch: 1662478601
 ABIVersion: 200
+CPE-ID: cpe:/a:libnl_project:libnl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 37568
+Installed-Size: 37569
 Filename: libnl-core200_3.7.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 38311
-SHA256sum: 739b8a5b9a225b22085d6c141d4958327feb78c2d1f7bc46da67dda1d9b1d40e
+Size: 38344
+SHA256sum: 7ce31c543e8a5445bc902db58ff9c0f3ad77d99919d06495ff8d7d03cbbe7328
 Description:  Common code for all netlink libraries
 
 Package: libnl-genl200
@@ -941,13 +946,14 @@ SourceName: libnl-genl
 License: LGPL-2.1
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1657468550
+SourceDateEpoch: 1662478601
 ABIVersion: 200
+CPE-ID: cpe:/a:libnl_project:libnl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7164
+Installed-Size: 7163
 Filename: libnl-genl200_3.7.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8053
-SHA256sum: 2e1d82dcae07261ea62330379ffc9c391ee202f7d28a64272f25ce8868e55596
+Size: 8074
+SHA256sum: 64f09af790e89c875221a8ba48d2d82d10835f9da9a71e3549099fecfd099519
 Description:  Generic Netlink Library Functions
 
 Package: libnl-route200
@@ -959,13 +965,14 @@ SourceName: libnl-route
 License: LGPL-2.1
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1657468550
+SourceDateEpoch: 1662478601
 ABIVersion: 200
+CPE-ID: cpe:/a:libnl_project:libnl
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 169451
 Filename: libnl-route200_3.7.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 169738
-SHA256sum: d26e96f559467e8a5200f002bfe7e5acefb2a43f8e218dd2695ce99cd6f59da9
+Size: 169797
+SHA256sum: 814361d75c04a79cb7347f5b3d96a73a94bc7dfd159ba6ac556295f5f6cdfea3
 Description:  Routing Netlink Library Functions
 
 Package: libnl-tiny2022-05-17
@@ -1046,8 +1053,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 1230566
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1221429
-SHA256sum: 2aaedbe78da3b969f5710ab4f32b1484a0f4d675e33632b3a3e21af4c87e6f6c
+Size: 1221418
+SHA256sum: 56232c57f5b3382fe7c0fdba83049b7548392a9be679e7d6c83021be052fcf97
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1460,13 +1467,13 @@ Source: package/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1662468424
+SourceDateEpoch: 1662554898
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 23429
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25060
-SHA256sum: 0d6cb74206a65ea5bd17c581f21a2d4c919966df350750c022b39187e5cfad1e
+Size: 25068
+SHA256sum: ce753c255b7f190d44846c1e2067fc2dfffcafd689e13a42560eac2898b3f9e9
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1587,13 +1594,13 @@ Source: package/gSpotx2f/luci-app-multilog
 SourceName: luci-app-multilog
 License: MIT
 Section: luci
-SourceDateEpoch: 1662468424
+SourceDateEpoch: 1662554898
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1648
+Installed-Size: 1647
 Filename: luci-app-multilog_0.6-0_all.ipk
-Size: 2992
-SHA256sum: 6d162d27d4b6bd4f8944d6fcc4b35fe23304af94da9ef083f1c1a1990ddd64af
+Size: 2985
+SHA256sum: 10b587c29ae8a15d1f9bb5fe685473138f12cd35d67eb69025c0842e03efb04d
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1649,13 +1656,13 @@ Source: package/gSpotx2f/luci-app-textarea
 SourceName: luci-app-textarea
 License: MIT
 Section: luci
-SourceDateEpoch: 1662468424
+SourceDateEpoch: 1662554898
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2082
+Installed-Size: 2081
 Filename: luci-app-textarea_0.6-0_all.ipk
-Size: 3137
-SHA256sum: 36ba15a03a43c0a389002ed040b519b22db1b339eac613e7a360425dff4f852d
+Size: 3132
+SHA256sum: cf1a4f420e1ecc1b32d377b5f75b666429aa46783aad6acf102dad219807c809
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1748,7 +1755,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 59064
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
 Size: 60382
-SHA256sum: 13acf59e19f6ae03795c653695c0f66a0aae87bccd0bfde0580ae43a442ebc1f
+SHA256sum: 38f9799732951aa3052aa44e74d2a3dac90b13caa4cae6840f0bd1b86bb9642e
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1924,12 +1931,12 @@ Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Source: package/parted
 SourceName: parted
 Section: utils
-SourceDateEpoch: 1662468424
+SourceDateEpoch: 1662554898
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 596445
+Installed-Size: 596456
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 596665
-SHA256sum: 534c0662a46a017379f60dd664c4c69f331be49ed53dec316857c06ad003ddad
+Size: 596707
+SHA256sum: de34c8cd9bcda26995780437d3eb4ccc9a8e9ba78dc7f49c8a97274b42c97bb7
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -2281,13 +2288,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd-mod-ubus
 License: ISC
 Section: net
-SourceDateEpoch: 1662468601
+SourceDateEpoch: 1662555062
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7384
+Installed-Size: 7383
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8428
-SHA256sum: 91589246517c31130702498434b6dd8c6037084fe151c3674e8c04df05bb5ff7
+Size: 8416
+SHA256sum: 2809e4a1f0132d27e6c30e9900d4dc15543aedb25080525a1bbe2ddd68eecf87
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2298,13 +2305,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1662468601
+SourceDateEpoch: 1662555062
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25695
 Filename: uhttpd_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26675
-SHA256sum: ae18983f6a707a2fc68bca506c1df34667231e0944c8075d4a40cad1cec0521c
+Size: 26674
+SHA256sum: f79f64ff1cf3150b4d7c938de032e10292902832e4d65b1f16b4be891b87ed95
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
