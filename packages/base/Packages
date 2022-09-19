@@ -37,8 +37,8 @@ Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262355
 Filename: busybox_1.35.0-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263489
-SHA256sum: 7cb270d0dd5060ae5f0ae0a9df90a7e8abb790aa7f81e88858c5711ffd92abfc
+Size: 263497
+SHA256sum: a2ed77a61d54ecacef5f92b8670eb5de4c87fbfd9f80ecb034fdcfef1111371a
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 207338
+Installed-Size: 207343
 Filename: dnsmasq-full_2.86-15_arm_cortex-a9_vfpv3-d16.ipk
-Size: 208658
-SHA256sum: 122fdc55bfc510531271081a7691d4736db53013c935c70281d127b06254ba2a
+Size: 208670
+SHA256sum: 2fd21b874eb092757c6b4d7c1a5ce69b97408517e99dc7dab4489a64ccbd2145
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -396,8 +396,8 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 41172
 Filename: libelf1_0.187-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42132
-SHA256sum: f798a3bda047edf6875fc53ec0aee2861264792817d85078ea5c08d2d9047c16
+Size: 42123
+SHA256sum: 43fc5edb50916177fe4216cd79369d5a194706b9c715504c007988bc2f0a236e
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -819,10 +819,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1230567
+Installed-Size: 1230566
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1221401
-SHA256sum: 733ae1c209f4f3a909e7342727d139a260861526c5052defe62f8436332d30ae
+Size: 1221410
+SHA256sum: 0db936bc46d8bf8cd29fb9430188a96815f335684e567c49f949267473b45c77
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1145,8 +1145,8 @@ Section: luci
 Architecture: all
 Installed-Size: 23430
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25072
-SHA256sum: 187ac1711675588bd3f290ac2d341428c95bdf86158231b88fc50638e284f085
+Size: 25065
+SHA256sum: 8c5fb7fa3e616aa21680a1aae2b002bc45538b47e0f67a96a635bdbcc04b263c
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1237,10 +1237,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1647
+Installed-Size: 1646
 Filename: luci-app-multilog_0.6-0_all.ipk
-Size: 2989
-SHA256sum: be2a4bd74d3c687ef47a8ddb43c14cd1e1b7ee4d6d4ce7417453cda05437ab3c
+Size: 2983
+SHA256sum: 846dc7ee3dfd2d3973b284e4312acf0b22680e271db3cb8b453b969cd07abbb1
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1265,6 +1265,17 @@ Size: 6568
 SHA256sum: fdf7dec0abc23887e958681915de1765a2f3676c52e597cad8f16a5e41dfd673
 Description:  LuCI for OTA upgrade
 
+Package: luci-app-samba4
+Version: git-22.262.44579-a36ff25
+Depends: libc, samba4-server
+Section: luci
+Architecture: all
+Installed-Size: 2377
+Filename: luci-app-samba4_git-22.262.44579-a36ff25_all.ipk
+Size: 3505
+SHA256sum: f2d3d12667d80f5ea1f9700cde680acc1395143feacd4cfa53d75288f51c6426
+Description:  Network Shares - Samba 4 SMB/CIFS module
+
 Package: luci-app-temp-status
 Version: 0.3-5
 Depends: libc
@@ -1283,10 +1294,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 2082
+Installed-Size: 2081
 Filename: luci-app-textarea_0.6-0_all.ipk
-Size: 3135
-SHA256sum: dc62bed54500643e84848d064ffaa311e50650eaaa22f0c928a93d5ad6f3bfe5
+Size: 3133
+SHA256sum: 9540fd099c87cc13e7f7dc3a8b7fbdd83ff4b4f4f884595cdcf7960b31683d3b
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1352,10 +1363,10 @@ Depends: libc, iptables, libip4tc2, libuuid1
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 59061
+Installed-Size: 59062
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60290
-SHA256sum: 06d5c3105aaf915a0f5d6fcf2a75eb44be308a6667b916e3817b988f10edc10d
+Size: 60282
+SHA256sum: b8d245ba4359138b9ec8bead45c54731281f70aa4a036da86fcffb7db4f51f16
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1492,10 +1503,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 596448
+Installed-Size: 596451
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 596652
-SHA256sum: 0f1aafda45a5d88ec1c669081c6b1af8ddc93532dd85ecad987a19c9d00f2dcc
+Size: 596628
+SHA256sum: 8e6c5533433ebbf79ea7adce86fb0cbde982f01de20446b4b1e950c8cfbaab26
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1764,10 +1775,10 @@ Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220515
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7384
+Installed-Size: 7381
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8423
-SHA256sum: 10a1b2c83d368668cbd2cbc6203982a2ca5caeab2af7850d792d6b3ce254f84e
+Size: 8421
+SHA256sum: 4ced8bb4b9b4d56479e5b7c5e791b8b80c02cd4ac0082fdd0b8a824f131df95f
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1777,10 +1788,10 @@ Depends: libc, libubox20220515, libblobmsg-json20220515, libjson-script20220515,
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25694
+Installed-Size: 25695
 Filename: uhttpd_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26679
-SHA256sum: e270df032e1c55aaff0abcab548e3b06df86ab6a473609ccc5cc5964f4d757e5
+Size: 26676
+SHA256sum: 8cbd0bc0693bbe2abe628956a48eb969ab462cbcfefa62f0412d42810b5f89ff
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
