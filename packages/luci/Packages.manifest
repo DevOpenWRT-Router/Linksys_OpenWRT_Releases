@@ -239,21 +239,6 @@ Size: 2479
 SHA256sum: 1fab0c34da983721aa82e6e8298089b10fd9efd296db0f50e3803865cf072e15
 Description:  Quality of Service configuration module
 
-Package: luci-app-samba4
-Version: git-21.223.80587-f533f9d
-Depends: libc, samba4-server
-Source: feeds/luci/applications/luci-app-samba4
-SourceName: luci-app-samba4
-Section: luci
-SourceDateEpoch: 1661701284
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2360
-Filename: luci-app-samba4_git-21.223.80587-f533f9d_all.ipk
-Size: 3440
-SHA256sum: 99aca060e6ea63ca8165407d9b8bcebe791b0232b2e47219c1140c65fad7b6e9
-Description:  Network Shares - Samba 4 SMB/CIFS fileserver
-
 Package: luci-app-smartdns
 Version: 1.2022.38
 Depends: libc, smartdns
@@ -261,13 +246,13 @@ Source: feeds/luci/applications/luci-app-smartdns
 SourceName: luci-app-smartdns
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1663170237
+SourceDateEpoch: 1663571011
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3895
+Installed-Size: 3891
 Filename: luci-app-smartdns_1.2022.38_all.ipk
-Size: 4949
-SHA256sum: 652203b90fa836930e4a7de4e3ae43dcafca10704f08a4b8780937b3282e5a22
+Size: 4941
+SHA256sum: 4509461fe8d06f1ec1c9282880d8e892df5650d09aa4e67a5bc0f7393630f703
 Description:  Provides Luci for smartdns
 
 Package: luci-app-sqm
@@ -438,19 +423,19 @@ SHA256sum: 89f4560d41030909ffc6b9e50896de3ebbdf328bc8e176a5ddabedc96b2c877c
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.245.77360-10bcb22
+Version: git-22.260.19132-34dd31a
 Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1663175844
+SourceDateEpoch: 1663391932
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 126729
-Filename: luci-base_git-22.245.77360-10bcb22_arm_cortex-a9_vfpv3-d16.ipk
-Size: 131783
-SHA256sum: 7c6e1a74ec4242cdcb4f06119ee677e98bc53cdcaf18aeb82696a451215ec0f5
+Installed-Size: 126745
+Filename: luci-base_git-22.260.19132-34dd31a_arm_cortex-a9_vfpv3-d16.ipk
+Size: 131792
+SHA256sum: f2aade035340c85df4561220f1655291315ec13fe24cf08abf549aa0c9caf06b
 Description:  LuCI core libraries
 
 Package: luci-compat
@@ -599,13 +584,13 @@ Source: feeds/luci/modules/luci-mod-dashboard
 SourceName: luci-mod-dashboard
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1661702148
+SourceDateEpoch: 1663413795
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6670
+Installed-Size: 6673
 Filename: luci-mod-dashboard_git-22.210.50464-e96c1f3_all.ipk
-Size: 8255
-SHA256sum: 8462aaedbd669deb7b9dc8e5d9a8d5f38c31f6365d271d1e61c2527a6eece5b2
+Size: 8271
+SHA256sum: e35fe4caea827a8bb88e28162353078b401ab3fc99498bfd6df4588efdf383db
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
@@ -625,19 +610,19 @@ SHA256sum: 6dc327252efe5c83b90acae3e7f0d1ec20fbfb0f5a7a933f1a8f7092727e5e23
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
-Version: git-22.186.43238-88c62fe
+Version: git-22.261.29474-6a03a88
 Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
 Source: feeds/luci/modules/luci-mod-status
 SourceName: luci-mod-status
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1657022438
+SourceDateEpoch: 1663488674
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 35374
-Filename: luci-mod-status_git-22.186.43238-88c62fe_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37880
-SHA256sum: 33c84a76f1cf061c838e9c6696f36f2ca9ca4d2455c3776fd450537101c33787
+Installed-Size: 35388
+Filename: luci-mod-status_git-22.261.29474-6a03a88_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37908
+SHA256sum: a424846e1d6dc4de5a95c99ca83b07675ace007aad3345d02c7785bcef5e1ba5
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
