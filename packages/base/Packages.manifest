@@ -51,8 +51,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262355
 Filename: busybox_1.35.0-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263494
-SHA256sum: 0bb7218e88f753b91a10ed1e76f30460159508b4e7c434276be3d933e8635b84
+Size: 263493
+SHA256sum: f26dcb72f9cff1ce596e897e673c0c938032c5043ca6080d32f71e550d254f8f
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -115,17 +115,35 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1663677823
+SourceDateEpoch: 1663764160
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 207336
+Installed-Size: 207337
 Filename: dnsmasq-full_2.86-15_arm_cortex-a9_vfpv3-d16.ipk
-Size: 208673
-SHA256sum: 2296a6f197bb81a7e2c5109f6aeb1e9b5c14d7aec853f18d3421dfc7260ecb6e
+Size: 208667
+SHA256sum: c2472bf5b54a0737842b31de9ff87a753adcd16eebb20ded7b1ef127ae3e65d7
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
  and IPset, Conntrack support & NO_ID enabled by default.
+
+Package: ds-lite
+Version: 8
+Depends: libc, kmod-ip6-tunnel, resolveip
+Source: package/network/ipv6/ds-lite
+SourceName: ds-lite
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1594830836
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: all
+Installed-Size: 1089
+Filename: ds-lite_8_all.ipk
+Size: 2008
+SHA256sum: 4d7e6b9d38ba60ff4589a5ae5be1242ebf689dca6db762b5a099893b39b641ca
+Description:  Provides support for Dual-Stack Lite in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
 
 Package: e2fsprogs
 Version: 1.46.5-1
@@ -515,10 +533,10 @@ ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41171
+Installed-Size: 41173
 Filename: libelf1_0.187-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42122
-SHA256sum: f3649d7d6fca3b5bca7ac5c96f695e9609aae4ba3005971fe4b20788954728ce
+Size: 42127
+SHA256sum: ac6aea31e21fc334362970c6a97878802bfd863a3ee71638bd795c7ae139d84d
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -1051,10 +1069,10 @@ ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1230567
+Installed-Size: 1230568
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1221417
-SHA256sum: 9774157eb3524781cd136092c5263d9266709fdda5026e84f6b3e7512e032270
+Size: 1221407
+SHA256sum: af0d368f604df10116495fb92e998b34ad08a7413c215660084f18d4c5438651
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1468,13 +1486,13 @@ Source: package/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1663677596
+SourceDateEpoch: 1663763937
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 23430
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25068
-SHA256sum: 0a5411c6380324ba1da89c6f8152d4b3ef159144f90aedbbd7b0026db8d1e3ad
+Size: 25061
+SHA256sum: f6160ea6a20c75bb163d8ed29a9b6d12e5f104e3284efe22bac5b102cddff87b
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1532,13 +1550,13 @@ Depends: libc, internet-detector
 Source: package/gSpotx2f/luci-app-internet-detector/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1660400265
+SourceDateEpoch: 1663680085
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 7300
 Filename: luci-app-internet-detector_0.6-0_all.ipk
-Size: 8450
-SHA256sum: 16e82b3175b515303601d62efd0dc73844d54b3fcc1d04850689811326c0e4fb
+Size: 8447
+SHA256sum: 19b90d00090fc7a9cd1b7a76844cb29999d7b492450e9b9607adbe26ca4028ff
 Description:  LuCI support for internet-detector
 
 Package: luci-app-iperf
@@ -1595,13 +1613,13 @@ Source: package/gSpotx2f/luci-app-multilog
 SourceName: luci-app-multilog
 License: MIT
 Section: luci
-SourceDateEpoch: 1663677596
+SourceDateEpoch: 1663763937
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1648
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2986
-SHA256sum: 7dbf63766c42fc82bc1e1a00818ebb009e9cffee86ac1b8d0826243b22e4b28a
+Size: 2984
+SHA256sum: 8def14be38ee2092ab9826acf3fbb0e2487cfa36b8148dccc95ab39a02c4efc2
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1672,13 +1690,13 @@ Source: package/gSpotx2f/luci-app-textarea
 SourceName: luci-app-textarea
 License: MIT
 Section: luci
-SourceDateEpoch: 1663677596
+SourceDateEpoch: 1663763937
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2082
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3140
-SHA256sum: 37bfdee06c117f06fd58453c52f9a2a4d5db027d2efa2336e20f74961ff3fcce
+Size: 3138
+SHA256sum: 0e09bb6af638342f369e258906737054752b0316b1aa633565e73e3a3bd15599
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1758,6 +1776,26 @@ Size: 420917
 SHA256sum: e1fa59d40b937de6f193c6bbfe2955c7a42803c903113be40bdfe8b04f996d3b
 Description:  Tano theme
 
+Package: map
+Version: 7
+Depends: libc, kmod-ip6-tunnel, libubox20220515, libubus20220601, iptables-mod-conntrack-extra, kmod-nat46
+Provides: map-t
+Source: package/network/ipv6/map
+SourceName: map
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1597864440
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7302
+Filename: map_7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8383
+SHA256sum: 836f8ffe87d7b89a177afbeace59f5d3ad17c38b5ffa85777e73cc406877df1e
+Description:  Provides support for MAP-E (RFC7597), MAP-T (RFC7599) and
+ Lightweight 4over6 (RFC7596) in /etc/config/network.
+ MAP combines address and port translation with the tunneling
+ of IPv4 packets over an IPv6 network
+
 Package: miniupnpd
 Version: 2.0.20170421-3
 Depends: libc, iptables, libip4tc2, libuuid1
@@ -1768,10 +1806,10 @@ Section: net
 SourceDateEpoch: 1663417320
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 59061
+Installed-Size: 59060
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60286
-SHA256sum: 7b3ff5fcb674703995bea2445b9befbb2435f611a02f919168db764ac15095e4
+Size: 60282
+SHA256sum: 2b9b04dc9d3937614dc63f3c0279086c1229bb8789e2fcaefc9bf9a38851cdfb
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1947,12 +1985,12 @@ Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Source: package/parted
 SourceName: parted
 Section: utils
-SourceDateEpoch: 1663677596
+SourceDateEpoch: 1663763937
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 596453
+Installed-Size: 596458
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 596683
-SHA256sum: 8d345289c119b8044d65c983cbec10c9d1adaf1eeaf0da6ffe2d9a73a9c5797a
+Size: 596710
+SHA256sum: 384703aabc678153f810be3634663037fde519c1b701fa6c050a7fe4d8f0009a
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -2304,13 +2342,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd-mod-ubus
 License: ISC
 Section: net
-SourceDateEpoch: 1663677822
+SourceDateEpoch: 1663764160
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7384
+Installed-Size: 7381
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 8427
-SHA256sum: 787f1c735f26208d3427311a77340d94ddf3b62e3c46eea3251cbae671588540
+SHA256sum: ceeaf571759a0543a30977c3bfbcb407caddbfb39faec144eea868684eef6027
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2321,13 +2359,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1663677822
+SourceDateEpoch: 1663764160
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25697
+Installed-Size: 25694
 Filename: uhttpd_2022-08-12-e3395cd9-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 26679
-SHA256sum: b615ad6ab46ca2c2a39c6eaa99e86455e285ed55394cef80a554c074158d9b4a
+SHA256sum: 9109c3b1f241f24b3b23801aee31d1f4eb2e71d9612b2603ed9c3dc91b16f4fc
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
