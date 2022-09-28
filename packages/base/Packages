@@ -380,6 +380,17 @@ Size: 6572
 SHA256sum: 6c71d28ab973e3bfed61b23a920cc32d5f7ffc7b44c0b797fb9971d447f12163
 Description:  LuCI for OTA upgrade
 
+Package: luci-app-webguide
+Version: 1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 7765
+Filename: luci-app-webguide_1_all.ipk
+Size: 8978
+SHA256sum: fa6f77c1693626e652204c85495d5b73d5e20a56d112b66ffa965b782b193d3a
+Description:  LuCI support for Simple Web Guide editor page
+
 Package: luci-theme-lafite-port
 Version: git-22.198.85481-bf61d46
 Depends: libc
@@ -391,6 +402,17 @@ Filename: luci-theme-lafite-port_git-22.198.85481-bf61d46_all.ipk
 Size: 517784
 SHA256sum: fff6a03cd8d075d2dc628355e10fbeb36f1d25f4f5c54d9bce8012d609b37fcd
 Description:  LAFITE Theme
+
+Package: luci-theme-tano
+Version: git-22.242.58930-7a7ada2
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 419036
+Filename: luci-theme-tano_git-22.242.58930-7a7ada2_all.ipk
+Size: 420920
+SHA256sum: 6634ac00dee958743a122f3db5b16f625f381b14357e158dd41849ded523971c
+Description:  Tano theme
 
 Package: mwifiex-sdio-firmware
 Version: 20220913-1
