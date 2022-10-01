@@ -325,6 +325,26 @@ Size: 18380
 SHA256sum: 8e5b5c696032319f9d0ef00928d63effdf70ec9bdb8a5f266a72ac9f664816d8
 Description:  A command line option parsing library
 
+Package: libreadline8
+Version: 8.1.2-1
+Depends: libc, libncursesw6
+Provides: libreadline
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:readline
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 133692
+Filename: libreadline8_8.1.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 133798
+SHA256sum: fa99d47983973a4052e02de881474ca30d643e93c8d13ec6c23e6741945c6fc8
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
+
 Package: libwolfssl5.5.1.4edc9f28
 Version: 5.5.1-stable-8
 Depends: libc
