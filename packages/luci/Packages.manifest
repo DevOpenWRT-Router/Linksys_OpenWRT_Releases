@@ -1,17 +1,18 @@
-Package: luci-app-watchcat
-Version: git-22.156.04817-ae5677b
-Depends: libc, watchcat
-Source: feeds/luci/applications/luci-app-watchcat
-SourceName: luci-app-watchcat
+Package: luci-lib-nixio
+Version: git-22.222.71555-88b9088
+Depends: libc, liblua5.1.5
+Source: feeds/luci/libs/luci-lib-nixio
+SourceName: luci-lib-nixio
+License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1664464950
+SourceDateEpoch: 1660161155
 Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2383
-Filename: luci-app-watchcat_git-22.156.04817-ae5677b_all.ipk
-Size: 3513
-SHA256sum: b64045392782b60ef725068ec9ce21419df40302d8cb3e6a3c30797c2b03be81
-Description:  LuCI Support for Watchcat
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 30404
+Filename: luci-lib-nixio_git-22.222.71555-88b9088_arm_cortex-a9_vfpv3-d16.ipk
+Size: 31288
+SHA256sum: bec5482e9491fda463f77ede2dfc84cae28bb36c3ef0f5a4ca9bf0e1c10e088c
+Description:  NIXIO POSIX library
 
 Package: luci-proto-ipv6
 Version: git-21.148.48881-79947af
