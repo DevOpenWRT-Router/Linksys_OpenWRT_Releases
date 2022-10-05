@@ -465,25 +465,6 @@ Size: 60316
 SHA256sum: 883d08a3ab9d60f83000c808d3196929d05854b96c26dd8af6733f2239611e38
 Description:  Library TI RPC for RPC bindings
 
-Package: libudev-zero
-Version: 1.0.1-1
-Depends: libc, libevdev
-Conflicts: libudev, eudev, udev
-Provides: libudev
-Source: feeds/packages/libs/libudev-zero
-SourceName: libudev-zero
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1648161450
-Maintainer: Daniel Golle <daniel@makrotopia.org>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8645
-Filename: libudev-zero_1.0.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9561
-SHA256sum: 20320bff1aa885bc29c66d50e5d1c20461216628b6f730097f01c645860a9e17
-Description:  Drop-in replacement for libudev
-
 Package: libuv1
 Version: 1.44.1-1
 Depends: libc, libpthread, librt
@@ -602,8 +583,8 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 110074
 Filename: socat_1.7.4.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 109248
-SHA256sum: 7c6dc4c14193b678b4860fd4fc333678d5ae907322200313a143392e6cd7fd1e
+Size: 109240
+SHA256sum: 3e4d0abc5315dc4943723623088c24d05f968a7a8893aa4f9f025ac28078a758
 Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
  transfers data between them.
  Data channels may be files, pipes, devices (terminal or modem, etc.), or
