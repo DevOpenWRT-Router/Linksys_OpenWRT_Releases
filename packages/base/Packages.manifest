@@ -152,14 +152,14 @@ SourceName: liblua
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: libs
-SourceDateEpoch: 1641202471
+SourceDateEpoch: 1664984227
 ABIVersion: 5.1.5
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 70534
+Installed-Size: 70537
 Filename: liblua5.1.5_5.1.5-10_arm_cortex-a9_vfpv3-d16.ipk
-Size: 71593
-SHA256sum: 4256d5c83a6ab377c719ea9ab7e0a5a4c888bddbdadcc9c8e764c874a505a808
+Size: 71588
+SHA256sum: 48283f2b0b01afd9fcb9b80e8c277c513e6c9dfa00ecc2de0cf88969e24f77ff
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -359,7 +359,7 @@ SHA256sum: d92e59a09125ea38e54d528cca9c0ecba4e7ee3ef4f0da52f827cc7e4a8abae5
 Description:  This package contains a stripped down version of libnl
 
 Package: libpcap1
-Version: 1.10.1-3
+Version: 1.10.1-4
 Depends: libc
 Provides: libpcap
 Source: package/libs/libpcap
@@ -367,14 +367,14 @@ SourceName: libpcap
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1657469496
+SourceDateEpoch: 1664984227
 ABIVersion: 1
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 99525
-Filename: libpcap1_1.10.1-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 100452
-SHA256sum: effd6f1ce24c87dc7d96bbf271e4ef30d0f5494141ea028af5c122371f6d842f
+Installed-Size: 99530
+Filename: libpcap1_1.10.1-4_arm_cortex-a9_vfpv3-d16.ipk
+Size: 100456
+SHA256sum: 74644c8fea38c87db94f49b9fcf57da57cc333849e8832f79dc532d4e8c6b2d5
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
@@ -467,64 +467,17 @@ SourceName: lua
 License: MIT
 LicenseFiles: COPYRIGHT
 Section: lang
-SourceDateEpoch: 1641202471
+SourceDateEpoch: 1664984227
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 4949
+Installed-Size: 4945
 Filename: lua_5.1.5-10_arm_cortex-a9_vfpv3-d16.ipk
-Size: 5901
-SHA256sum: bb23f0e2ef6cf9ea679b0a5859c57139d0884dd86128a3c4b664d7f0fdd3b394
+Size: 5903
+SHA256sum: faab1c00a8f432ce7dfac6827cdf98fff0ea33a9306c82c732170438ca9a9583
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language interpreter.
-
-Package: luci-app-control-timewol
-Version: 1.0
-Depends: libc, etherwake
-Source: package/kenzok8/luci-app-control-timewol
-SourceName: luci-app-control-timewol
-Section: luci
-SourceDateEpoch: 1649346094
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2774
-Filename: luci-app-control-timewol_1.0_all.ipk
-Size: 4065
-SHA256sum: cd3afedb8c1b4431d3aab874e417e8e051c040832b8370d819e3f13606822c7e
-Description:  LuCI support for Timewol From Koolshare
-
-Package: luci-app-cpu-perf
-Version: 0.4-0
-Depends: libc
-Source: package/gSpotx2f/luci-app-cpu-perf
-SourceName: luci-app-cpu-perf
-License: MIT
-Section: luci
-SourceDateEpoch: 1653581197
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 6496
-Filename: luci-app-cpu-perf_0.4-0_all.ipk
-Size: 7819
-SHA256sum: 0b2fe7e51cf929699794a778b0219eada16540c20a79b5828230d4f31e87ad02
-Description:  CPU performance information and management for LuCI
-
-Package: luci-app-cpu-status
-Version: 0.4-1
-Depends: libc
-Source: package/gSpotx2f/luci-app-cpu-status
-SourceName: luci-app-cpu-status
-License: MIT
-Section: luci
-SourceDateEpoch: 1653778452
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 1426
-Filename: luci-app-cpu-status_0.4-1_all.ipk
-Size: 2436
-SHA256sum: 221bc32a57397a92e862ca03b3beedcd22ad8c775a3437ec42697c9be7093627
-Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-dnscrypt-proxy2
 Version: 2.1.1-1
@@ -543,54 +496,6 @@ Size: 27900
 SHA256sum: 8b6f9855f2a9cb5e693d5dd9ed4d0851889fc6431288a7bd118366ee4f6d121d
 Description:  LuCI Support for dnscrypt-proxy2.
 
-Package: luci-app-interfaces-statistics
-Version: 0.4-4
-Depends: libc
-Source: package/gSpotx2f/luci-app-interfaces-statistics
-SourceName: luci-app-interfaces-statistics
-License: MIT
-Section: luci
-SourceDateEpoch: 1645717652
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2083
-Filename: luci-app-interfaces-statistics_0.4-4_all.ipk
-Size: 3137
-SHA256sum: 04700613c6fdef66401a1d561464aeeea49f7db317a876bb3290955851c088cd
-Description:  Network interfaces statistics
-
-Package: luci-app-log
-Version: 0.6-1
-Depends: libc
-Source: package/gSpotx2f/luci-app-log
-SourceName: luci-app-log
-License: MIT
-Section: luci
-SourceDateEpoch: 1663625921
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 5772
-Filename: luci-app-log_0.6-1_all.ipk
-Size: 6942
-SHA256sum: cbbb5fabcfbd18403dd7bc537536a7f07e7cc7420dc153db6259180693216bf7
-Description:  Advanced syslog and kernel log (tail, search, etc)
-
-Package: luci-app-multilog
-Version: 0.6-1
-Depends: libc
-Source: package/gSpotx2f/luci-app-multilog
-SourceName: luci-app-multilog
-License: MIT
-Section: luci
-SourceDateEpoch: 1664974504
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 1645
-Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2986
-SHA256sum: a7bb6eb5534192282ee553fe5163d12331062bd1b9fea15803b7d00c7548660c
-Description:  Advanced syslog and kernel log (tail, search, etc)
-
 Package: luci-app-ota
 Version: 1.3
 Depends: libc
@@ -605,53 +510,6 @@ Filename: luci-app-ota_1.3_all.ipk
 Size: 6572
 SHA256sum: 6c71d28ab973e3bfed61b23a920cc32d5f7ffc7b44c0b797fb9971d447f12163
 Description:  LuCI for OTA upgrade
-
-Package: luci-app-temp-status
-Version: 0.3-5
-Depends: libc
-Source: package/gSpotx2f/luci-app-temp-status
-SourceName: luci-app-temp-status
-License: MIT
-Section: luci
-SourceDateEpoch: 1652888597
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2019
-Filename: luci-app-temp-status_0.3-5_all.ipk
-Size: 3090
-SHA256sum: 352b1ae040ac1fd44e5a94311c6dcec34cf4cf53f50b33b632d2e1602af40c44
-Description:  Temperature sensors data for the LuCI status page
-
-Package: luci-app-textarea
-Version: 0.6-1
-Depends: libc
-Source: package/gSpotx2f/luci-app-textarea
-SourceName: luci-app-textarea
-License: MIT
-Section: luci
-SourceDateEpoch: 1664974504
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2081
-Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3136
-SHA256sum: 97b070e68d8b765dc798286bfe3d1cb4590a94f50c8dc71dbfbd290fbb4ca0e1
-Description:  Advanced syslog and kernel log (tail, search, etc)
-
-Package: luci-app-webguide
-Version: 1
-Depends: libc
-Source: package/p1ay8y3ar/luci-app-webguide/luci-app-webguide
-SourceName: luci-app-webguide
-Section: luci
-SourceDateEpoch: 1650634646
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 7765
-Filename: luci-app-webguide_1_all.ipk
-Size: 8978
-SHA256sum: fa6f77c1693626e652204c85495d5b73d5e20a56d112b66ffa965b782b193d3a
-Description:  LuCI support for Simple Web Guide editor page
 
 Package: luci-theme-lafite-port
 Version: git-22.198.85481-bf61d46
@@ -668,21 +526,6 @@ Filename: luci-theme-lafite-port_git-22.198.85481-bf61d46_all.ipk
 Size: 517784
 SHA256sum: fff6a03cd8d075d2dc628355e10fbeb36f1d25f4f5c54d9bce8012d609b37fcd
 Description:  LAFITE Theme
-
-Package: luci-theme-tano
-Version: git-22.242.58930-7a7ada2
-Depends: libc
-Source: package/lynxnexy/luci-theme-tano
-SourceName: luci-theme-tano
-Section: luci
-SourceDateEpoch: 1661876530
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 419036
-Filename: luci-theme-tano_git-22.242.58930-7a7ada2_all.ipk
-Size: 420920
-SHA256sum: 6634ac00dee958743a122f3db5b16f625f381b14357e158dd41849ded523971c
-Description:  Tano theme
 
 Package: mwifiex-sdio-firmware
 Version: 20220913-1
@@ -743,14 +586,14 @@ Source: package/network/utils/tcpdump
 SourceName: tcpdump
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1656872738
+SourceDateEpoch: 1664984227
 CPE-ID: cpe:/a:tcpdump:tcpdump
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 420158
+Installed-Size: 420162
 Filename: tcpdump_4.99.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 416026
-SHA256sum: 5ac376b769d98e0c86e2e2e3ea9e16fd6aa61ff1d58d7a88347ea3e8ed053756
+Size: 415919
+SHA256sum: 00c3b2c20d50cf808ff00947b1d15999fb687012b8f7d31e9bae4fb726624aa7
 Description:  Network monitoring and data acquisition tool
 
 Package: terminfo
