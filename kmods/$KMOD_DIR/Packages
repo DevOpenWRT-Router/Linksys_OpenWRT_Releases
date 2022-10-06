@@ -16,3 +16,15 @@ Description:  This is a replacement for the following in-kernel drivers:
  uevent-s and broadcasts them. This allows disabling input subsystem which is
  an overkill for OpenWrt simple needs.
 
+Package: kmod-nat46
+Version: 5.15.71+2022-03-30-95ca1c3b-1
+Depends: kernel (=5.15.71-1-d7edf3c9544f448e636498c0ef6ff8ab)
+License: GPL-2.0
+Section: kernel
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16944
+Filename: kmod-nat46_5.15.71+2022-03-30-95ca1c3b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17882
+SHA256sum: b813381697b1893bff916b8e8d569968f8c4b286dd6456de528888dfd7f7f4e2
+Description:  Stateless NAT46 translation kernel module
+
