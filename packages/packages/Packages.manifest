@@ -6,13 +6,13 @@ SourceName: acme-common
 License: GPL-3.0-only
 LicenseFiles: LICENSE.md
 Section: net
-SourceDateEpoch: 1660602724
+SourceDateEpoch: 1665074327
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
-Installed-Size: 2272
+Installed-Size: 2248
 Filename: acme-common_1.0.0_all.ipk
-Size: 3416
-SHA256sum: 9dce1a0563dc84411a5e695d5dda04373b5fc7524b842838e901c438e3004775
+Size: 3397
+SHA256sum: 6833d5f79e802db45dfdd18bc8c8c315917957d0a9dec25f9e7e4edc16742481
 Description:  ACME client wrapper common files.
 
 Package: attr
@@ -465,25 +465,6 @@ Size: 60316
 SHA256sum: 883d08a3ab9d60f83000c808d3196929d05854b96c26dd8af6733f2239611e38
 Description:  Library TI RPC for RPC bindings
 
-Package: libudev-zero
-Version: 1.0.1-1
-Depends: libc, libevdev
-Conflicts: libudev, eudev, udev
-Provides: libudev
-Source: feeds/packages/libs/libudev-zero
-SourceName: libudev-zero
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1648161450
-Maintainer: Daniel Golle <daniel@makrotopia.org>
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8645
-Filename: libudev-zero_1.0.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9561
-SHA256sum: 20320bff1aa885bc29c66d50e5d1c20461216628b6f730097f01c645860a9e17
-Description:  Drop-in replacement for libudev
-
 Package: libuv1
 Version: 1.44.1-1
 Depends: libc, libpthread, librt
@@ -602,8 +583,8 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 110074
 Filename: socat_1.7.4.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 109248
-SHA256sum: 38541b241365f7601ace683b18d43d69e8f941cf274cd7491c5bef77fc92a17a
+Size: 109236
+SHA256sum: f26b41cca0e9959625e74cf7146cfb1574492e2d341090aa24ad7050d43cd9ba
 Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
  transfers data between them.
  Data channels may be files, pipes, devices (terminal or modem, etc.), or
