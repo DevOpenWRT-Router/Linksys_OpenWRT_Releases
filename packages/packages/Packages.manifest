@@ -1,3 +1,21 @@
+Package: acme-acmesh
+Version: 3.0.1-3
+Depends: libc, acme-common, wget-ssl, ca-bundle, openssl-util, socat
+Provides: acme-client
+Source: feeds/packages/net/acme-acmesh
+SourceName: acme-acmesh
+License: GPL-3.0-only
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1665074327
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 48515
+Filename: acme-acmesh_3.0.1-3_all.ipk
+Size: 49544
+SHA256sum: c2fbaf93fb1b182e5783f11526091b8453ccf19901d12bbedc479d824a58340d
+Description:  A client for issuing ACME (e.g, Letsencrypt) certificates.
+
 Package: acme-common
 Version: 1.0.0
 Depends: libc
@@ -14,6 +32,42 @@ Filename: acme-common_1.0.0_all.ipk
 Size: 3397
 SHA256sum: 6833d5f79e802db45dfdd18bc8c8c315917957d0a9dec25f9e7e4edc16742481
 Description:  ACME client wrapper common files.
+
+Package: acme
+Version: 4.0.0
+Depends: libc, acme-acmesh
+Source: feeds/packages/net/acme
+SourceName: acme
+License: GPL-3.0-only
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1660602724
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 96
+Filename: acme_4.0.0_all.ipk
+Size: 869
+SHA256sum: 567e2f6ada564dfcf9d3ef115a9bd83b5a144d87983e97fb85875d65f5a4069d
+Description:  Shorthand package for acme-acmesh.
+
+Package: adblock
+Version: 4.1.4-5
+Depends: libc, jshn, jsonfilter, coreutils, coreutils-sort, ca-bundle, opkg
+Source: feeds/packages/net/adblock
+SourceName: adblock
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1664132511
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: all
+Installed-Size: 19851
+Filename: adblock_4.1.4-5_all.ipk
+Size: 21227
+SHA256sum: 7ffaf60e14d8a6f5333d70e2e510b16f169b72492d84172da14b2a0dca713062
+Description:  Powerful adblock solution to block ad/abuse domains via dnsmasq, unbound, named or kresd.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
 
 Package: attr
 Version: 2.5.1-1
@@ -35,6 +89,645 @@ Description:  Extended attributes support
  - attr
  - getfattr
  - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.8-7
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 39681
+Filename: avahi-dbus-daemon_0.8-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 41002
+SHA256sum: 58b56b7c48485f788a0d7a9ba4d893e76cb90608cde645cc5ae696f969662ea9
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bash
+Version: 5.1.16-1
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1641862908
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 497406
+Filename: bash_5.1.16-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 496052
+SHA256sum: 684cdafaf7bc2e404f983fbe3207be01a7a954e8b55a9f37ad86f1d10002ef9c
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bcp38
+Version: 5-6
+Depends: libc, ipset
+Source: feeds/packages/net/bcp38
+SourceName: bcp38
+Section: net
+SourceDateEpoch: 1568094315
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 2066
+Filename: bcp38_5-6_all.ipk
+Size: 3260
+SHA256sum: 13463b3246c93f8d40ef4fe753bae749047a121323752818afbff731c55b29a7
+Description:  bcp38 implements IETF BCP38 for home routers.
+ See https://tools.ietf.org/html/bcp38.
+ 
+ This package provides BCP38 for IPv4 only - IPv6 uses source 
+ specific default routes, so no firewall configuration is needed.
+
+Package: bind-host
+Version: 9.18.7-1
+Depends: libc, bind-libs
+Source: feeds/packages/net/bind
+SourceName: bind-host
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1663834959
+CPE-ID: cpe:/a:isc:bind
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 41581
+Filename: bind-host_9.18.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42393
+SHA256sum: d6e1b80d5b57f195c0819a6dd20e0d68eafac0ae92b859a52d2eac69bacb5d5f
+Description:  bind simple DNS client
+
+Package: bind-libs
+Version: 9.18.7-1
+Depends: libc, libopenssl1.1, zlib, libpthread, libatomic1, libuv1, libnghttp2-14
+Source: feeds/packages/net/bind
+SourceName: bind-libs
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1663834959
+CPE-ID: cpe:/a:isc:bind
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1231818
+Filename: bind-libs_9.18.7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1225004
+SHA256sum: 967591f06afbe76b79dd09108dd770afaf787e449c2bb5f17c559998714f1664
+Description:  bind shared libraries
+
+Package: bmon
+Version: 4.0-1
+Depends: libc, libncursesw6, libnl-core200, libnl-route200, confuse, terminfo
+Source: feeds/packages/net/bmon
+SourceName: bmon
+License: MIT
+Section: net
+SourceDateEpoch: 1504068074
+Maintainer: Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 38070
+Filename: bmon_4.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 39049
+SHA256sum: 9f6de44dade0a4f4561d0c05a0974e0c058e58fd53ebde64eaa206633552eb8d
+Description:  bmon is a portable bandwidth monitor
+ and rate estimator running on various
+ operating systems. It supports various
+ input methods for different architectures.
+
+Package: btrfs-progs
+Version: 5.16.1-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1644932022
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1097716
+Filename: btrfs-progs_5.16.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1098311
+SHA256sum: 813083204690db3ad6e87d0f7c521823e1e9a106d12c4e56191afb0f5d0f5ec5
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168429
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8372
+Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9280
+SHA256sum: ebbbda42970816457dcb2ead1c19f8a2aefd9293d2fb9c0133366dc8c04aab87
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: cgroupfs-mount
+Version: 2020-06-26-05494281-2
+Depends: libc, mount-utils
+Source: feeds/packages/utils/cgroupfs-mount
+SourceName: cgroupfs-mount
+Section: utils
+SourceDateEpoch: 1604927975
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1235
+Filename: cgroupfs-mount_2020-06-26-05494281-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2239
+SHA256sum: 7ea44b0dd97e4b588913bf443de48b976eca58bbeced555343892be45fa991ed
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: collectd-mod-cpu
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-cpu
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4155
+Filename: collectd-mod-cpu_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5073
+SHA256sum: 84c0059765ca3d876f4a6ca00c803b42bd47efc948c158bcd9bb528e54c4bedd
+Description:  CPU input plugin
+
+Package: collectd-mod-cpufreq
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-cpufreq
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2918
+Filename: collectd-mod-cpufreq_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3850
+SHA256sum: 7dbc1ef4dee254582b6c2178201d973f4e207db92b63ce7e1b8b12ab555484f6
+Description:  CPU Freq input plugin
+
+Package: collectd-mod-curl
+Version: 5.12.0-41
+Depends: libc, collectd, libcurl4
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-curl
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17905
+Filename: collectd-mod-curl_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18873
+SHA256sum: 36423f18f08f22184ed26594c9f9cfdc300d4c36000bd0ef7f289e739f803343
+Description:  cURL input plugin
+
+Package: collectd-mod-disk
+Version: 5.12.0-41
+Depends: libc, collectd, libudev
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-disk
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4932
+Filename: collectd-mod-disk_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5872
+SHA256sum: 0f012b610be4d894e87835070b41bb3dbc7080ac6ce64bc0e18aa415ba4760b3
+Description:  disk usage/timing input plugin
+
+Package: collectd-mod-exec
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-exec
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 24289
+Filename: collectd-mod-exec_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25116
+SHA256sum: 158721e36960f5e17d75c25b061df4d725f16b6e22af818b509ed7fe65f2fe02
+Description:  process exec input plugin
+
+Package: collectd-mod-interface
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-interface
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3350
+Filename: collectd-mod-interface_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4277
+SHA256sum: f34fe0b2b9901a76e022674af3d4e04a62e4846b32182b3722fbf83804913a2a
+Description:  network interfaces input plugin
+
+Package: collectd-mod-ipstatistics
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-ipstatistics
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1869
+Filename: collectd-mod-ipstatistics_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2750
+SHA256sum: 9f00518768b733adcc92f2192af7322efc970cff10fcaf199639b052bce268f3
+Description:  ipstatistics input plugin
+
+Package: collectd-mod-iptables
+Version: 5.12.0-41
+Depends: libc, collectd, iptables, libip4tc2, libip6tc2
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-iptables
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3130
+Filename: collectd-mod-iptables_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4065
+SHA256sum: 0917552832527189cc5b5105385a7926ba41e88597e3fa789eefcb4c612336ef
+Description:  iptables status input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.12.0-41
+Depends: libc, collectd, libiwinfo20210430
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-iwinfo
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3487
+Filename: collectd-mod-iwinfo_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4422
+SHA256sum: 1a7a586f52adfd271b44cdbe8a158a3b71c18bbf6ccca0f2a4959748bf566088
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-load
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1962
+Filename: collectd-mod-load_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2872
+SHA256sum: 78479b74256a4e7355dc1db47b188434b7f62026f07a4808fe9788ecafe4df37
+Description:  system load input plugin
+
+Package: collectd-mod-logfile
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-logfile
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3033
+Filename: collectd-mod-logfile_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3952
+SHA256sum: 2b09b5ea97a3723431e2148303c166e2752c077e857874172bf29a9e59bd8d8d
+Description:  log files output plugin
+
+Package: collectd-mod-lua
+Version: 5.12.0-41
+Depends: libc, collectd, liblua5.1.5
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-lua
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6067
+Filename: collectd-mod-lua_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7015
+SHA256sum: 6b1063764a70d57e085960be479d7c873f7aa562b5ebfd0873d53d956e0637b7
+Description:  lua input/output plugin
+
+Package: collectd-mod-memory
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-memory
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2762
+Filename: collectd-mod-memory_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3683
+SHA256sum: d2ea04cf560e2558c8d2f7d8edf7d5015f240cb3cb244bea8eb7331eed797c92
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-network
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 15649
+Filename: collectd-mod-network_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 16556
+SHA256sum: cd34d132cd1d322944ae05c1bdda13787c6765a6608e77edec838607249651d2
+Description:  network input/output plugin
+
+Package: collectd-mod-openvpn
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-openvpn
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4979
+Filename: collectd-mod-openvpn_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 5922
+SHA256sum: e4e58cef8ce93e21cb2d2f2fb171892598c1c7391dd474256b0e2791ad72e407
+Description:  OpenVPN traffic/compression input plugin
+
+Package: collectd-mod-ping
+Version: 5.12.0-41
+Depends: libc, collectd, liboping
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-ping
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5411
+Filename: collectd-mod-ping_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6355
+SHA256sum: 150bd6c8baacdd5fc215ea0ce1c89795303cb6c73977b2b4e275cd92fdc3f864
+Description:  ping status input plugin
+
+Package: collectd-mod-processes
+Version: 5.12.0-41
+Depends: libc, collectd, libmnl0
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-processes
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11166
+Filename: collectd-mod-processes_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12121
+SHA256sum: 5c0ed3c8838d2a35522c8c1b5a99d7b36c7f9ee4683b4ec130dd92c4649391ad
+Description:  process status input plugin
+
+Package: collectd-mod-protocols
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-protocols
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3463
+Filename: collectd-mod-protocols_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4320
+SHA256sum: d852148ac65a10c7bb1e5829ee94f0879549e6f302cace7638e3976a605f3523
+Description:  network protocols input plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.12.0-41
+Depends: libc, collectd, librrd1
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-rrdtool
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 11588
+Filename: collectd-mod-rrdtool_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12541
+SHA256sum: cf645ca351e23191853d46ace34e2467d49ae27a98244137b9edafc43542cc02
+Description:  RRDtool output plugin
+
+Package: collectd-mod-smart
+Version: 5.12.0-41
+Depends: libc, collectd, libatasmart
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-smart
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7478
+Filename: collectd-mod-smart_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8433
+SHA256sum: 5eccdbb2c74561163eb500fdc81776dd38943cebf25147fa2652e7693f817046
+Description:  smart input plugin
+
+Package: collectd-mod-sqm
+Version: 5.12.0-41
+Depends: libc, collectd-mod-exec
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-sqm
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1352
+Filename: collectd-mod-sqm_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2239
+SHA256sum: 92720466585143c490009ded76db0ff895cbf8305abd07ce6709a9d099137abd
+Description:  SQM/qdisc collection plugin
+
+Package: collectd-mod-syslog
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-syslog
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2200
+Filename: collectd-mod-syslog_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3111
+SHA256sum: 155e5cdd79f5e9a1ea9c224c9fd83f458d98c30c681025a013a5142bcb1c0952
+Description:  syslog output plugin
+
+Package: collectd-mod-tail
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-tail
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16604
+Filename: collectd-mod-tail_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17484
+SHA256sum: 9f14319827cb74de6c95436c5190c31b8ffd6fe73dbab2cbb034f26c49e7c1cc
+Description:  tail input plugin
+
+Package: collectd-mod-thermal
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-thermal
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3782
+Filename: collectd-mod-thermal_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4704
+SHA256sum: b121156fd2b0fb27de9cc5f84701672889b27c79e6820195b8142099b899cde1
+Description:  system temperatures input plugin
+
+Package: collectd-mod-threshold
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-threshold
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6355
+Filename: collectd-mod-threshold_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7269
+SHA256sum: 2e250f2deb9e8e11a10a9e8a12df6d19f76bc8fb64b34b0737b39a6e3255d13f
+Description:  Notifications and thresholds plugin
+
+Package: collectd-mod-uptime
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-uptime
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1660
+Filename: collectd-mod-uptime_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2564
+SHA256sum: 8bf6bcc270ea26e590d5e41a7f18bbaebaa1b868288156714277be7bc2bd1a5c
+Description:  uptime status input plugin
+
+Package: collectd-mod-vmem
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-vmem
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 3047
+Filename: collectd-mod-vmem_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3980
+SHA256sum: 506b064557e76da237d1e8704a46267d6b908912440d41e5ba8f9d324bc32c70
+Description:  virtual memory usage input plugin
+
+Package: collectd-mod-wireless
+Version: 5.12.0-41
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+SourceName: collectd-mod-wireless
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2147
+Filename: collectd-mod-wireless_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3041
+SHA256sum: 35941bf20378c1f6e8d740e9a0f018351162ff026ab18ee49bb1410313ae6705
+Description:  wireless status input plugin
+
+Package: collectd
+Version: 5.12.0-41
+Depends: libc, libpthread, zlib, libltdl7, jshn, liblua5.1.5
+Source: feeds/packages/utils/collectd
+SourceName: collectd
+Section: utils
+SourceDateEpoch: 1663578808
+CPE-ID: cpe:/a:collectd:collectd
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 91965
+Filename: collectd_5.12.0-41_arm_cortex-a9_vfpv3-d16.ipk
+Size: 93098
+SHA256sum: 79b73c5746779786eb8e302fc770ef756201e2636c6a06beccd95a63892dc975
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
 
 Package: confuse
 Version: 3.3-1
@@ -64,6 +757,138 @@ Description:  libConfuse is a configuration file parser library, licensed under 
  and quick to integrate with your code. libConfuse was called libcfg
  before, but was changed to not confuse with other similar libraries.
 
+Package: coreutils-base64
+Version: 9.1-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658033379
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 21515
+Filename: coreutils-base64_9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 22454
+SHA256sum: 249108812e555d7e8133f88c7989efe6eb463be580442685650627356013e288
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-sort
+Version: 9.1-1
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658033379
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53021
+Filename: coreutils-sort_9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 54023
+SHA256sum: dcd79b053c908b09d44fe83781be3652895300828d519484aecb488885b40d75
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-stat
+Version: 9.1-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658033379
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 44898
+Filename: coreutils-stat_9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 45850
+SHA256sum: 5e63744ab256cd84ca7c4cdb272d9afef7b25bce1a694a05fe099740c15a2aa0
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 9.1-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stdbuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658033379
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22714
+Filename: coreutils-stdbuf_9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23652
+SHA256sum: 2db9d889f96186eb4db401b7a1710d05637694bbfe28c3dd2bcb991f413eb3ee
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-timeout
+Version: 9.1-1
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-timeout
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658033379
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 23449
+Filename: coreutils-timeout_9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 24341
+SHA256sum: fbbf2decd90b4d5e3651253f4dff8d5ceb1ad0d0724a7f06b5dcafe2d4772842
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils
+Version: 9.1-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658033379
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 96
+Filename: coreutils_9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1009
+SHA256sum: 5b9a403b33e50fe200be9983219d1b0e26deece8ae851b79033bbea26f55e6a6
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.85.0-3.1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1664870309
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 60734
+Filename: curl_7.85.0-3.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 60943
+SHA256sum: e2f687a0ec22c82d549605fb6b63001cff4d0c4bdcc5974def8bffe66252575f
+Description:  A client-side URL transfer utility
+
 Package: dbus
 Version: 1.13.18-12
 Depends: libc, libexpat, libdbus
@@ -79,6 +904,46 @@ Filename: dbus_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
 Size: 111508
 SHA256sum: 5756827f3442b6d3c21661e255364e7a9f4c83fd514f2ea6ff78ecd8a211b998
 Description:  Simple interprocess messaging system (daemon)
+
+Package: ddns-scripts-services
+Version: 2.8.2-27
+Depends: libc
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts-services
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1664351379
+Architecture: all
+Installed-Size: 3601
+Filename: ddns-scripts-services_2.8.2-27_all.ipk
+Size: 7433
+SHA256sum: 0c00cb9ca272cf9d26e25f91920dff693f5b29557e3dbe180772ba3fa5597fee
+Description:  Dynamic DNS Client definitions for supported services
+
+Package: ddns-scripts
+Version: 2.8.2-27
+Depends: libc, ddns-scripts-services
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1664351379
+Architecture: all
+Installed-Size: 23886
+Filename: ddns-scripts_2.8.2-27_all.ipk
+Size: 25352
+SHA256sum: 4433b26f47217b9c4969025da419b885975f5e7f4fd8bf15a15c9b603325ae4c
+Description:  Dynamic DNS Client scripts (with IPv6 support)
+ A highly configurable set of scripts for doing dynamic dns updates.
+ - IPv6 support
+ - DNS server support
+ - Glue Record support (require BIND host or KNOT host)
+ - DNS requests via TCP
+ - Proxy server support
+ - log file support
+ - support to run once
+ Version: 2.8.2-27
+ Info   : https://openwrt.org/docs/guide-user/services/ddns/client
 
 Package: dnscrypt-proxy-resolvers
 Version: 2019-08-20-07ac3825-3
@@ -138,6 +1003,194 @@ Description:  You can wake up WOL compliant Computers which have been powered do
  to turn on a computer from another location over a network connection.
  ether-wake also supports WOL passwords.
 
+Package: git
+Version: 2.34.3-1
+Depends: libc, libopenssl1.1, libpthread, librt, zlib
+Source: feeds/packages/net/git
+SourceName: git
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1650806899
+CPE-ID: cpe:/a:git-scm:git
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 4727397
+Filename: git_2.34.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4728200
+SHA256sum: 6a19834f2520cb9838fdada5d522ce7a6daf25b75cfc1d707e7e49fd23223866
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+
+Package: htop
+Version: 3.2.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1654347491
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 104687
+Filename: htop_3.2.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 105134
+SHA256sum: 32fde00df42d3e21f046faa3e5c8f9d421e4d6a8c6453aa181a6f5066a3de9f0
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: httping
+Version: 2.5-1
+Depends: libc, libopenssl1.1
+Source: feeds/packages/net/httping
+SourceName: httping
+Section: net
+SourceDateEpoch: 1570903294
+Maintainer: Marcin Jurkowski <marcin1j@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 28057
+Filename: httping_2.5-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 28999
+SHA256sum: 3a9a66866113b5f641fa7587792572db4b4aa692ca219443eb7e5d2cbff1173c
+Description:  Give it an url, and it'll show you how long it takes to connect, send a
+ request and retrieve the reply (only the headers). Be aware that the
+ transmission across the network also takes time!
+ This package is built with SSL support.
+
+Package: https-dns-proxy
+Version: 2022-08-12-1
+Depends: libc, libcares, libcurl4, libev, ca-bundle
+Conflicts: https_dns_proxy
+Source: feeds/packages/net/https-dns-proxy
+SourceName: https-dns-proxy
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1665124180
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19907
+Filename: https-dns-proxy_2022-08-12-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21047
+SHA256sum: c92f0b15764685a0bd1851b242af324884593dabbbdedc13ed8404cf8906e904
+Description:  https-dns-proxy is a light-weight DNS<-->HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
+ It receives regular (UDP) DNS requests and issues them via DoH.
+ Please see https://docs.openwrt.melmac.net/https-dns-proxy/ for more information.
+
+Package: iperf3-ssl
+Version: 3.12-1
+Depends: libc, libopenssl1.1
+Source: feeds/packages/net/iperf3
+SourceName: iperf3-ssl
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1665131178
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 56905
+Filename: iperf3-ssl_3.12-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 57793
+SHA256sum: 8fc7bc058f3637ae4fb808ec1a79c671b8af337ba34f5b3e2ce8df2075a412ee
+Description:  Internet Protocol bandwidth measuring tool with iperf_auth support
+
+Package: iperf3
+Version: 3.12-1
+Depends: libc, libiperf3
+Source: feeds/packages/net/iperf3
+SourceName: iperf3
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1665131178
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2071
+Filename: iperf3_3.12-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2989
+SHA256sum: 50a06b68b61058142765b91f7d34fcaf2f5d7e387514678e88e9cd33f8fc124d
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.
+
+Package: iputils-arping
+Version: 20211215-1
+Depends: libc
+Source: feeds/packages/net/iputils
+SourceName: iputils-arping
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1655341666
+CPE-ID: cpe:/a:iputils_project:iputils
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8365
+Filename: iputils-arping_20211215-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9297
+SHA256sum: f53162d59785efe9b66d2e78f6c5a0ec7d557a200aaf532c6462529db5ded215
+Description:  Send ARP REQUEST packets to a neighbor host
+
+Package: irqbalance
+Version: 1.9.0-6
+Depends: libc
+Source: feeds/packages/utils/irqbalance
+SourceName: irqbalance
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1658236745
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 67684
+Filename: irqbalance_1.9.0-6_arm_cortex-a9_vfpv3-d16.ipk
+Size: 68801
+SHA256sum: f3050a2aebbf2025d20608dd6063b4d556063d63d278564079d6fad4f8517463
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
+Package: ksmbd-server
+Version: 3.4.5-7
+Depends: libc, kmod-fs-ksmbd, libnl-core200, libnl-genl200
+Source: feeds/packages/net/ksmbd-tools
+SourceName: ksmbd-server
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1660251945
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 79678
+Filename: ksmbd-server_3.4.5-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 80962
+SHA256sum: 8a274a1b12985b419cfea9285a98d126b524f6c1bda9eb3120de32bced1c3593
+Description:  installs: ksmbd.mountd
+ 
+ This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
+
+Package: libatasmart
+Version: 2012-05-21-de625894-1
+Depends: libc, libudev
+Source: feeds/packages/libs/libatasmart
+SourceName: libatasmart
+License: LGPL-2.1
+LicenseFiles: LGPL
+Section: libs
+SourceDateEpoch: 1615897388
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 20019
+Filename: libatasmart_2012-05-21-de625894-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21030
+SHA256sum: 5ee3ddf3d057ae7f56691a57818ded0a68bfc0e9299065f41dcdf07a6dda2642
+Description:  This library is supposed to be lean and small and thus
+ supports only a subset of the S.M.A.R.T. functionality.
+ However, I claim that it implements the relevant part of it.
+ If you need full control over all S.M.A.R.T. functionality of
+ your hardware please refer to smartmontools.
+
 Package: libattr
 Version: 2.5.1-1
 Depends: libc
@@ -155,6 +1208,79 @@ Size: 7327
 SHA256sum: 0b5189b9c31b95545b8016ba8d123b56e7e4131c1c8684575da1f83ec25e4c7c
 Description:  Extended attributes support
  This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-7
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-client
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 17515
+Filename: libavahi-client_0.8-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 18795
+SHA256sum: 525e0e4dbba413908b9a8e12d110007f876dee87437bad0617d9f260dba64a73
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-7
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1644723347
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 67762
+Filename: libavahi-dbus-support_0.8-7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 69201
+SHA256sum: 191de0340fddf7cba4b268ece1f79ed4eed534c9a2082c047c0d99dcc0038321
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
 
 Package: libcap-ng
 Version: 0.8.2-1
@@ -195,6 +1321,26 @@ Description:  c-ares is a C library for asynchronous DNS requests (including nam
  Netware, Android and many more operating systems.
  
 
+Package: libcurl4
+Version: 7.85.0-3.1
+Depends: libc, libwolfssl5.5.1.4edc9f28, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1664870309
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 162238
+Filename: libcurl4_7.85.0-3.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 162860
+SHA256sum: 9d99808943e06c7b1a07e5a3945a85538f2ca0acd4b3e739b6c5887cffe71090
+Description:  A client-side URL transfer library
+
 Package: libdaemon
 Version: 0.14-5
 Depends: libc
@@ -234,6 +1380,25 @@ Filename: libdbus_1.13.18-12_arm_cortex-a9_vfpv3-d16.ipk
 Size: 118220
 SHA256sum: 90a770c0b797c8b548a46c0dfe52ef8e36dcb890d57d55cd78ada4790101b62c
 Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.03.16-1
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
+Source: feeds/packages/utils/lvm2
+SourceName: libdevmapper
+License: GPL-2.0 LGPL-2.1
+LicenseFiles: COPYING COPYING.lib
+Section: libs
+SourceDateEpoch: 1662587766
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 161121
+Filename: libdevmapper_2.03.16-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 162143
+SHA256sum: cd2e779bbac5c7d51ced4629779660763535c8272d025f0ce689045d15f063ca
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
 
 Package: libev
 Version: 4.33-1
@@ -337,6 +1502,46 @@ Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
 
+Package: libgnutls
+Version: 3.7.8-1
+Depends: libc, libnettle8, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1665267804
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 961028
+Filename: libgnutls_3.7.8-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 959939
+SHA256sum: 27f5720c117bd2e3a832f6540e6c004ae323759b3682c8676120349a0528b337
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libiperf3
+Version: 3.12-1
+Depends: libc
+Source: feeds/packages/net/iperf3
+SourceName: libiperf3
+License: BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1665131178
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 63335
+Filename: libiperf3_3.12-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 64127
+SHA256sum: d2cbcdef4ab69c42d8a51da56778e19d0057ee7e5f6308fda4bdaa6a94b3438d
+Description:  Libiperf is a library providing an API for iperf3 functionality.
+
 Package: liblzma
 Version: 5.2.6-1
 Depends: libc, libpthread
@@ -408,6 +1613,52 @@ Size: 8574
 SHA256sum: 1b17d4b5e67f345094a86f9816d9d42c6b5bd04bcd9ace3ad13ed362340cc7c3
 Description:  C library to generate ICMP echo requests.
 
+Package: libpython3-3.10
+Version: 3.10.5-2
+Depends: libc, libpthread, zlib
+Provides: libpython3
+Source: feeds/packages/lang/python/python3
+SourceName: libpython3
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+ABIVersion: -3.10
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 1126333
+Filename: libpython3-3.10_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1121179
+SHA256sum: bb656df5fa49114119fabebff2066edeb741db244471576fab610184b6936918
+Description:  This package contains only core Python library.
+
+Package: librrd1
+Version: 1.0.50-5
+Depends: libc, zlib
+Source: feeds/packages/utils/rrdtool1
+SourceName: librrd1
+Section: libs
+SourceDateEpoch: 1664998557
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 139356
+Filename: librrd1_1.0.50-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 140342
+SHA256sum: ad2580d777ea884cf40c7c98861e18d7725cd836d621077d88cc7408240578f7
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
 Package: libsodium
 Version: 1.0.18-4
 Depends: libc
@@ -429,6 +1680,27 @@ Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software 
  The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
  The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
  And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3370000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1640119077
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 582325
+Filename: libsqlite3-0_3370000-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 582783
+SHA256sum: 424e1751446745c0d1a875908f8cbc1b84c50b2b7c1ce72bbfab2ed8960a5eaf
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
 
 Package: libtasn1
 Version: 4.16.0-2
@@ -465,6 +1737,46 @@ Size: 60316
 SHA256sum: 883d08a3ab9d60f83000c808d3196929d05854b96c26dd8af6733f2239611e38
 Description:  Library TI RPC for RPC bindings
 
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1648161450
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8645
+Filename: libudev-zero_1.0.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9561
+SHA256sum: 20320bff1aa885bc29c66d50e5d1c20461216628b6f730097f01c645860a9e17
+Description:  Drop-in replacement for libudev
+
+Package: libunbound
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, libmnl0, libevent2-7, libpthread
+Source: feeds/packages/net/unbound
+SourceName: libunbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 458494
+Filename: libunbound_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 455629
+SHA256sum: ab545974699ac3d75ac14e7422c68322cb5981929ad6761761923d1b60224917
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
 Package: libuv1
 Version: 1.44.1-1
 Depends: libc, libpthread, librt
@@ -486,6 +1798,24 @@ SHA256sum: ae34f4aaa5970684a9e29338b4bf4530a6db96b36197ebc64f3909d595774918
 Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
  was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
  pyuv, and others.
+
+Package: libwebsockets-full
+Version: 4.3.2-1
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+Source: feeds/packages/libs/libwebsockets
+SourceName: libwebsockets-full
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1664185080
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 181300
+Filename: libwebsockets-full_4.3.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 181827
+SHA256sum: 9a39d4b52d14e02533fd3f8762a2095299fc52714a56bc8e8508ea24ea2654e5
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
 
 Package: libzstd
 Version: 1.5.2-2
@@ -519,6 +1849,71 @@ Filename: luabitop_1.0.2-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 3254
 SHA256sum: fdf1917bb432f2eef0c5add0210619a67b8b53da4560200881ae66257df915ec
 Description:  Lua BitOp is a C extension module for Lua 5.1/5.2 which adds bitwise operations on numbers.
+
+Package: nano
+Version: 6.4-1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/nano
+SourceName: nano
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1659443530
+CPE-ID: cpe:/a:gnu:nano
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 71233
+Filename: nano_6.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 72334
+SHA256sum: adbed0e632c4f39b4960013dd781f3c2d1d02d3e44cbeec924eff69b08dda4c2
+Description:  Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
+Package: ncdu
+Version: 1.17-1
+Depends: libc, libncurses6
+Source: feeds/packages/utils/ncdu
+SourceName: ncdu
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1657083559
+Maintainer: Charles E. Lehner <cel@celehner.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 33764
+Filename: ncdu_1.17-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 34822
+SHA256sum: aba73c9654b98f0ea0530bf95f4e66b8c6b232a74f2c2341cd1dd6c32d49b0a8
+Description:  Ncdu is a ncurses-based du viewer. It provides a fast and easy-to-use
+ interface through famous du utility. It allows one to browse through the
+ directories and show percentages of disk usage with ncurses library.
+
+Package: netdata
+Version: 1.33.1-2
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c5
+Source: feeds/packages/admin/netdata
+SourceName: netdata
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1647337976
+CPE-ID: cpe:/a:my-netdata:netdata
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8043716
+Filename: netdata_1.33.1-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8036602
+SHA256sum: 8538643b47cc93a48d6f55e4568ffd5601063f03942950eed9b8ca633d130afc
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
 
 Package: netperf
 Version: 2.7.0-2
@@ -554,6 +1949,43 @@ Description:  Netscape Portable Runtime (NSPR) provides a platform-neutral API f
  level and libc-like functions. The API is used in the Mozilla clients, many
  of Red Hat's and Oracle's server applications, and other software offerings.
 
+Package: openssh-client
+Version: 9.0p1-1
+Depends: libc, libopenssl1.1, zlib
+Alternatives: 200:/usr/bin/ssh:/usr/libexec/ssh-openssh, 200:/usr/bin/scp:/usr/libexec/scp-openssh
+Source: feeds/packages/net/openssh
+SourceName: openssh-client
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1649889997
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 441975
+Filename: openssh-client_9.0p1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 442480
+SHA256sum: 3434610d3a1c243e55c863605eedadd322f43529e5d3df8942a9925a41315f6a
+Description:  OpenSSH client.
+
+Package: openvpn-openssl
+Version: 2.5.7-3
+Depends: libc, kmod-tun, liblzo2, libopenssl1.1
+Provides: openvpn, openvpn-crypto
+Source: feeds/packages/net/openvpn
+SourceName: openvpn-openssl
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1664870309
+CPE-ID: cpe:/a:openvpn:openvpn
+Maintainer: Magnus Kroken <mkroken@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 247826
+Filename: openvpn-openssl_2.5.7-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 248863
+SHA256sum: 4c2e4b11fbf7e26ac774a325567cbcf731150a7fb790b7ab8a4c17beaa0c7078
+Description:  Open source VPN solution using OpenSSL
+
 Package: python-pip-conf
 Version: 0.1-1
 Depends: libc
@@ -569,6 +2001,597 @@ Size: 1029
 SHA256sum: 5191fac8f35da33aac369f4737afed720a468738d7d2cb39f2723e6366cc6579
 Description:  Configuration file for pip/pip3
 
+Package: python3-asyncio
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 146862
+Filename: python3-asyncio_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 149385
+SHA256sum: d79372c8f5573411f23a50586877eb48c1b4a10394b40e677c1f53d67aee9e11
+Description:  Python 3.10 asyncio module
+
+Package: python3-base
+Version: 3.10.5-2
+Depends: libc, libpthread, zlib, libpython3-3.10
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 157102
+Filename: python3-base_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 163351
+SHA256sum: 3e48a9e3de2aed981289deb711ab21fca7b5825c8709f129594a9b01a9ac270a
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi
+Version: 3.10.5-2
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12272
+Filename: python3-cgi_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13237
+SHA256sum: 51340e880ea7959f779a37ee673587d92605157bbc2f118c088302872870a2a3
+Description:  Python 3.10 cgi module
+
+Package: python3-cgitb
+Version: 3.10.5-2
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 5508
+Filename: python3-cgitb_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 6453
+SHA256sum: 13cc2e3d578946f5412f7704e6affa768de3c1ed5a1e9945e16bac1ebe63b98d
+Description:  Python 3.10 cgitb module
+
+Package: python3-codecs
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 768768
+Filename: python3-codecs_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 743852
+SHA256sum: 82bfd49eddd75eba8e84c0123ae8b60bb7353b528a27461dfaff990bdb3aaeb3
+Description:  Python 3.10 codecs + unicode support
+
+Package: python3-ctypes
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 66378
+Filename: python3-ctypes_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67852
+SHA256sum: f874a6c3e59618a42ff7f0474bd6d0a51fb54c6846aed0c73eb021aa571cf616
+Description:  Python 3.10 ctypes module
+
+Package: python3-dbm
+Version: 3.10.5-2
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16553
+Filename: python3-dbm_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17804
+SHA256sum: d9ce88af1405b7e84f95e0003f3c14708f754a3a14bd5d1a77dcbe007487230b
+Description:  Python 3.10 dbm module
+
+Package: python3-decimal
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 96233
+Filename: python3-decimal_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 96982
+SHA256sum: bbe25dfccd60f260da758bef456f3dfe469bf1b052bcdd9273f671a3a46e0563
+Description:  Python 3.10 decimal module
+
+Package: python3-distutils
+Version: 3.10.5-2
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 171797
+Filename: python3-distutils_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 175376
+SHA256sum: d7739c2067f4364b279818f31dc02d5bc2b3eab82480694d479aca8a4e8d91af
+Description:  Python 3.10 distutils module
+
+Package: python3-email
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 114855
+Filename: python3-email_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 117354
+SHA256sum: 69e3aeb87268eacbd84a5fa58933965ade3948b889e54d2f5f9f6e65767240d8
+Description:  Python 3.10 email module
+
+Package: python3-light
+Version: 3.10.5-2
+Depends: libc, python3-base, libffi, libbz2-1.0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2110788
+Filename: python3-light_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2123487
+SHA256sum: 49f7bc0fcd5df50c598d716ba10f39dd8669b042e811fb8c55a6fc658d811ba6
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53846
+Filename: python3-logging_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 55018
+SHA256sum: 10a4358d6bbaa923addbdeff4a0233d3ed05e6bd2bbeb2236863ef79ee51fe57
+Description:  Python 3.10 logging module
+
+Package: python3-lzma
+Version: 3.10.5-2
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 16566
+Filename: python3-lzma_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 17566
+SHA256sum: 993011dfb4c98aee86c8fec19b7457ef402b43eedd5d67448b74c2dd756558f8
+Description:  Python 3.10 lzma module
+
+Package: python3-multiprocessing
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 102047
+Filename: python3-multiprocessing_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 104306
+SHA256sum: 385265dd6144aecd33e68059c393107b6375c9d634304c5ef3581f05acec3f77
+Description:  Python 3.10 multiprocessing
+
+Package: python3-ncurses
+Version: 3.10.5-2
+Depends: libc, python3-light, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 50277
+Filename: python3-ncurses_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 51248
+SHA256sum: 7fd73f4bafe98d0ac36204b5e7425488c3ce5bdd686558baefc839a264c65dea
+Description:  Python 3.10 ncurses module
+
+Package: python3-openssl
+Version: 3.10.5-2
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 67896
+Filename: python3-openssl_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 67969
+SHA256sum: aaac87252a63fc6b07b0fb7fd2bb3a20215c5d54161739bd86f4a0c4666f2aa4
+Description:  Python 3.10 SSL module
+
+Package: python3-pip
+Version: 22.0.4-1
+Depends: libc, python3, python3-setuptools, python-pip-conf
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pip
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2042953
+Filename: python3-pip_22.0.4-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2062088
+SHA256sum: 0460b8461ccb624a309297c43534cd1656353161be7899426cc41857ec66adb4
+Description:  Python 3.10 pip module
+
+Package: python3-pkg-resources
+Version: 58.1.0-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 148414
+Filename: python3-pkg-resources_58.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 150252
+SHA256sum: f0fb0c9052daf1789750b4daff111f8ac4cecfccf2bfde7dd71339885f231818
+Description:  Python 3.10 pkg_resources module (part of setuptools)
+
+Package: python3-pydoc
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 202764
+Filename: python3-pydoc_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 203940
+SHA256sum: 85f9a3d40395433ac0aca9bd487cbe0f92fc2e48c3864844a2fb9bfa7bde655c
+Description:  Python 3.10 pydoc module
+
+Package: python3-readline
+Version: 3.10.5-2
+Depends: libc, python3-light, libreadline8, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 9237
+Filename: python3-readline_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 10179
+SHA256sum: 3588b0bc6b7e39838255327f527d576125a3c74f56e4efa916d2d675f695cc3f
+Description:  Python 3.10 readline module
+
+Package: python3-setuptools
+Version: 58.1.0-1
+Depends: libc, python3, python3-pkg-resources
+Source: feeds/packages/lang/python/python3
+SourceName: python3-setuptools
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 509041
+Filename: python3-setuptools_58.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 516634
+SHA256sum: e18613a2f1ade0425d158b7de26a410f3a3e06bafa8869aea573094f338430a7
+Description:  Python 3.10 setuptools module
+
+Package: python3-sqlite3
+Version: 3.10.5-2
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 32088
+Filename: python3-sqlite3_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 33112
+SHA256sum: 226084e49ac53cefe2717abe8f51ef0e5b1351183a52dd314e828285db7cd827
+Description:  Python 3.10 sqlite3 module
+
+Package: python3-unittest
+Version: 3.10.5-2
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 79208
+Filename: python3-unittest_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 80861
+SHA256sum: e8712f933dcc8aa7dbf40aa5789d18857c645858a020553b8e700cedcad9edab
+Description:  Python 3.10 unittest module
+
+Package: python3-urllib
+Version: 3.10.5-2
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 51564
+Filename: python3-urllib_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 52890
+SHA256sum: b798afafd41f391f71b8e399ae7d900503005de9a507d4b80d7c465a2c02db78
+Description:  Python 3.10 URL library module
+
+Package: python3-uuid
+Version: 3.10.5-2
+Depends: libc, python3-light, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3-uuid
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10983
+Filename: python3-uuid_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11994
+SHA256sum: 1768ba71051b076d53c87075fcacedd3e1cc3ac3a8ed6c635956451da1d2a6fb
+Description:  Python 3.10 UUID module
+
+Package: python3-xml
+Version: 3.10.5-2
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 210954
+Filename: python3-xml_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 212857
+SHA256sum: df9431d000e6be49064b6d1cbef58372e3af26a1d6be73a4acded240e8f3091a
+Description:  Python 3.10 xml libs
+
+Package: python3
+Version: 3.10.5-2
+Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-decimal, python3-multiprocessing, python3-codecs, python3-readline, python3-xml, python3-sqlite3, python3-logging, python3-distutils, python3-email, python3-openssl, python3-urllib, python3-cgi, python3-cgitb, python3-dbm, python3-lzma, python3-asyncio, python3-uuid
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: PSF-2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1664351897
+CPE-ID: cpe:/a:python:python
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 96
+Filename: python3_3.10.5-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1123
+SHA256sum: bee4df35a7d506342fdb1fa581ff29dc34df8e2f3b6f546d2d565db1e7d8f3a0
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
+Package: rrdtool1
+Version: 1.0.50-5
+Depends: libc, librrd1
+Source: feeds/packages/utils/rrdtool1
+SourceName: rrdtool1
+Section: utils
+SourceDateEpoch: 1664998557
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 10539
+Filename: rrdtool1_1.0.50-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 11844
+SHA256sum: 1a5a0088ac6be2746471d66f63ab239b7ee6b8c488dfa4df94950065923b4329
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: screen
+Version: 4.8.0-2
+Depends: libc, libncurses6
+Source: feeds/packages/utils/screen
+SourceName: screen
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614064145
+CPE-ID: cpe:/a:gnu:screen
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 198768
+Filename: screen_4.8.0-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 199636
+SHA256sum: bf2b9493e867921f75fe69a142c0fd4b704f7b7f4efdae75f5f1e0aa169be39b
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
+Package: smartdns
+Version: 1.2022.38-1
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/packages/net/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1663174241
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 112581
+Filename: smartdns_1.2022.38-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 113738
+SHA256sum: f008cb69792147411b790195b26c582a69e73dfde09addb691f637121a03b169
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
+
+Package: smartmontools-drivedb
+Version: 7.3-1
+Depends: libc
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools-drivedb
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1650913949
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: all
+Installed-Size: 54131
+Filename: smartmontools-drivedb_7.3-1_all.ipk
+Size: 55076
+SHA256sum: 3e7c3fc093e15596fc93e3ec7ba651a2a7c22840ea1a9f5c6bea446274616e2d
+Description:  Database of known drives and USB bridges for smartctl and smartd.
+
+Package: smartmontools
+Version: 7.3-1
+Depends: libc, libstdcpp6
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1650913949
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 285270
+Filename: smartmontools_7.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 284779
+SHA256sum: 81a642c0e6315774c5f5caab17f556a16629e14e915f7eed056d253a6299c840
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
 Package: socat
 Version: 1.7.4.1-1
 Depends: libc, libpthread, librt
@@ -583,14 +2606,67 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 110074
 Filename: socat_1.7.4.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 109252
-SHA256sum: 51e128ff3b6bb8cf787bbd2e921ff69c0dcfd6feed21dd67934ff4088b3c2aa7
+Size: 109238
+SHA256sum: e8a9f8ad931ab92a25ae310ab753c9403a9f960ab93cd31681b29b9981a2e21d
 Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
  transfers data between them.
  Data channels may be files, pipes, devices (terminal or modem, etc.), or
  sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
  logging and tracing, different modes for interprocess communication and
  many more options.
+
+Package: sqm-scripts-extra
+Version: 2016-06-08-1
+Depends: libc, sqm-scripts
+Source: feeds/packages/net/sqm-scripts-extra
+SourceName: sqm-scripts-extra
+License: GPLv2
+Section: net
+SourceDateEpoch: 1465385931
+Maintainer: Kevin Darbyshire-Bryant <kevin@darbyshire-bryant.me.uk>, Sebastian Moeller <moeller0@gmx.de>
+Architecture: all
+Installed-Size: 2253
+Filename: sqm-scripts-extra_2016-06-08-1_all.ipk
+Size: 3686
+SHA256sum: f941d3077054d6b0d5b32dccbe3cd8adbda95356971e52164df526910dbd64ef
+Description:  A set of experimental scripts for sqm-scripts QoS package. The contents of this package may
+ change as new qdiscs like 'cake' are developed and tested.
+
+Package: sqm-scripts
+Version: 1.5.2-1
+Depends: libc, tc, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt
+Source: feeds/packages/net/sqm-scripts
+SourceName: sqm-scripts
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1661352082
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 18146
+Filename: sqm-scripts_1.5.2-1_all.ipk
+Size: 20035
+SHA256sum: 0ea5f2aa6e888c40e49124dd1d6a31de7739470f8bf850ebc72af8ef0ba3ed3f
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: tar
+Version: 1.34-2
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+Source: feeds/packages/utils/tar
+SourceName: tar
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1659043080
+CPE-ID: cpe:/a:gnu:tar
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 219410
+Filename: tar_1.34-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 220158
+SHA256sum: 66313938524e9cc69552ea4dcec78c3a543778d317f51f6fc4b7e2bf093d707c
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
 
 Package: tree
 Version: 2.0.4-1
@@ -607,6 +2683,157 @@ Size: 27648
 SHA256sum: 0758be87f8e3c97a3882e4cd0dd8ee45ffd29fdd787dab8d0e661483853ad160
 Description:  List contents of directories in a tree-like format
 
+Package: ttyd
+Version: 1.6.3-3
+Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
+Source: feeds/packages/utils/ttyd
+SourceName: ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1632711070
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 272589
+Filename: ttyd_1.6.3-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 273483
+SHA256sum: de6b056c6c9b64a0c9d7aaa42d005c9cf3f9522ce848e0aa4d52771f74e486b8
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: unbound-anchor
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon, libexpat
+Source: feeds/packages/net/unbound
+SourceName: unbound-anchor
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 22422
+Filename: unbound-anchor_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23310
+SHA256sum: 11c4d4974297bcc9172d3cf7f11e88e27c47bc635ae2c3606e7ac7826a47862e
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-checkconf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 51021
+Filename: unbound-checkconf_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 51601
+SHA256sum: 4c20882d502f45fb54ea1a2ae0c7a0e5498a7355149c678c1da5e4dde881bf9e
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-control, openssl-util
+Source: feeds/packages/net/unbound
+SourceName: unbound-control-setup
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2589
+Filename: unbound-control-setup_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3544
+SHA256sum: 53614ea01c861853c83045661c7388a5c308b2f3514a8c995b6aaa7f5137a886
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-control
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 53096
+Filename: unbound-control_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53686
+SHA256sum: 1ed71bad74d951ed7956b5bbfeb4c3bfbd4a69ac622ef46b83f43e009bf6e030
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-daemon
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 139511
+Filename: unbound-daemon_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 140110
+SHA256sum: 5b34972a1f3521e9052e5a91d994d97476d104567270582ea4cbbd080edaaef2
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.16.3-1
+Depends: libc, ca-bundle, libopenssl1.1, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-host
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1664101559
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 45174
+Filename: unbound-host_1.16.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 45679
+SHA256sum: a779e0226396f5ecbd27e3d083a92e3cad34c956105fd1061bcffe35d952aed9
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: vpn-policy-routing
+Version: 0.3.4-8
+Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+Source: feeds/packages/net/vpn-policy-routing
+SourceName: vpn-policy-routing
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1634622017
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 13635
+Filename: vpn-policy-routing_0.3.4-8_all.ipk
+Size: 15037
+SHA256sum: 8092836d5e4d070289b5e59fd60cdb8416464f29e6120efd30d3c7cd208f7740
+Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
 Package: watchcat
 Version: 1-17
 Depends: libc
@@ -622,6 +2849,32 @@ Filename: watchcat_1-17_all.ipk
 Size: 4685
 SHA256sum: 754e3f694b094c11c06e512e767c31fd6680a4cd6f4e5bddcdee7b868258e6d9
 Description:  Restart network interfaces or reboot if pings to hosts fail, or set up periodic reboots. Configured via UCI /etc/config/watchcat
+
+Package: wget-ssl
+Version: 1.21.2-1
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1636743624
+CPE-ID: cpe:/a:gnu:wget
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 231197
+Filename: wget-ssl_1.21.2-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 231896
+SHA256sum: c65418a80e0b5fdbcf064b2bff30a5b8216cb2c0ac161f193c841ad7366ca9ec
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
 
 Package: wifischedule
 Version: 1-3
