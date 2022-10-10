@@ -322,13 +322,13 @@ Depends: libc, luci-compat, unbound-daemon
 Source: feeds/luci/applications/luci-app-unbound
 SourceName: luci-app-unbound
 Section: luci
-SourceDateEpoch: 1663626414
+SourceDateEpoch: 1665334072
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7321
+Installed-Size: 7323
 Filename: luci-app-unbound_git-21.303.32118-fce70a0_all.ipk
-Size: 8888
-SHA256sum: d3d82e4b1ab12978115ba899b70dd72a1e5d952b6fab6fd699557c6ef7acab0d
+Size: 8890
+SHA256sum: 4cf4a0eaa262036512faf706af01fd8e8fc32df555791de1c08230715eca8478
 Description:  Unbound Recursive DNS Resolver Configuration
 
 Package: luci-app-upnp
@@ -368,13 +368,13 @@ Depends: libc, watchcat
 Source: feeds/luci/applications/luci-app-watchcat
 SourceName: luci-app-watchcat
 Section: luci
-SourceDateEpoch: 1664464950
+SourceDateEpoch: 1665334072
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2383
+Installed-Size: 2384
 Filename: luci-app-watchcat_git-22.156.04817-ae5677b_all.ipk
-Size: 3513
-SHA256sum: b64045392782b60ef725068ec9ce21419df40302d8cb3e6a3c30797c2b03be81
+Size: 3511
+SHA256sum: ef0f7e804a57be72bfc9df7dfcf10a62264884b04f5b43ea02d346886477a787
 Description:  LuCI Support for Watchcat
 
 Package: luci-app-wifischedule
@@ -429,13 +429,13 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1664862025
+SourceDateEpoch: 1665334072
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 126753
+Installed-Size: 126751
 Filename: luci-base_git-22.260.19132-34dd31a_arm_cortex-a9_vfpv3-d16.ipk
-Size: 131798
-SHA256sum: 9c24e436e64634822df01b129b5b74d98b97d9e4adad8845bd92735db9df4809
+Size: 131806
+SHA256sum: edef554c7555a342f5c1ca732eb2dbfcd9bd8ce56449f27081adc48633b5a230
 Description:  LuCI core libraries
 
 Package: luci-compat
@@ -501,7 +501,7 @@ Description:  HTTP protocol utility functions
 
 Package: luci-lib-ip
 Version: git-20.250.76529-62505bd
-Depends: libc, liblua5.1.5, libnl-tiny2022-05-17
+Depends: libc, liblua5.1.5, libnl-tiny2022-05-23
 Source: feeds/luci/libs/luci-lib-ip
 SourceName: luci-lib-ip
 License: Apache-2.0
@@ -511,8 +511,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 10823
 Filename: luci-lib-ip_git-20.250.76529-62505bd_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11761
-SHA256sum: d5fc46ed9fd7e9ddf9ba714aa06ab0e1b075db255d72758b94eba47d72ba01d1
+Size: 11760
+SHA256sum: 5500af617df1f1a1fa05a47880dc3ffb35ea326273f470ba702d8e377da87831
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-jsonc
@@ -569,13 +569,13 @@ Source: feeds/luci/modules/luci-mod-dashboard
 SourceName: luci-mod-dashboard
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1663413795
+SourceDateEpoch: 1665334072
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6673
+Installed-Size: 6672
 Filename: luci-mod-dashboard_git-22.210.50464-e96c1f3_all.ipk
-Size: 8268
-SHA256sum: 0e027248fb29dc2acb85281179d5f4953767fc3835d7d0ca5953852ff1246f2d
+Size: 8260
+SHA256sum: 0ffe455275a3e7e1665305404911b73ea0b1bbe92a2f81348cb9c190d7620f24
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
@@ -722,7 +722,7 @@ Description:  Standard OpenWrt set including full admin with ppp support and the
 
 Package: rpcd-mod-luci
 Version: 20210614
-Depends: libc, rpcd, libubox20220515, libubus20220601, libnl-tiny2022-05-17
+Depends: libc, rpcd, libubox20220515, libubus20220601, libnl-tiny2022-05-23
 Source: feeds/luci/libs/rpcd-mod-luci
 SourceName: rpcd-mod-luci
 License: Apache-2.0
@@ -732,8 +732,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 12612
 Filename: rpcd-mod-luci_20210614_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13553
-SHA256sum: 6ea9471a13d98493c88f8dc51905f69195b883c0fce197dfef3556efd1116086
+Size: 13554
+SHA256sum: 9b7a5119f0975c43b96f858be8c4cb78b498963c0d7dde907663b56b5b778a0a
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
