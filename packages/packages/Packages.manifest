@@ -235,7 +235,7 @@ Description:  Btrfs is a new copy on write filesystem for Linux aimed at impleme
 
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
-Depends: libc, libubox20220515, libubus20220601
+Depends: libc, libubox20220927, libubus20220601
 Source: feeds/packages/net/cgi-io
 SourceName: cgi-io
 License: GPL-2.0-or-later
@@ -245,8 +245,8 @@ Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 8372
 Filename: cgi-io_2022-08-10-901b0f04-21_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9280
-SHA256sum: ebbbda42970816457dcb2ead1c19f8a2aefd9293d2fb9c0133366dc8c04aab87
+Size: 9279
+SHA256sum: 63ddf0d78b3a6980a1b9140c507a41810c23a7a3b7dcbeaddadf01a6afc2ae75
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: cgroupfs-mount
@@ -1075,8 +1075,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 19906
 Filename: https-dns-proxy_2022-08-12-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 21045
-SHA256sum: 4c6da79b6866cb87a0bb1552f26d59d39aec8276426494ae51afacfad660dbb2
+Size: 21039
+SHA256sum: 4415b0331f016f29645eb244b69a5e5691f4fb75ba94e0fe3d0be05ddd66cc37
 Description:  https-dns-proxy is a light-weight DNS<-->HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
  It receives regular (UDP) DNS requests and issues them via DoH.
  Please see https://docs.openwrt.melmac.net/https-dns-proxy/ for more information.
@@ -1395,8 +1395,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 161123
 Filename: libdevmapper_2.03.16-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 162145
-SHA256sum: b047ad49eb5a3f1cd28ebbd75edd0892d065a94227f751df2de5c1bce1eaa3e2
+Size: 162142
+SHA256sum: 62d444391f04f03fd0a9d2f13b71764c6e65ba82417611fec435042321771844
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -1813,8 +1813,8 @@ Maintainer: Karl Palsson <karlp@etactica.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 181300
 Filename: libwebsockets-full_4.3.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 181816
-SHA256sum: e9d99d854ede8b84161253ecbad3c0eb04273e56a190bc16c83ed9f19906acd2
+Size: 181807
+SHA256sum: 9ca9a03d89eb449ef9abd50fa2fc444e59afb35673fbcbc008d9b8e46001dfda
 Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
 
 Package: libzstd
@@ -1865,8 +1865,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 82253
 Filename: miniupnpd-nftables_2022-08-31-68c8ec50-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 83571
-SHA256sum: 2908108e12a7bc41466ed5bbae34b1c78e23b3567095aa5776ef63e27097f05d
+Size: 83565
+SHA256sum: 17104c1c2a2ef630636adb67127401ef89242e2cab5ada29f04e8546b808d410
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon (nftables)
 
 Package: mwan3
@@ -1942,10 +1942,10 @@ SourceDateEpoch: 1647337976
 CPE-ID: cpe:/a:my-netdata:netdata
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Daniel Engberg <daniel.engberg.lists@pyret.net>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8043714
+Installed-Size: 8043363
 Filename: netdata_1.33.1-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8036894
-SHA256sum: 37ad0a5047aca5738aa0c4bf520da9fd6e951c8c105f89d15b927a6cbd806f43
+Size: 8035742
+SHA256sum: 9c4cee27b1d80a2d3469c8089510555ba61956b1204a73910b1f87054e7e3279
 Description:  netdata is a highly optimized Linux daemon providing real-time performance
  monitoring for Linux systems, applications and SNMP devices over the web.
  
@@ -2050,10 +2050,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 146903
+Installed-Size: 146905
 Filename: python3-asyncio_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 149431
-SHA256sum: 6e8bf764a79508954f270e588d9fe7f61e39dc0f085dba812af032843f806ff4
+Size: 149436
+SHA256sum: 06ac02818bca00c9e903552dae2203a94d3040926e2d5d8405ca01acb4263df3
 Description:  Python 3.10 asyncio module
 
 Package: python3-base
@@ -2068,10 +2068,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 157097
+Installed-Size: 157096
 Filename: python3-base_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 163329
-SHA256sum: 58347f8cfe312052a20818df15c20a59c642558f3ebd04fadf40f7297fba0a91
+Size: 163327
+SHA256sum: 8914ed55e02e6cf04d1ada5e3c11bfb9aed98f1402e723b32edbc5abc698496f
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -2197,8 +2197,8 @@ Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 171782
 Filename: python3-distutils_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 175356
-SHA256sum: 4e615c370cf28cb4be465d506accecb79bc4e414a6e7584fa732e53a97245f8c
+Size: 175352
+SHA256sum: def35d4cd1d88c0f42b2814d6587ed5593629d092fb0e82d37f37999aeef4c77
 Description:  Python 3.10 distutils module
 
 Package: python3-email
@@ -2213,10 +2213,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 114880
+Installed-Size: 114882
 Filename: python3-email_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 117382
-SHA256sum: 7951267062fade284881b92c09b83dfa50974f0854287e382e85f9ff17ee17aa
+Size: 117383
+SHA256sum: f078bb4202de11b9b74bcfadc65d1143c2120ee2fba41bbb525fff06621d4a8e
 Description:  Python 3.10 email module
 
 Package: python3-light
@@ -2231,10 +2231,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2113627
+Installed-Size: 2113610
 Filename: python3-light_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2126256
-SHA256sum: fa99ad3d14c7c52a39725d41c3b7ada6c7403abdaae74e5747555ea86bc8f808
+Size: 2126360
+SHA256sum: 7865e9cd7fa5546815e5cb5caaaf1e7c189cdfb3709097333a082dd31ed7ecd1
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -2341,10 +2341,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1933337
+Installed-Size: 1933278
 Filename: python3-pip_22.2.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1945238
-SHA256sum: 2e75f87b9bb38142a3b714f7d745ad72f91745fa562ccd61470850bd312089c5
+Size: 1945226
+SHA256sum: 6667391fa58fcf1979800bf2b04fe04552318734a8aadd268bb0364bb7694eeb
 Description:  Python 3.10 pip module
 
 Package: python3-pkg-resources
@@ -2359,10 +2359,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 285035
+Installed-Size: 285034
 Filename: python3-pkg-resources_63.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 288166
-SHA256sum: 1b7f8aff47af5add8df4ce97e29ecbfc44e6b93334f4207baaf9d68f6cdd2392
+Size: 288168
+SHA256sum: 52581f692b9f770151fcf2ed514717ed92e47ad1dbf1b642d1c3f56d43750953
 Description:  Python 3.10 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -2377,10 +2377,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 202628
+Installed-Size: 202627
 Filename: python3-pydoc_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 203890
-SHA256sum: e0f6bb79649faf78ee2d9380f847cbb5d2a91d4dd2fd46f44bed3921ebe7da4f
+Size: 203889
+SHA256sum: 81481bc77697b5f0a09d537ac6764da1882e1177a3c647e68e46b3bed70c46e6
 Description:  Python 3.10 pydoc module
 
 Package: python3-readline
@@ -2413,10 +2413,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 725435
+Installed-Size: 725434
 Filename: python3-setuptools_63.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 735939
-SHA256sum: b3dcbb6d5a525368ef4b41a0a7b87342b5fd41c415e8b5ef5d5542583e9f3b1f
+Size: 735944
+SHA256sum: 5baaf17b9b5f5c04a368e1b8391b484abc45e5715b38a207e17353d9f9d6185f
 Description:  Python 3.10 setuptools module
 
 Package: python3-sqlite3
@@ -2449,10 +2449,10 @@ SourceDateEpoch: 1665413952
 CPE-ID: cpe:/a:python:python
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 79244
+Installed-Size: 79237
 Filename: python3-unittest_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 80902
-SHA256sum: b5baa7ae0bba86ab71c2bb06fe1d2f22f45223fb86f378d1d46aabe49d48f6c4
+Size: 80893
+SHA256sum: 56a918cc99bdf86154845ad4e9e15d8c84bdcd76992b1f33c594944e89e38dae
 Description:  Python 3.10 unittest module
 
 Package: python3-urllib
@@ -2584,10 +2584,10 @@ Section: net
 SourceDateEpoch: 1665576723
 Maintainer: Nick Peng <pymumu@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 112398
+Installed-Size: 112418
 Filename: smartdns_1.2022.38.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 113623
-SHA256sum: 9f107cab30613087176ab6daa5bbf5aab0a4e8dce8af282a7fe731d59d3614fb
+Size: 113642
+SHA256sum: 70cbcbce6b65a48e003dd37e1abb59d0fd97687a9330f26cfc10f8e2e3b0c83e
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
@@ -2620,10 +2620,10 @@ Section: utils
 SourceDateEpoch: 1650913949
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 285269
+Installed-Size: 285270
 Filename: smartmontools_7.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 284784
-SHA256sum: 0bab7cea2404b0b4a59549340b0cd15a593b62a6313a1695874f40d280ce04fd
+Size: 284785
+SHA256sum: c5691f704bdf4628a5a55206d5167ac754276335273fc95760d411e0f8ba12be
 Description:  smartmontools contains utility programs (smartctl) to
  control/monitor storage systems using the Self-Monitoring, Analysis
  and Reporting Technology System (S.M.A.R.T.) built into most modern
@@ -2643,8 +2643,8 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 110074
 Filename: socat_1.7.4.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 109238
-SHA256sum: 5348180cc61fda1123f26ce9afaa68690cf88d6aea49ea8b3d904b632ba6ada2
+Size: 109231
+SHA256sum: c547e889fbd0718f60bbbd61699e5429f7969252170b6ed7874654146fc22ddd
 Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
  transfers data between them.
  Data channels may be files, pipes, devices (terminal or modem, etc.), or
@@ -2731,10 +2731,10 @@ Section: utils
 SourceDateEpoch: 1632711070
 Maintainer: Shuanglei Tao <tsl0922@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 272588
+Installed-Size: 272587
 Filename: ttyd_1.6.3-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 273467
-SHA256sum: 58b2d71a26090149666d956d3663f1a282de52dc55ff08fdb09d9e92693fa73a
+Size: 273469
+SHA256sum: 5e4c49bd7335493dd799011de1acd63916c992641b434c46ca8a6ebe7882a983
 Description:  ttyd is a command-line tool for sharing terminal over the web.
 
 Package: unbound-anchor
@@ -2888,7 +2888,7 @@ SHA256sum: 754e3f694b094c11c06e512e767c31fd6680a4cd6f4e5bddcdee7b868258e6d9
 Description:  Restart network interfaces or reboot if pings to hosts fail, or set up periodic reboots. Configured via UCI /etc/config/watchcat
 
 Package: wget-ssl
-Version: 1.21.2-1
+Version: 1.21.3-1
 Depends: libc, libpcre, zlib, libopenssl1.1, librt
 Provides: gnu-wget, wget
 Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
@@ -2897,14 +2897,14 @@ SourceName: wget-ssl
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1636743624
+SourceDateEpoch: 1665653552
 CPE-ID: cpe:/a:gnu:wget
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 231197
-Filename: wget-ssl_1.21.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 231896
-SHA256sum: c65418a80e0b5fdbcf064b2bff30a5b8216cb2c0ac161f193c841ad7366ca9ec
+Installed-Size: 231087
+Filename: wget-ssl_1.21.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 231834
+SHA256sum: 1f7a3e60eb35770582958b6ea3b52338561d20ea24f5dfc571a04d191f1938a0
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
