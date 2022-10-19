@@ -36,15 +36,15 @@ SHA256sum: 567e2f6ada564dfcf9d3ef115a9bd83b5a144d87983e97fb85875d65f5a4069d
 Description:  Shorthand package for acme-acmesh.
 
 Package: adblock
-Version: 4.1.4-5
+Version: 4.1.5-1
 Depends: libc, jshn, jsonfilter, coreutils, coreutils-sort, ca-bundle, opkg
 License: GPL-3.0-or-later
 Section: net
 Architecture: all
-Installed-Size: 19851
-Filename: adblock_4.1.4-5_all.ipk
-Size: 21227
-SHA256sum: 7ffaf60e14d8a6f5333d70e2e510b16f169b72492d84172da14b2a0dca713062
+Installed-Size: 19928
+Filename: adblock_4.1.5-1_all.ipk
+Size: 21304
+SHA256sum: 96428967597583957c23e2b13713a725cd391a23f8dcf0c03fb97de9bc81f986
 Description:  Powerful adblock solution to block ad/abuse domains via dnsmasq, unbound, named or kresd.
  The script supports many domain blacklist sites plus manual black- and whitelist overrides.
  Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
@@ -715,28 +715,28 @@ SHA256sum: 5756827f3442b6d3c21661e255364e7a9f4c83fd514f2ea6ff78ecd8a211b998
 Description:  Simple interprocess messaging system (daemon)
 
 Package: ddns-scripts-services
-Version: 2.8.2-28
+Version: 2.8.2-29
 Depends: libc
 Provides: ddns-scripts_service
 License: GPL-2.0
 Section: net
 Architecture: all
-Installed-Size: 3602
-Filename: ddns-scripts-services_2.8.2-28_all.ipk
-Size: 7458
-SHA256sum: 6bd4e3633d0c749fca30451494377b43411854fc7b61ae39cc58266005e1267d
+Installed-Size: 3600
+Filename: ddns-scripts-services_2.8.2-29_all.ipk
+Size: 7443
+SHA256sum: a599e38661c0900b656f669c4da3be4420c0670620ea860b40d2910a33a96205
 Description:  Dynamic DNS Client definitions for supported services
 
 Package: ddns-scripts
-Version: 2.8.2-28
+Version: 2.8.2-29
 Depends: libc, ddns-scripts-services
 License: GPL-2.0
 Section: net
 Architecture: all
-Installed-Size: 23886
-Filename: ddns-scripts_2.8.2-28_all.ipk
-Size: 25351
-SHA256sum: 58624e8238b8b9769d78b92bb45cbe36dfd47c0276cefbab75d0b1e75a970890
+Installed-Size: 23883
+Filename: ddns-scripts_2.8.2-29_all.ipk
+Size: 25350
+SHA256sum: 40686b4be96334bf0d5c537f0aefb56b04ed00a532d8b4a1afcfe06cf93055c3
 Description:  Dynamic DNS Client scripts (with IPv6 support)
  A highly configurable set of scripts for doing dynamic dns updates.
  - IPv6 support
@@ -746,7 +746,7 @@ Description:  Dynamic DNS Client scripts (with IPv6 support)
  - Proxy server support
  - log file support
  - support to run once
- Version: 2.8.2-28
+ Version: 2.8.2-29
  Info   : https://openwrt.org/docs/guide-user/services/ddns/client
 
 Package: dnscrypt-proxy-resolvers
@@ -838,16 +838,16 @@ Description:  Give it an url, and it'll show you how long it takes to connect, s
  This package is built with SSL support.
 
 Package: https-dns-proxy
-Version: 2022-10-15-1
+Version: 2022-10-15-2
 Depends: libc, libcares, libcurl4, libev, ca-bundle
 Conflicts: https_dns_proxy
 License: MIT
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 19910
-Filename: https-dns-proxy_2022-10-15-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 21047
-SHA256sum: d12e5e30a3d67e8a3fc6d0fb338fc96a185f2fedb9e6aff448f14a15a7194089
+Installed-Size: 19937
+Filename: https-dns-proxy_2022-10-15-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 21071
+SHA256sum: 12ee7672655e88513669a8640e3eca4ddea8ebdefeca04300e9867af7d8cbd3c
 Description:  https-dns-proxy is a light-weight DNS<-->HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
  It receives regular (UDP) DNS requests and issues them via DoH.
  Please see https://docs.openwrt.melmac.net/https-dns-proxy/ for more information.
@@ -892,15 +892,15 @@ SHA256sum: f53162d59785efe9b66d2e78f6c5a0ec7d557a200aaf532c6462529db5ded215
 Description:  Send ARP REQUEST packets to a neighbor host
 
 Package: irqbalance
-Version: 1.9.0-6
+Version: 1.9.1-1
 Depends: libc
 License: GPL-2.0-or-later
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 67684
-Filename: irqbalance_1.9.0-6_arm_cortex-a9_vfpv3-d16.ipk
-Size: 68801
-SHA256sum: f3050a2aebbf2025d20608dd6063b4d556063d63d278564079d6fad4f8517463
+Installed-Size: 67992
+Filename: irqbalance_1.9.1-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 69109
+SHA256sum: 5a4d22b79797d5bce41d71570f95922337a43bca1c80e1ce7991efa8d5feb8c8
 Description:  The purpose of irqbalance is to distribute hardware interrupts across
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
@@ -1097,8 +1097,8 @@ CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 161121
 Filename: libdevmapper_2.03.16-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 162141
-SHA256sum: 85d478418c14b6b7a14afd436f6303484f5f0d17157c337ccfa2a78e04fc7b63
+Size: 162132
+SHA256sum: 5868609298ad7645f847d52476d8669e788879dbafc711565b084b624d90e0eb
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -1416,10 +1416,10 @@ Provides: libwebsockets
 License: MIT
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 181300
+Installed-Size: 181302
 Filename: libwebsockets-full_4.3.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 181781
-SHA256sum: 79627baebda74637ef7ab91afa719d0e7961d96737e6f5807dd8a86a06ecd0cc
+Size: 181826
+SHA256sum: 324116aeff5bbe3998e11ee744121e6970c72b2480894605641dc021bde431f0
 Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
 
 Package: libzstd
@@ -1487,10 +1487,10 @@ License: GPL-3.0-or-later
 Section: admin
 CPE-ID: cpe:/a:my-netdata:netdata
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8043720
+Installed-Size: 8043366
 Filename: netdata_1.33.1-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8036721
-SHA256sum: f6d7ec236be33caf686c8bb23b9f889607da942c2b2af5b0b7b698c1971c0428
+Size: 8035758
+SHA256sum: 40659f9613a6432bd94930d724ce71ecc6271b84b1572e282ca7bbf23391cc4d
 Description:  netdata is a highly optimized Linux daemon providing real-time performance
  monitoring for Linux systems, applications and SNMP devices over the web.
  
@@ -1569,10 +1569,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 146903
+Installed-Size: 146904
 Filename: python3-asyncio_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 149436
-SHA256sum: 9963d670c2927515ce665cb20ee7cfd61318cc448a49ff00d8ff297961aa9d3c
+Size: 149435
+SHA256sum: 94eb68e5e852c9eb22cbf0690703d0d260ff43495d9a718d648d09a25f27196f
 Description:  Python 3.10 asyncio module
 
 Package: python3-base
@@ -1582,10 +1582,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 157096
+Installed-Size: 157097
 Filename: python3-base_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 163327
-SHA256sum: 8914ed55e02e6cf04d1ada5e3c11bfb9aed98f1402e723b32edbc5abc698496f
+Size: 163328
+SHA256sum: fc01e49ff0e6d94eb1a40c0dd064c7b3b12fda7ed85e9838af629b8c408bb498
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -1676,8 +1676,8 @@ CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 171781
 Filename: python3-distutils_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 175353
-SHA256sum: 8e123aa7e328ceb6c780a74a97c8dd970e34f98096b6fee69255765b76c4fc73
+Size: 175355
+SHA256sum: 9b6ddbc6fe54ab406605c6fedc55faf67360078571488974552690c85c73cfe6
 Description:  Python 3.10 distutils module
 
 Package: python3-email
@@ -1687,10 +1687,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 114880
+Installed-Size: 114878
 Filename: python3-email_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 117383
-SHA256sum: 60bdd4180ff07423a311c1a05dcc928d58432d2f4434c877e9b4d38bc7b50fbd
+Size: 117382
+SHA256sum: c457ec8068ff56b192c4b9ec056ad5a25a8dc818a8a9df0f2f0d2dcef33c0905
 Description:  Python 3.10 email module
 
 Package: python3-light
@@ -1700,10 +1700,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2113612
+Installed-Size: 2113642
 Filename: python3-light_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2126317
-SHA256sum: 7a38f5f8609c1b365cc5359da240d4ffbcb599b74f0c6b5b2577513b39c36817
+Size: 2126394
+SHA256sum: 5b43cd205a8c0e92b4128cb37122c98d8bb78716e1998debc49bd550db01484f
 Description:  This package is essentially the python3-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -1741,10 +1741,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 102300
+Installed-Size: 102298
 Filename: python3-multiprocessing_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 104528
-SHA256sum: 6746d99a42ba5c9065beac84c6d39b05b1453848eaaedb09ab5e7de63f6b6a8a
+SHA256sum: 6efe3a004c5b9a475a68aefa15f3b38e43df06bb7e79a8fff63de27fc6b5aba6
 Description:  Python 3.10 multiprocessing
 
 Package: python3-ncurses
@@ -1780,10 +1780,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1933372
+Installed-Size: 1933331
 Filename: python3-pip_22.2.2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1945204
-SHA256sum: 4910efef7460a9cc0a0766107ea98c0aaca3eeb9dbe31c59b8907f26189a47e6
+Size: 1945198
+SHA256sum: 4688b22a173a52d6743f009a2892394dfc90469617b0cc6ee6280993313e440f
 Description:  Python 3.10 pip module
 
 Package: python3-pkg-resources
@@ -1793,10 +1793,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 285036
+Installed-Size: 285033
 Filename: python3-pkg-resources_63.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 288168
-SHA256sum: 60aae31db551628ea1830fcc3af0062e59cc82472e63d18dd7fe1f49c9477357
+Size: 288172
+SHA256sum: 5c55b9ff7d750d540306039729e91fac8aac73e6a87ec959e546170bedfa3975
 Description:  Python 3.10 pkg_resources module (part of setuptools)
 
 Package: python3-pydoc
@@ -1806,10 +1806,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 202628
+Installed-Size: 202627
 Filename: python3-pydoc_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 203897
-SHA256sum: c9c8550a15657145a0d20c8646ce30b5bd1c479b157c012c389ff3534f8cace8
+Size: 203886
+SHA256sum: e1f4a7245ec9bca669648bbdab75fdd6582055e28ac05f7272202e6f2f7b67e8
 Description:  Python 3.10 pydoc module
 
 Package: python3-readline
@@ -1832,10 +1832,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 725435
+Installed-Size: 725431
 Filename: python3-setuptools_63.2.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 735947
-SHA256sum: f1d7b0271bc52dbfdadf58d8888a4135631d2461c7dd2f5e00f6e564db83c24d
+Size: 735949
+SHA256sum: f2537df668fdf0e01801eaf99b7107d50f2638ff2a9d580893305d917eb6fc4b
 Description:  Python 3.10 setuptools module
 
 Package: python3-sqlite3
@@ -1858,10 +1858,10 @@ License: PSF-2.0
 Section: lang
 CPE-ID: cpe:/a:python:python
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 79235
+Installed-Size: 79245
 Filename: python3-unittest_3.10.7-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 80891
-SHA256sum: 3607913be34ddce8d4a5b4c545a8bce8f8a6f385c45e8736c06b6254be70c8e8
+Size: 80905
+SHA256sum: 08db05e5314457020e352677228eb1fb94b84add1a1de9fefbbc94c6676d9a06
 Description:  Python 3.10 unittest module
 
 Package: python3-urllib
@@ -1946,10 +1946,10 @@ License: GPL-3.0-only
 Section: net
 CPE-ID: cpe:/a:samba:samba
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 9380329
+Installed-Size: 9380366
 Filename: samba4-libs_4.17.0-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9299423
-SHA256sum: 5b7331249d7d3fdde47578f65688dbc1551215ab61839c86bb1318ae75699eab
+Size: 9297957
+SHA256sum: c7ce4dbd3384f583411dedfceed4ac0449a2b02cd430e4313010c1140fc1775a
 Description:  Samba 4.17.0 libs
 
 Package: samba4-server
@@ -1960,10 +1960,10 @@ License: GPL-3.0-only
 Section: net
 CPE-ID: cpe:/a:samba:samba
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 250482
+Installed-Size: 250486
 Filename: samba4-server_4.17.0-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 251153
-SHA256sum: 2b99affe7046ed8198ba1a4879e365e8577ffeae1c9d7ed6202eaee2190376bc
+Size: 251187
+SHA256sum: a3a5d59e0e91b8feba2b86aaeb165eb1c21bd31a1b5b1a91808e4354177780e7
 Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
  (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
  
@@ -1993,7 +1993,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 112417
 Filename: smartdns_1.2022.38.1-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 113647
-SHA256sum: 36bee8fd3614e73799facd56f501c9078bf34bda7084ceeae2ff4e560182f941
+SHA256sum: c9bd560c71bcb8c20dff472decaff7319937b0d11cc54fbcd4190882797bbb3e
 Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
  gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
  Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
@@ -2016,10 +2016,10 @@ Depends: libc, libstdcpp6
 License: GPL-2.0-or-later
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 285271
+Installed-Size: 285270
 Filename: smartmontools_7.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 284777
-SHA256sum: 99c72e4b14df33fb63e9d3096cd56791b431d076cd2fdc6b2931a077c987be93
+Size: 284778
+SHA256sum: 42863cb6f87f5ea49981f9aab95d8a03dc4af25102deb72de3fb6b6ab0beeeee
 Description:  smartmontools contains utility programs (smartctl) to
  control/monitor storage systems using the Self-Monitoring, Analysis
  and Reporting Technology System (S.M.A.R.T.) built into most modern
@@ -2034,8 +2034,8 @@ CPE-ID: cpe:/a:dest-unreach:socat
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 110074
 Filename: socat_1.7.4.1-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 109245
-SHA256sum: 98295fd74c81a7696a58ed99eb51d5327b5dd88167722bbd3ccafda477252147
+Size: 109246
+SHA256sum: dcb3d8fe7a5b8be0563dd6a83aeb53a52de96166af66178cc2664aef0a303e39
 Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
  transfers data between them.
  Data channels may be files, pipes, devices (terminal or modem, etc.), or
@@ -2100,10 +2100,10 @@ Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
 License: MIT
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 272588
+Installed-Size: 272589
 Filename: ttyd_1.6.3-3_arm_cortex-a9_vfpv3-d16.ipk
 Size: 273479
-SHA256sum: a24d892c8b576a9a3a9631bb587c4f870110769139f93b470214f6c703137609
+SHA256sum: 2872696e4375a7977f90ee84961fe0160ed202ab14361c5e0f90cb88f5d124cb
 Description:  ttyd is a command-line tool for sharing terminal over the web.
 
 Package: unbound-anchor
