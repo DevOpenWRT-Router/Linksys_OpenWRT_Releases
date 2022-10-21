@@ -453,19 +453,19 @@ SHA256sum: 059e214a4df87dfc4d1a4660bb281e1062cb2ba2253833b22858ad6fa4cb9384
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.288.45107-3e9d9a9
+Version: git-22.294.25693-a398ccf
 Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1666175397
+SourceDateEpoch: 1666336093
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 126776
-Filename: luci-base_git-22.288.45107-3e9d9a9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 131849
-SHA256sum: d683c308eba8fe0e01c6bf1e7be6fd92ad13276b40d5d8277368be8d64ac54af
+Installed-Size: 126763
+Filename: luci-base_git-22.294.25693-a398ccf_arm_cortex-a9_vfpv3-d16.ipk
+Size: 131759
+SHA256sum: 90e5a6fd733e8d4d0161b2270f7734d34800111e21adfd6d102d440b74203946
 Description:  LuCI core libraries
 
 Package: luci-compat
@@ -624,35 +624,35 @@ SHA256sum: d1f6376d401b516ce53a225d7e3fce25e7960bb8c190735453027fc74767702c
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
-Version: git-22.273.64183-ec4f219
+Version: git-22.293.78880-45f02d9
 Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
 Source: feeds/luci/modules/luci-mod-network
 SourceName: luci-mod-network
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1664560183
+SourceDateEpoch: 1666302880
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 48451
-Filename: luci-mod-network_git-22.273.64183-ec4f219_all.ipk
-Size: 50052
-SHA256sum: 6574572914556149221c80cff44f4c689dbf7b3962826586fa883329dd60c0d8
+Installed-Size: 49056
+Filename: luci-mod-network_git-22.293.78880-45f02d9_all.ipk
+Size: 50672
+SHA256sum: 30f710bfb2f59541023d11bdb5475707e07e347f4561a69dd69eddfb96478a2b
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
-Version: git-22.261.29474-6a03a88
+Version: git-22.294.25693-45ab2cd
 Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
 Source: feeds/luci/modules/luci-mod-status
 SourceName: luci-mod-status
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1663488674
+SourceDateEpoch: 1666336093
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 35388
-Filename: luci-mod-status_git-22.261.29474-6a03a88_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37910
-SHA256sum: 0c08109d8ab4d842f4df74d17f1f5dd9172dcd1198fda47eb3351cfdd610ebaf
+Installed-Size: 35396
+Filename: luci-mod-status_git-22.294.25693-45ab2cd_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37914
+SHA256sum: 40acd4ffbda743b7ab50e5daf0a2a3c8bb1ab0f20e5c29ed5c14b26e5c071aa4
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
