@@ -35,10 +35,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 262224
+Installed-Size: 262223
 Filename: busybox_1.35.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263287
-SHA256sum: 7979625536b86dec7b7cbaffd4452cb7b008ed62008c09769cf888227bda49c5
+Size: 263281
+SHA256sum: 3631c053b91e183c541bb4e2e81a8a66a4fe0caab27b62ece22bab6f8f091352
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 206405
+Installed-Size: 206404
 Filename: dnsmasq-full_2.86-16_arm_cortex-a9_vfpv3-d16.ipk
-Size: 207681
-SHA256sum: 175da86ccb9f00f38e67fd73020be3ea90f7dee17a1749e99e36f5feb41c0ed6
+Size: 207686
+SHA256sum: 45732f410ca78f368abcc2a8d11dab52575b0dc7fdf51125dfdfaac414302407
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -394,10 +394,10 @@ Section: libs
 ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 40688
+Installed-Size: 40686
 Filename: libelf1_0.187-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41726
-SHA256sum: 6d39af9639d0c26f487e744da0edd441da38c4a2d7cd255ce77354f82f2f9ae5
+Size: 41723
+SHA256sum: dd76ff72b5f1b4d830d690bbff48fe6c40de29c79a06b088bbe3ab8e0c3fc31e
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -823,8 +823,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 1222480
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1213272
-SHA256sum: 7d9b150ddcb9f42ce941e060a62bb9ec29dad3e5ff21ee667d3de744d8917dde
+Size: 1213343
+SHA256sum: 84335e8046796f89a103436174e13bf5fcbb37f5a028aceea21189ee68708e94
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1004,6 +1004,20 @@ Size: 9597
 SHA256sum: 17042bff29d39cb63cb3437baf4b1f8ae2548bfe3741b92836edf27eea7d7bb0
 Description:  HTTP/1.1 client library
 
+Package: libucode20220812
+Version: 2022-10-18-00af0650-1
+Depends: libc, libjson-c5
+Provides: libucode
+License: ISC
+Section: utils
+ABIVersion: 20220812
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 61730
+Filename: libucode20220812_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62509
+SHA256sum: e694d2831e1c067b891e544b1fd5f620e597ae76da9b3516691005870dca7bff
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
 Package: libustream-openssl20201210
 Version: 2022-01-16-868fd881-2
 Depends: libc, libubox20220927, libopenssl1.1
@@ -1095,24 +1109,24 @@ Description:  Lua is a powerful light-weight programming language designed for e
 
 Package: luci-app-argon-config
 Version: 0.9
-Depends: libc, luci-compat
+Depends: libc, luci-compat, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 3573
 Filename: luci-app-argon-config_0.9_all.ipk
-Size: 4903
-SHA256sum: 792536bf7880153646be3fb92142584e380d8f7a8febfb60df2434656ee08728
+Size: 4911
+SHA256sum: c04f9e1ef90e27af22b8a8384f64a8b48d48f468a164270902a52b17abd7814f
 Description:  LuCI page for Argon Config
 
 Package: luci-app-control-timewol
 Version: 2.2
-Depends: libc, wol, etherwake
+Depends: libc, wol, etherwake, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 2459
 Filename: luci-app-control-timewol_2.2_all.ipk
-Size: 3676
-SHA256sum: 569d84dff16e596ca0eb8c6418ea7ce3393e4ba36a3d7cb63c086b7270215430
+Size: 3684
+SHA256sum: 254f93cffdde8cc726a2b3cda47f0cb013ebff894d4cce818544d0811fd60522
 Description:  LuCI support for Timewol From Koolshare
 
 Package: luci-app-cpu-perf
@@ -1123,8 +1137,8 @@ Section: luci
 Architecture: all
 Installed-Size: 6496
 Filename: luci-app-cpu-perf_0.4-0_all.ipk
-Size: 7813
-SHA256sum: 7abf1a628425b888cd0573a25f2b035c19a1bea1810e658644ba683a3d1c8877
+Size: 7816
+SHA256sum: be97b07c1b276df66e28b94661b75930a3e1cd3588a575f02a9c740de7880c4f
 Description:  CPU performance information and management for LuCI
 
 Package: luci-app-cpu-status
@@ -1135,8 +1149,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1426
 Filename: luci-app-cpu-status_0.4-1_all.ipk
-Size: 2439
-SHA256sum: 67ea90ed52ed92bdcd03174e8b05bda4dc32662a0e3a6d58de364a1c7b8e3c0a
+Size: 2437
+SHA256sum: 1f35ad57a324520d3bf0e9c8bfa30358486ead0c6af893369af52a11c93ef254
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-diskman
@@ -1145,10 +1159,10 @@ Depends: libc, e2fsprogs, parted, smartmontools, blkid, btrfs-progs, lsblk
 License: AGPL-3.0
 Section: luci
 Architecture: all
-Installed-Size: 23427
+Installed-Size: 23431
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25058
-SHA256sum: 868e41229321ec4bdc06a6ad81bedf3e92122d89ed0191e14e8b66bcedd40db7
+Size: 25061
+SHA256sum: 7b1995b2d04096e369fae625d3faa1bae76dd456288b60a1fb19465177e5a1d0
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1159,8 +1173,8 @@ Section: luci
 Architecture: all
 Installed-Size: 6609
 Filename: luci-app-disks-info_0.4-2_all.ipk
-Size: 7753
-SHA256sum: 4718d328210e660dbd0c491d7744630db4d3be73850edafc88448fb9ec7fc755
+Size: 7752
+SHA256sum: 2143c56d74b867220611e4a4210288e5eacc40500da7f9931db7a9dfccd4dc57
 Description:  Information about connected disk devices (partitions, filesystems, SMART).
 
 Package: luci-app-dnscrypt-proxy2
@@ -1183,8 +1197,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2083
 Filename: luci-app-interfaces-statistics_0.4-4_all.ipk
-Size: 3143
-SHA256sum: d11806763e21a6bd00591428e5e55076d40bf910f8de924ab0434e3a0491d866
+Size: 3144
+SHA256sum: 3e8828b51258c087ca12d31af48a10826a120f77b3a9d1336a98f950af31a316
 Description:  Network interfaces statistics
 
 Package: luci-app-internet-detector
@@ -1195,19 +1209,19 @@ Architecture: all
 Installed-Size: 7300
 Filename: luci-app-internet-detector_0.6-0_all.ipk
 Size: 8446
-SHA256sum: 67fc8b0bd58ed5e3e5da2ad444522777ce7285bab0c68f8542a4c5eb3248b5be
+SHA256sum: b65359294dfbb578dd56321eb856f8f9a3a2cd4343e6597c00b597c14300bcff
 Description:  LuCI support for internet-detector
 
 Package: luci-app-iperf
 Version: git-22.148.36503-e72e64d
-Depends: libc, iperf3-ssl
+Depends: libc, iperf3-ssl, luci-lua-runtime
 License: GPLv3
 Section: luci
 Architecture: all
 Installed-Size: 3331
 Filename: luci-app-iperf_git-22.148.36503-e72e64d_all.ipk
-Size: 4491
-SHA256sum: a32bb8da3d1693c1f87ea54452d5bcd2519f8e29b80647b11e4d75c6c22e204b
+Size: 4503
+SHA256sum: f29858c4f636724360e4a3c47aeab570c293737a7377cc9e2fac013af33b87d2
 Description:  LuCI Support for iPerf3
 
 Package: luci-app-log
@@ -1218,8 +1232,8 @@ Section: luci
 Architecture: all
 Installed-Size: 5772
 Filename: luci-app-log_0.6-1_all.ipk
-Size: 6943
-SHA256sum: 1674a791c9da9adf2c1ef0daf97b381c2052f1a61678021527a1557bcd8a9a38
+Size: 6944
+SHA256sum: a94b3d4b2f0d3465a59b0be23f7e8bc761d442f3e5b024176f4846962bec3269
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mqos
@@ -1239,32 +1253,32 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1646
+Installed-Size: 1649
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2986
-SHA256sum: 12cea8bb4d5d376c279ffcf9f591c7212a2e591526f78dbe3cf337d9d748d606
+Size: 2992
+SHA256sum: ef543579268a180ad4764ac271083bd4109b8c5b88855d77f8d59b615f0f8e48
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
 Version: 1.1
-Depends: libc, netdata
+Depends: libc, netdata, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 191497
+Installed-Size: 191502
 Filename: luci-app-netdata_1.1_all.ipk
-Size: 193113
-SHA256sum: 9d0b2fc610a1876754ecd518ea3e0dc83cc06764ba85506f09825adb723a6348
+Size: 193136
+SHA256sum: 871682e0c8876fa637e48697d2bde002fde174f0b2bdb69da50ba7a90ac3e004
 Description:  LuCI support for Netdata
 
 Package: luci-app-ota
 Version: 1.3
-Depends: libc
+Depends: libc, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 5507
 Filename: luci-app-ota_1.3_all.ipk
-Size: 6574
-SHA256sum: b9fe5208070e40cd6e59c1c0a48d3d1c0ff16606978d6dd4cb1332d4101a9703
+Size: 6584
+SHA256sum: 412675c3658ded44d84f000bafb481c358c53e9471a0e2453154b6a113130106
 Description:  LuCI for OTA upgrade
 
 Package: luci-app-temp-status
@@ -1275,8 +1289,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2019
 Filename: luci-app-temp-status_0.3-5_all.ipk
-Size: 3093
-SHA256sum: dcf9b683ee2534fb4d59f2b18bc1822404593aee2aafe135d3cf2dcd8bc28e67
+Size: 3095
+SHA256sum: adbb51bae15524b33c18479bd5ac63a134fb4a5382c79c6eae31a3ac16a34e5e
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-textarea
@@ -1285,10 +1299,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 2082
+Installed-Size: 2084
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3138
-SHA256sum: 7575196d402421096c10ee2857badfcb7046371906753fd453f61b8aebcb7688
+Size: 3140
+SHA256sum: afd4bf53e784be77cbaa2e5e00abb4f0edaf948727a8810fa18346e19183daf3
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1299,52 +1313,52 @@ Section: luci
 Architecture: all
 Installed-Size: 15120
 Filename: luci-app-tn-netports_2.0.5_all.ipk
-Size: 17674
-SHA256sum: 808285b83353a8f7c1c9ee31fd7108f4a3a60232cbaf5abbc33aaaa7360386d5
+Size: 17676
+SHA256sum: 7a0dbd20ba9620abbab5b07856c5d33e9f9c267e124ddfd73e82d0c81c60444a
 Description:  Network interfaces netports
 
 Package: luci-app-upnp
 Version: git-22.285.29636-935e279
-Depends: libc, miniupnpd
+Depends: libc, miniupnpd, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 3275
 Filename: luci-app-upnp_git-22.285.29636-935e279_all.ipk
-Size: 4476
-SHA256sum: fa43c814b2061351fa1024cbb1f43a1b58454ff3265f73547e8637e14ec01cda
+Size: 4490
+SHA256sum: 70cc9d4b5ba232e155369b271aabca8743a75055dd1ef9d7c3da8b63f16f0b73
 Description:  Universal Plug & Play configuration module
 
 Package: luci-app-webguide
 Version: 1
-Depends: libc
+Depends: libc, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 7765
 Filename: luci-app-webguide_1_all.ipk
-Size: 8976
-SHA256sum: a8b456ce77c154f6ef8ccd8cf023ab45703218776eaf969a2ae5ad4c05c606b0
+Size: 8996
+SHA256sum: 6390cb356732b7bade4a7b69d9997022c0d2c808272300f90d3906c453ab2a88
 Description:  LuCI support for Simple Web Guide editor page
 
 Package: luci-lib-ipkg
 Version: git-22.267.30167-839297b
-Depends: libc, luci-base
+Depends: libc, luci-base, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 1465
 Filename: luci-lib-ipkg_git-22.267.30167-839297b_all.ipk
-Size: 2412
-SHA256sum: f736a1f6c09aed56b7386fc58aba79851570ef0a8b8e139eed4961cfb2c5fc8a
+Size: 2426
+SHA256sum: 3effa2115eae38670e1e9649635776a085a3fad59aea04db6f04bddf533d4a4d
 Description:  Legacy opkg interface class
 
 Package: luci-theme-argon
 Version: 2.2.9.4
-Depends: libc, curl, jsonfilter
+Depends: libc, curl, jsonfilter, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 414459
 Filename: luci-theme-argon_2.2.9.4_all.ipk
-Size: 417389
-SHA256sum: 902621e2623f4570d6f5ce028008dae0ff1d5dcd3b213afe456fb4701bfc1f0f
+Size: 417400
+SHA256sum: df945e27494ce0ef11182689a921362b894998e9a2f844cea6777ea0856f9411
 Description:  Argon Theme
 
 Package: luci-theme-lafite-port
@@ -1356,18 +1370,18 @@ Architecture: all
 Installed-Size: 511066
 Filename: luci-theme-lafite-port_git-22.198.85481-bf61d46_all.ipk
 Size: 517794
-SHA256sum: b5c17e46acc43e4b01179089f76f88c313cec191bb9a743e800a171ab2c373a7
+SHA256sum: 1d52723f0229569c9624fecc1a172bf35a27b7f9c0647fac6ac67a52adaebf1f
 Description:  LAFITE Theme
 
 Package: luci-theme-tano
 Version: git-22.242.58930-7a7ada2
-Depends: libc
+Depends: libc, luci-lua-runtime
 Section: luci
 Architecture: all
 Installed-Size: 419036
 Filename: luci-theme-tano_git-22.242.58930-7a7ada2_all.ipk
-Size: 420918
-SHA256sum: f638b5417e8834d5f46a6faabc23392870f6c7aa0b12627aeef25f19436b9b4a
+Size: 420935
+SHA256sum: 408e2398f056d3ab7380bd26aa31fe7f4fdc413872e51c9ff053c6771720fa88
 Description:  Tano theme
 
 Package: miniupnpd
@@ -1376,10 +1390,10 @@ Depends: libc, iptables, libip4tc2, libuuid1
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 58866
+Installed-Size: 58868
 Filename: miniupnpd_2.0.20170421-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60122
-SHA256sum: b18e5f9fa62cfeb4f69d77f6839382064b051c83ec5eb60f8e23f54b7e798b0b
+Size: 60121
+SHA256sum: 4c6b8089c82258ed90c991271042aa8f025b242ac3ae12f555ed3e2252c7224a
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1516,10 +1530,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598845
+Installed-Size: 598846
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599045
-SHA256sum: ef960f80e534abc5bc5774b27deae11843a68df3f136f496b693e7004941c165
+Size: 599041
+SHA256sum: b8ae960830c67d80155140ba696c8a721e84988f2626c2a14bf47b5edfe73666
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1651,6 +1665,18 @@ Filename: rpcd-mod-rpcsys_2022-09-21-8c852b65-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 4439
 SHA256sum: 9a3ca6110284fde6b6982907dfc3c604ec5d96b7483a7fe9ab9ffe32f2158515
 Description:  Provides ubus calls for sysupgrade and password changing.
+
+Package: rpcd-mod-ucode
+Version: 2022-09-21-8c852b65-1
+Depends: libc, libubus20220601, libubox20220927, rpcd, libucode20220812
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 7159
+Filename: rpcd-mod-ucode_2022-09-21-8c852b65-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8107
+SHA256sum: dafdb8a4ce85bb225bfe86f16bbaf3763c4fe8021e081752b3ac4aedb8ef4526
+Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
 Version: 2022-09-21-8c852b65-1
@@ -1795,16 +1821,78 @@ Size: 8552
 SHA256sum: 72abe8e4c3847e2cdc334d819bbd88bcb359df2da676fbac3eab00c3cc1461ac
 Description:  Tiny wget replacement using libuclient
 
+Package: ucode-mod-fs
+Version: 2022-10-18-00af0650-1
+Depends: libc, ucode
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 8677
+Filename: ucode-mod-fs_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9546
+SHA256sum: f0c6fb3f6791b18ee9e36e055712b6262cd56eed637b7154f2a974cc25a6693b
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-math
+Version: 2022-10-18-00af0650-1
+Depends: libc, ucode
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 2308
+Filename: ucode-mod-math_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3148
+SHA256sum: c85e810059ff31f05b603559ea78315cfcc091802ea127825ec09f6ce4f6979b
+Description:  The math plugin provides access to various <math.h> procedures.
+
+Package: ucode-mod-ubus
+Version: 2022-10-18-00af0650-1
+Depends: libc, ucode, libubus20220601, libblobmsg-json20220927
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 12186
+Filename: ucode-mod-ubus_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13088
+SHA256sum: 77768f5f360d1b96fea27189caa17a6fb28ca433bf2970fed6127fa242908e63
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
+ procedures.
+
+Package: ucode-mod-uci
+Version: 2022-10-18-00af0650-1
+Depends: libc, ucode, libuci20130104
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6277
+Filename: ucode-mod-uci_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7194
+SHA256sum: 0fd2c30a27c5694d2d7d55580f1aae0c27c38b1555805b81510a498ac43e7ba1
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode
+Version: 2022-10-18-00af0650-1
+Depends: libc, libucode20220812
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 6150
+Filename: ucode_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7067
+SHA256sum: c4220d9b3afa4dfcf6d5f5f31e1c4796860b99297c3e39181f750356a958f46c
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
 Package: uhttpd-mod-ubus
 Version: 2022-08-12-e3395cd9-2
 Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220927
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7384
+Installed-Size: 7386
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8424
-SHA256sum: 569c595d150aebf6f209371a6acd98b750ad49afc5424548df5808d8b7d05e9b
+Size: 8429
+SHA256sum: 4f329cc1d6152748f33027e7adbd64e8e77183b3cd592479fdf825213388fbfa
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1816,8 +1904,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25808
 Filename: uhttpd_2022-08-12-e3395cd9-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26757
-SHA256sum: 0409b7207f648fa85682b54d319cc51afb6b37413b0feffa532a141406f0fa42
+Size: 26759
+SHA256sum: a61f89b946dfe2e51f733ab79266bc0db3f78ff4daebdf119d88cb00b6dcd708
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
