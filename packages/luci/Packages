@@ -54,10 +54,10 @@ Depends: libc, adblock, luci-lib-jsonc
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 9137
+Installed-Size: 9143
 Filename: luci-app-adblock_git-22.291.47802-79cbbc0_all.ipk
-Size: 10450
-SHA256sum: 080e3457c81e80482fb6449b98ee97de99128d949d5a161cc0ea274cb3ad3d15
+Size: 10466
+SHA256sum: ab282125b4339232ffe72f6ae836fd33419f256603370ade32a3ef9f980ba5b0
 Description:  LuCI support for Adblock
 
 Package: luci-app-advanced-reboot
@@ -77,10 +77,10 @@ Version: git-22.285.67526-18bfcca
 Depends: libc, luci-base, attendedsysupgrade-common, cgi-io
 Section: luci
 Architecture: all
-Installed-Size: 4269
+Installed-Size: 4264
 Filename: luci-app-attendedsysupgrade_git-22.285.67526-18bfcca_all.ipk
-Size: 5393
-SHA256sum: d7a085da3a8f34279e331cea0fdde0276b05faf1597c4db88d4ba58215c81409
+Size: 5388
+SHA256sum: 8ccb18a161d92db5b70726093026c15b9fc3855f14cf2ecc1014c902cd104c73
 Description:  LuCI support for attended sysupgrades
 
 Package: luci-app-bcp38
@@ -96,15 +96,15 @@ SHA256sum: 47930213758bcc84a18288f3487e6dcd9cf6c26c2b1f93e7bc98c8efd1b44afc
 Description:  BCP38 LuCI interface
 
 Package: luci-app-commands
-Version: git-22.297.83018-dd1c538
-Depends: libc, luci-compat
+Version: git-22.299.76611-9d8feac
+Depends: libc
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5011
-Filename: luci-app-commands_git-22.297.83018-dd1c538_all.ipk
-Size: 6241
-SHA256sum: be45c4a2129625dc4cb8943983982845de623cd72ce5a71c8f17a9db4cf4b02d
+Installed-Size: 5013
+Filename: luci-app-commands_git-22.299.76611-9d8feac_all.ipk
+Size: 6242
+SHA256sum: 636f77c0216b4364fface0da2af8bdc6517cc2ffddea7461cc75f76706f47460
 Description:  LuCI Shell Command Module
 
 Package: luci-app-ddns
@@ -113,10 +113,10 @@ Depends: libc, luci-mod-admin-full, luci-lua-runtime, ddns-scripts
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 12530
+Installed-Size: 12529
 Filename: luci-app-ddns_git-22.297.83017-036424d_all.ipk
-Size: 13849
-SHA256sum: d79e3c6bfcfee3945e0502661fd0e19377ec44e1481359d8d90d5810057e1296
+Size: 13847
+SHA256sum: bfa52585c485da22bf76a74947dcc99131f8e8094fd63f71469d9a27ca0c58a9
 Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
 
 Package: luci-app-dnscrypt-proxy
@@ -138,8 +138,8 @@ Section: luci
 Architecture: all
 Installed-Size: 14233
 Filename: luci-app-firewall_git-22.089.67453-0eb3aeb_all.ipk
-Size: 15551
-SHA256sum: f42c589c1d8f5ed2517738ee0604672dac63a6cc6938fd8e53843216b1a53f9b
+Size: 15558
+SHA256sum: afdfcffe7c0f41db3d78956177d597c1501bc1f1e5cdb3fe1554a7ba6bcdd5f9
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-ksmbd
@@ -166,15 +166,15 @@ SHA256sum: 69b9662362cbc1053fe9ffcf5a70862b6e4d638bb2658ef639b7eb4c2f1b7686
 Description:  LuCI support for the MWAN3 MultiWAN Manager
 
 Package: luci-app-openvpn
-Version: git-22.078.84282-64b80b8
+Version: git-22.300.40781-af5b5fb
 Depends: libc, luci-compat, luci-lua-runtime
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 10725
-Filename: luci-app-openvpn_git-22.078.84282-64b80b8_all.ipk
-Size: 12184
-SHA256sum: dcea349f50dff0769afae1e8fee621cd87863ec9081025cd8dfa12ca26307e7d
+Installed-Size: 10753
+Filename: luci-app-openvpn_git-22.300.40781-af5b5fb_all.ipk
+Size: 12221
+SHA256sum: 98c610b9c64fa63c99226c70be76d0933de43df07b25f33326b7703f6ffe435f
 Description:  LuCI Support for OpenVPN
 
 Package: luci-app-opkg
@@ -336,15 +336,15 @@ SHA256sum: d56473beae612fdcdecf632d7d0a38f253caa8d2ceadcd8fff256c0650066d4c
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.298.39691-70e32f0
+Version: git-22.300.38193-2a5efb3
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 122346
-Filename: luci-base_git-22.298.39691-70e32f0_arm_cortex-a9_vfpv3-d16.ipk
-Size: 126895
-SHA256sum: 60e6a7a092dd3403bd38b1802c538e0a9b4fb1e0d3f6edb154869b115bb74630
+Installed-Size: 122627
+Filename: luci-base_git-22.300.38193-2a5efb3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 127158
+SHA256sum: 007b8b47d93b9bb94e0725f995bef802794edf7835fd9969ee4bb72899d95673
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -428,14 +428,14 @@ SHA256sum: cd66df31ca4e225b275ce0296fae1341327c5f1d80869eadc34ef63dac69e6e4
 Description:  NIXIO POSIX library
 
 Package: luci-lua-runtime
-Version: git-22.297.83017-94dd7fd
+Version: git-22.299.72136-a98e2ea
 Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24690
-Filename: luci-lua-runtime_git-22.297.83017-94dd7fd_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26588
-SHA256sum: bed3496abc873ed99024dd01bf5c80934eb673eea61e18e8293db6f304bdb848
+Installed-Size: 24688
+Filename: luci-lua-runtime_git-22.299.72136-a98e2ea_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26584
+SHA256sum: 72221a1521311912e4433509eafe78eb5973313fc3bbd036b3cd1f7f7f23c0f3
 Description:  LuCI Lua runtime libraries
 
 Package: luci-mod-admin-full
@@ -463,15 +463,15 @@ SHA256sum: e401c15c2d1935e87ab844b036e73fded2b44bc3cf57df50da4618cdd069437a
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
-Version: git-22.297.83017-b1ab4e5
+Version: git-22.300.31614-6f470e0
 Depends: libc, luci-base, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 49060
-Filename: luci-mod-network_git-22.297.83017-b1ab4e5_all.ipk
-Size: 50665
-SHA256sum: 989c66ff7bb6ea459386ef9f6324441c67a5fc082103f778661b0ab885d2e653
+Installed-Size: 49046
+Filename: luci-mod-network_git-22.300.31614-6f470e0_all.ipk
+Size: 50650
+SHA256sum: fd6ed22f1efd2a32600395b193eefc7064b3b17350f20648412c4ecc1fbc866b
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
@@ -615,6 +615,4 @@ Filename: ucode-mod-lua_1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 8977
 SHA256sum: e4288d1d8bf47cabd714cc5a03a60e2f6f83371ce7159cfe4a0d772b506476d1
 Description:  ucode to Lua bridge library
-
-
 
