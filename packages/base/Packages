@@ -37,8 +37,8 @@ Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262223
 Filename: busybox_1.35.0-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263279
-SHA256sum: 0faa427bed746dbc3433c2ffd02640511c6d5ecce81e8097adeafb54e8fd940c
+Size: 263285
+SHA256sum: b14eb8d6b54fc051958e9625c73508f0847a4e0b96e3bb7b438e51886cb6a5fe
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 206407
+Installed-Size: 206403
 Filename: dnsmasq-full_2.86-16_arm_cortex-a9_vfpv3-d16.ipk
-Size: 207689
-SHA256sum: d30a17bb6cff2823cc5beb2453abc7e0674588644b68b9acd3ffa5361e946b52
+Size: 207661
+SHA256sum: 1ce7ffcb746c2f9ccf8f6a8d6f1baf1557831b236058ffc2dbffc26822fccab0
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -132,10 +132,10 @@ Provides: uci-firewall
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 49810
+Installed-Size: 49811
 Filename: firewall_2022-02-17-4cd7d4f3-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 50934
-SHA256sum: 8ce4550d207cfbff26d686eced43070eb1222a3f02deb7c3bb5c7cd350c2057f
+Size: 50924
+SHA256sum: 02520248ea7556ada48fdb27a36f228ac2b9ff212e2c3cfe55fd4414694d9899
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fstrim
@@ -193,20 +193,20 @@ Description:  Internet-detector is a small daemon
 
 Package: ip-bridge
 Version: 6.0.0-1
-Depends: libc, libnl-tiny2022-05-23
+Depends: libc, libnl-tiny2022-11-01
 License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 42684
 Filename: ip-bridge_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 43662
-SHA256sum: 76c41e6b951ea3be05296f5f2f87c2a643a7d63eb87213d6f4c0763fc75b241a
+Size: 43660
+SHA256sum: 31a93d9a203c015fcdea4230fa6d3c6402fdd0955ea435713d3983812a4ce5bb
 Description:  Bridge configuration utility from iproute2
 
 Package: ip-full
 Version: 6.0.0-1
-Depends: libc, libnl-tiny2022-05-23, libbpf20220308
+Depends: libc, libnl-tiny2022-11-01, libbpf20220308
 Provides: ip
 Alternatives: 300:/sbin/ip:/usr/libexec/ip-full
 License: GPL-2.0
@@ -215,13 +215,13 @@ CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 288719
 Filename: ip-full_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 289565
-SHA256sum: d1071a2118e8be83f1692de96d01c26a440606de2e33f3beedf042237fd0593a
+Size: 289566
+SHA256sum: ed181397eec0f2c2b3ba28afcea8d4fa993e5a5c59a4cfa9f4dedbb107c21236
 Description:  Routing control utility (full)
 
 Package: ip-tiny
 Version: 6.0.0-1
-Depends: libc, libnl-tiny2022-05-23
+Depends: libc, libnl-tiny2022-11-01
 Provides: ip
 Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
 License: GPL-2.0
@@ -230,8 +230,8 @@ CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 190444
 Filename: ip-tiny_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 191332
-SHA256sum: 8b221eb558ba21160cc9629cd837c774958658e12361554751a6d820546bacb4
+Size: 191330
+SHA256sum: 61522d7056b32e53d085debb0752bb46f0cb902fa0d220ccc96ba19fefb72715
 Description:  Routing control utility (minimal)
 
 Package: ipset
@@ -248,26 +248,26 @@ Description:  IPset administration utility
 
 Package: iw
 Version: 5.19-1
-Depends: libc, libnl-tiny2022-05-23
+Depends: libc, libnl-tiny2022-11-01
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 55868
 Filename: iw_5.19-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 56616
-SHA256sum: 801871b6d451833200deac6548f8330f533bc1255499c74d153bf5c7a0642801
+Size: 56614
+SHA256sum: c0cb5b30cc6aecb743264c2ddf2979e3d98f98d69ccbd87d050cf892a3fa9b5a
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
-Version: 2022-10-14-0496c722-1
+Version: 2022-11-01-00aab871-1
 Depends: libc, libiwinfo20210430
 License: GPL-2.0
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7618
-Filename: iwinfo_2022-10-14-0496c722-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8524
-SHA256sum: 0bda8cc447e080dc5814c434245222253b769c20556e6aef113dc058f9debdac
+Installed-Size: 7623
+Filename: iwinfo_2022-11-01-00aab871-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8529
+SHA256sum: ddf174b2d6d53778d63f70c853f9f0d68b9cd765184dd30e906ccf577bbe82ed
 Description:  Command line frontend for the wireless information library.
 
 Package: jshn
@@ -394,10 +394,10 @@ Section: libs
 ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 40687
+Installed-Size: 40688
 Filename: libelf1_0.187-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41729
-SHA256sum: 954934731550ac6f54879323bb0a0806d5503c7c224e09accfe6dcc8565acfea
+Size: 41725
+SHA256sum: 674ba8356d36b5d4544fc10abcaf651ef52ac12c9949ca9daae5ccf5043db8f3
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -486,42 +486,42 @@ SHA256sum: 6b1e3203963c2efb7998b5e7146fc895996aee7552025d0e5f972593489056e0
 Description:  IPset administration utility
 
 Package: libiwinfo-data
-Version: 2022-10-14-0496c722-1
+Version: 2022-11-01-00aab871-1
 Depends: libc
 License: GPL-2.0
 Section: opt
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2128
-Filename: libiwinfo-data_2022-10-14-0496c722-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 2982
-SHA256sum: 77e8d51d6c88f7611e1c11ba2c96b2015b874221716f4a53e91dc2d9b9ad031c
+Installed-Size: 2127
+Filename: libiwinfo-data_2022-11-01-00aab871-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 2981
+SHA256sum: d31a024b83850663a056f0223749747f71c40cf16f0bba3faabbc5f05e7e7fdc
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
-Version: 2022-10-14-0496c722-1
+Version: 2022-11-01-00aab871-1
 Depends: libc, libiwinfo20210430, liblua5.1.5
 License: GPL-2.0
 Section: lang
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6561
-Filename: libiwinfo-lua_2022-10-14-0496c722-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7510
-SHA256sum: 89a2ced95e99c07212baddda032740f00bc7787bc845c6ed30d0b52e92b7444d
+Installed-Size: 6562
+Filename: libiwinfo-lua_2022-11-01-00aab871-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7507
+SHA256sum: 645ccb3ca4b12e2bd2ea3cbed036df47489bee7744dc4fc1003719ca70084c7e
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
 Package: libiwinfo20210430
-Version: 2022-10-14-0496c722-1
-Depends: libc, libnl-tiny2022-05-23, libuci20130104, libubus20220601, libiwinfo-data
+Version: 2022-11-01-00aab871-1
+Depends: libc, libnl-tiny2022-11-01, libuci20130104, libubus20220601, libiwinfo-data
 Provides: libiwinfo
 License: GPL-2.0
 Section: libs
 ABIVersion: 20210430
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24408
-Filename: libiwinfo20210430_2022-10-14-0496c722-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 25306
-SHA256sum: 17d15d1d7ced98e7ae352200033bd71644cd6a6f9a6affe7fcc8a37280c5983b
+Installed-Size: 24440
+Filename: libiwinfo20210430_2022-11-01-00aab871-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 25376
+SHA256sum: 92d74ccd0e7edc207febac93bf18dd838ea7f2f2e5f2e187c4138520c1184423
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -764,18 +764,18 @@ Size: 168920
 SHA256sum: 2a3a28ab3b31c6f42e058f216b9546dafa2f4662f2270eeff644c69bfe5bddb5
 Description:  Routing Netlink Library Functions
 
-Package: libnl-tiny2022-05-23
-Version: 2022-05-23-28c44ca9-1
+Package: libnl-tiny2022-11-01
+Version: 2022-11-01-db3b2cdb-1
 Depends: libc
 Provides: libnl-tiny
 License: LGPL-2.1
 Section: libs
-ABIVersion: 2022-05-23
+ABIVersion: 2022-11-01
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 13013
-Filename: libnl-tiny2022-05-23_2022-05-23-28c44ca9-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13887
-SHA256sum: 5e2791c4d91007683d32494c6fdd2e3c6336d795aa90d21e09915f24ee38e8ab
+Installed-Size: 13024
+Filename: libnl-tiny2022-11-01_2022-11-01-db3b2cdb-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13901
+SHA256sum: a21961e3853007cf1819a3856c2a2b4426ef4b7cea804671714dd5c21a4c8e19
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
@@ -821,10 +821,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1222478
+Installed-Size: 1222480
 Filename: libopenssl1.1_1.1.1q-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1213321
-SHA256sum: fc968b1b98d1f519530f381febee0d2d31f14224689409479cd3b999bed8b48a
+Size: 1213326
+SHA256sum: c42e6a9909bf21bbe9baeebc79321dd8fe1c098b3e642901fc90e54ff848f5f5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1161,8 +1161,8 @@ Section: luci
 Architecture: all
 Installed-Size: 23429
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25062
-SHA256sum: b97deedfdac0a50a6184108c842021c020fdc35c10b18734e3161a3e65aad888
+Size: 25058
+SHA256sum: 45130fe682b5625b945347ca01bdd0634aae5af95ada2aee30eb5ab5d1589fc5
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1253,10 +1253,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1647
+Installed-Size: 1645
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2987
-SHA256sum: 201f4e24f6bbabbf41b44628b5b6a1876273f72332e88a5cd043a399f7609cd1
+Size: 2986
+SHA256sum: 8203a003236feaf3c3d5cab1cd5a98da2dfa5ebd48c32ea275ecee8a5836a9f2
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1299,10 +1299,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 2082
+Installed-Size: 2080
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3136
-SHA256sum: 90c401d80edf46c215d6eb82142e12a35a97edd1e38e588de47cfb65a69c709f
+Size: 3130
+SHA256sum: e9f4f2c9a7f571f09ba882554a5b122d08076c6f41da7e32003071b0a2a58fa9
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1390,10 +1390,10 @@ Depends: libc, iptables, libip4tc2, libuuid1
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 58866
+Installed-Size: 58867
 Filename: miniupnpd_2.0.20170421-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60119
-SHA256sum: 3c89f76a3b9ef5f96a3cab1ee866fbedf5667ce59dcfb82046eb05551b86bb00
+Size: 60121
+SHA256sum: daf30fb6660cc9e354ca815c2cb72167d3825591165652fc4f05d75508717c01
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1436,14 +1436,14 @@ Description:  Marvell 8887/8997 firmware
 
 Package: netifd
 Version: 2022-08-25-76d2d41b-1
-Depends: libc, libuci20130104, libnl-tiny2022-05-23, libubus20220601, ubus, ubusd, jshn, libubox20220927
+Depends: libc, libuci20130104, libnl-tiny2022-11-01, libubus20220601, ubus, ubusd, jshn, libubox20220927
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 94828
 Filename: netifd_2022-08-25-76d2d41b-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 96422
-SHA256sum: 9524da886aadc765d2ebdc23d14f8382b5d2f0d24d9f5f5b30aafc082f452ddb
+Size: 96421
+SHA256sum: 624ae2d208a5bfe08f27f116b2b1acff09168ca2cd71d9017ec30bb8f0a7bb7b
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: odhcp6c
@@ -1460,14 +1460,14 @@ Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
 Version: 2022-10-31-a92c0a73-1
-Depends: libc, libubox20220927, libuci20130104, libubus20220601, libnl-tiny2022-05-23
+Depends: libc, libubox20220927, libuci20130104, libubus20220601, libnl-tiny2022-11-01
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 35793
 Filename: odhcpd-ipv6only_2022-10-31-a92c0a73-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37098
-SHA256sum: f2c41619c22e100577a355f324a2d9816fe88d62d58788edb99d0ebdf197a258
+Size: 37092
+SHA256sum: 1e19528c2e12feab39ee445bda60e78e58ad2d50796fb72c16f32598c0d6f8ae
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -1530,10 +1530,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598842
+Installed-Size: 598841
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 598954
-SHA256sum: f7772256ce2fdde0664123741d176e289232f6e154c946fac3681c4c22252f73
+Size: 599062
+SHA256sum: fd3e7cfd0207c9df5ec09ea99691813217f10370eb92ce04c0e2f6d46b51f251
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1889,10 +1889,10 @@ Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220927
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7384
+Installed-Size: 7382
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8424
-SHA256sum: fb6fe41713fad7d3794bc460bfa52e30db891f2a4d2802e2712ef381d21b00c0
+Size: 8421
+SHA256sum: 30bd18763ba5bdf81c56868dfddfa832608891b623c7145612c4a753233ba738
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1902,10 +1902,10 @@ Depends: libc, libubox20220927, libblobmsg-json20220927, libjson-script20220927,
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25806
+Installed-Size: 25809
 Filename: uhttpd_2022-08-12-e3395cd9-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26750
-SHA256sum: 7fc55c45ab109102b1c591b10f5414b038dc003968d97b4aca06c06a53ebd8c9
+Size: 26752
+SHA256sum: 49e299e70c4e95bdecd625ccf7ab37098e3a1178c5636a3a11a0014fc7d1146f
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -1989,7 +1989,7 @@ Description:  Wireless Regulatory Database
 
 Package: wpad-openssl
 Version: 2022-07-29-b704dc72-5.1
-Depends: hostapd-common (=2022-07-29-b704dc72-5.1), libc, libnl-tiny2022-05-23, hostapd-common, libubus20220601, libopenssl1.1
+Depends: hostapd-common (=2022-07-29-b704dc72-5.1), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-mini
 Provides: hostapd, wpa-supplicant
 License: BSD-3-Clause
@@ -1998,8 +1998,8 @@ CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 790396
 Filename: wpad-openssl_2022-07-29-b704dc72-5.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 790393
-SHA256sum: 376c6bed6c83db0763b7fa7ea039088c37542d09ab626a535bdbccdd7efe0b39
+Size: 790395
+SHA256sum: 5200928da24367b87d14f293324616ee504cd3e8b7c102ad28506d3f27a9f7ba
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
