@@ -347,15 +347,15 @@ SHA256sum: d56473beae612fdcdecf632d7d0a38f253caa8d2ceadcd8fff256c0650066d4c
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.304.65050-da41c11
+Version: git-22.306.33665-815028e
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 122572
-Filename: luci-base_git-22.304.65050-da41c11_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127112
-SHA256sum: c185509f50cf64e29c64e818146cc677a8771b0ca5884eae71b4823238dd4650
+Installed-Size: 122691
+Filename: luci-base_git-22.306.33665-815028e_arm_cortex-a9_vfpv3-d16.ipk
+Size: 127219
+SHA256sum: 21afb2807565d98ec1f6ed06e5a9e4fd00035f9caafa89ef80cc30d60fcd4105
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -405,14 +405,14 @@ Description:  HTTP protocol utility functions
 
 Package: luci-lib-ip
 Version: git-20.250.76529-62505bd
-Depends: libc, liblua5.1.5, libnl-tiny2022-05-23
+Depends: libc, liblua5.1.5, libnl-tiny2022-11-01
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 10814
 Filename: luci-lib-ip_git-20.250.76529-62505bd_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11805
-SHA256sum: f1ee2fd97bddfee9affe3138ed6d89c8fbbf4746d4a45f22e0d3f6c1026253b8
+Size: 11804
+SHA256sum: 2ac5a984fee224403f2dd95b585e0b3359cf4b7303f7084cf3fdc6e21fdf6a4f
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-ipkg
@@ -592,14 +592,14 @@ Description:  Standard OpenWrt set including full admin with ppp support and the
 
 Package: rpcd-mod-luci
 Version: 20210614
-Depends: libc, rpcd, libubox20220927, libubus20220601, libnl-tiny2022-05-23
+Depends: libc, rpcd, libubox20220927, libubus20220601, libnl-tiny2022-11-01
 License: Apache-2.0
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 12578
 Filename: rpcd-mod-luci_20210614_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13521
-SHA256sum: 39efd2dd119160ef35fbe303726660c80e51410edc76108306f4c34f30006f49
+Size: 13520
+SHA256sum: f84fec9da1814e24b68a052a0c8d9f7b9a48dbc58eab69c978f1814adfefc4a4
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
