@@ -184,13 +184,13 @@ Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1667380905
+SourceDateEpoch: 1667566483
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 14234
+Installed-Size: 14233
 Filename: luci-app-firewall_git-22.089.67453-0eb3aeb_all.ipk
-Size: 15554
-SHA256sum: 26f90007f751e2d8c489fd6c2e639894b8fc49f38a80cc78f0da59a73f4cf9f4
+Size: 15550
+SHA256sum: 7db94d38ca429176c3a58ba0ec843ffc01c69968c7316ed9e62e13b6868ea998
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-ksmbd
@@ -215,13 +215,13 @@ Source: feeds/luci/applications/luci-app-mwan3
 SourceName: luci-app-mwan3
 License: GPLv2
 Section: luci
-SourceDateEpoch: 1667380905
+SourceDateEpoch: 1667566483
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 8555
 Filename: luci-app-mwan3_git-22.181.29827-675a0ea_all.ipk
-Size: 10334
-SHA256sum: 65435c55c2ce86c67a5369096cc0e7d98b0476c8e394aac1eaf445aeea9fd850
+Size: 10335
+SHA256sum: eee0c84df861b3d4f9df2128cf8e99c37ae90d9f52a66623fa91672a111964b7
 Description:  LuCI support for the MWAN3 MultiWAN Manager
 
 Package: luci-app-openvpn
@@ -293,13 +293,13 @@ Source: feeds/luci/applications/luci-app-smartdns
 SourceName: luci-app-smartdns
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1667380905
+SourceDateEpoch: 1667566483
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4095
+Installed-Size: 4091
 Filename: luci-app-smartdns_1.2022.38_all.ipk
-Size: 5147
-SHA256sum: dd1d19bbe89f4dbb276a728807bc4cca6d6cf2b420d82d69305e26a1b96e70ec
+Size: 5145
+SHA256sum: 456faa098687e6bb324e84a85a0c8e60d3e09941329fb2d0531dba8291f7b519
 Description:  Provides Luci for smartdns
 
 Package: luci-app-sqm
@@ -323,13 +323,13 @@ Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod
 Source: feeds/luci/applications/luci-app-statistics
 SourceName: luci-app-statistics
 Section: luci
-SourceDateEpoch: 1666652617
+SourceDateEpoch: 1667566483
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 31022
+Installed-Size: 31017
 Filename: luci-app-statistics_git-22.297.83017-984a9a4_all.ipk
-Size: 37632
-SHA256sum: 4f7d0e6f1fdf805e621ac0aad0f696e7da419d64410c01f80776f5a5ed1aaae6
+Size: 37599
+SHA256sum: 024d823bdcad585e29a1e941e044ad92fb82ae975ef50e5f8448b0ef0de1ad39
 Description:  LuCI Statistics Application
 
 Package: luci-app-ttyd
@@ -369,13 +369,13 @@ Depends: libc, luci-compat, unbound-daemon, luci-lua-runtime
 Source: feeds/luci/applications/luci-app-unbound
 SourceName: luci-app-unbound
 Section: luci
-SourceDateEpoch: 1666034680
+SourceDateEpoch: 1667566483
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7321
+Installed-Size: 7318
 Filename: luci-app-unbound_git-21.303.32118-fce70a0_all.ipk
-Size: 8903
-SHA256sum: af4e114b94baddf670b03426d4c2d64d93ae326c8bc593ee58e7fda03c0f5fbd
+Size: 8900
+SHA256sum: 974f666e7f49f9e2a5e97d3aa858a3f135677f2fe8894c6cbf57838430ad271f
 Description:  Unbound Recursive DNS Resolver Configuration
 
 Package: luci-app-vpn-policy-routing
@@ -461,13 +461,13 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1667471272
+SourceDateEpoch: 1667567057
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 122755
+Installed-Size: 122756
 Filename: luci-base_git-22.307.37672-0dd0114_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127306
-SHA256sum: 713700aa96e6ccddb571b66fad7505143ccd3dae1fb379cf0e276b2d5eaa3de0
+Size: 127297
+SHA256sum: 74a5e7311cc350684fffcdc655df0cee01bff235308448d9bf28cecab795252a
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -486,18 +486,18 @@ SHA256sum: 23eedfaa6bfbdfd08d0727458342b3a74e409baf72b69a478d2dfdf27321189a
 Description:  LuCI compatibility libraries
 
 Package: luci-lib-base
-Version: git-22.297.83017-cea2c35
+Version: git-22.308.54612-9118452
 Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
 Source: feeds/luci/libs/luci-lib-base
 SourceName: luci-lib-base
 Section: luci
-SourceDateEpoch: 1666652617
+SourceDateEpoch: 1667574612
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4967
-Filename: luci-lib-base_git-22.297.83017-cea2c35_all.ipk
-Size: 6080
-SHA256sum: f2da13304b321a00ed72a46eddd373cdd36133cdbafd99369252666421d08745
+Installed-Size: 4964
+Filename: luci-lib-base_git-22.308.54612-9118452_all.ipk
+Size: 6083
+SHA256sum: 00a7bf9a19c657daf4fe8a842995fd055a2951ce0b6ec586f6a33790788554f6
 Description:  basic libraries for luci
 
 Package: luci-lib-docker
@@ -616,13 +616,13 @@ Source: feeds/luci/modules/luci-mod-dashboard
 SourceName: luci-mod-dashboard
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1665334072
+SourceDateEpoch: 1667566483
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6672
+Installed-Size: 6673
 Filename: luci-mod-dashboard_git-22.210.50464-e96c1f3_all.ipk
-Size: 8265
-SHA256sum: e401c15c2d1935e87ab844b036e73fded2b44bc3cf57df50da4618cdd069437a
+Size: 8275
+SHA256sum: f9e2e5971d5d1f2f2d7aea93d264766bde3922534394412a8e9e44b51043039e
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
