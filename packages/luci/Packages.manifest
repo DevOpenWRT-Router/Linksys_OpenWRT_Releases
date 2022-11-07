@@ -90,13 +90,13 @@ Source: feeds/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1659339269
+SourceDateEpoch: 1667811837
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6905
+Installed-Size: 6903
 Filename: luci-app-advanced-reboot_1.0.1-3_all.ipk
-Size: 9312
-SHA256sum: e55526608c7125f8ee2400355801d3570609dda4b8f262deb427154d5167bdc4
+Size: 9306
+SHA256sum: 92ce8047f0deeed5143f9f7b1d968d3955319690c2bf7d7b399c66716a69d9db
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.net/luci-app-advanced-reboot/
 
 Package: luci-app-attendedsysupgrade
@@ -461,13 +461,13 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1667667567
+SourceDateEpoch: 1667824918
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 122757
+Installed-Size: 122766
 Filename: luci-base_git-22.307.37672-0dd0114_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127308
-SHA256sum: 69a37fce4530b8d09ffcb2968bf176caa0e1abae366bca0fbcd6b346c63fcecc
+Size: 127274
+SHA256sum: b7edfcf3546f28bff93858e0cfb330bde50df5090ebf96dd522f8eceb89e07b6
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -626,19 +626,19 @@ SHA256sum: 3a09deebf0576193a533374fc9c7558ac59e646b90cb222deadef1ced21f2bff
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
-Version: git-22.301.32567-1d157d3
+Version: git-22.311.45624-5f2d305
 Depends: libc, luci-base, rpcd-mod-iwinfo
 Source: feeds/luci/modules/luci-mod-network
 SourceName: luci-mod-network
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1666947767
+SourceDateEpoch: 1667824824
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 49491
-Filename: luci-mod-network_git-22.301.32567-1d157d3_all.ipk
-Size: 51108
-SHA256sum: 2a780400e57a40e1f9ed8899e243e2070cd7a8cd60c6ab64a263a795d9a26958
+Installed-Size: 49589
+Filename: luci-mod-network_git-22.311.45624-5f2d305_all.ipk
+Size: 51212
+SHA256sum: c3a2b3692ec8dbfe4abee31f2b5ac42bed9599355757983e034a6bf8da3d6309
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
