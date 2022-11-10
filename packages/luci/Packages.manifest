@@ -194,18 +194,18 @@ SHA256sum: 7db94d38ca429176c3a58ba0ec843ffc01c69968c7316ed9e62e13b6868ea998
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-ksmbd
-Version: git-21.224.17289-a624647
+Version: git-22.313.71289-f6e2c72
 Depends: libc, ksmbd-server
 Source: feeds/luci/applications/luci-app-ksmbd
 SourceName: luci-app-ksmbd
 Section: luci
-SourceDateEpoch: 1667380905
+SourceDateEpoch: 1668023289
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1930
-Filename: luci-app-ksmbd_git-21.224.17289-a624647_all.ipk
-Size: 3004
-SHA256sum: b51cf65db73d0b6c35efbaaf92c5121812227c05b527f02e5614e4c619b4d4f8
+Filename: luci-app-ksmbd_git-22.313.71289-f6e2c72_all.ipk
+Size: 3002
+SHA256sum: 7205bf3ee7bfa7fb555dfeffa94b0efd3c16c967b3308386860950383f8e3b6e
 Description:  Network Shares - Ksmbd the SMB kernel fileserver
 
 Package: luci-app-mwan3
@@ -455,19 +455,19 @@ SHA256sum: d56473beae612fdcdecf632d7d0a38f253caa8d2ceadcd8fff256c0650066d4c
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.307.37672-0dd0114
+Version: git-22.313.70220-bdfdd95
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1667824918
+SourceDateEpoch: 1668022906
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 122766
-Filename: luci-base_git-22.307.37672-0dd0114_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127274
-SHA256sum: b7edfcf3546f28bff93858e0cfb330bde50df5090ebf96dd522f8eceb89e07b6
+Installed-Size: 122771
+Filename: luci-base_git-22.313.70220-bdfdd95_arm_cortex-a9_vfpv3-d16.ipk
+Size: 127292
+SHA256sum: 85f3c0e3e9dd04efd46bd33d435e06619480bd0cfe19eec14d74da1601408ba9
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -579,18 +579,18 @@ SHA256sum: cd66df31ca4e225b275ce0296fae1341327c5f1d80869eadc34ef63dac69e6e4
 Description:  NIXIO POSIX library
 
 Package: luci-lua-runtime
-Version: git-22.312.55390-37468c9
+Version: git-22.313.70674-fd7427c
 Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
 Source: feeds/luci/modules/luci-lua-runtime
 SourceName: luci-lua-runtime
 Section: luci
-SourceDateEpoch: 1667920990
+SourceDateEpoch: 1668022674
 Maintainer: OpenWrt LuCI community
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24701
-Filename: luci-lua-runtime_git-22.312.55390-37468c9_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26607
-SHA256sum: 812f730c026912d5781d59c97b51a656f69a797c38532776d24114746b14d506
+Installed-Size: 24695
+Filename: luci-lua-runtime_git-22.313.70674-fd7427c_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26592
+SHA256sum: 55e3732ae39a0ca08b1ab35b5260ab0d5d29956d7d5b86304f33da75b498b089
 Description:  LuCI Lua runtime libraries
 
 Package: luci-mod-admin-full
@@ -616,13 +616,13 @@ Source: feeds/luci/modules/luci-mod-dashboard
 SourceName: luci-mod-dashboard
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1667667567
+SourceDateEpoch: 1667998437
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6673
+Installed-Size: 6672
 Filename: luci-mod-dashboard_git-22.210.50464-e96c1f3_all.ipk
-Size: 8264
-SHA256sum: 3a09deebf0576193a533374fc9c7558ac59e646b90cb222deadef1ced21f2bff
+Size: 8270
+SHA256sum: 8dc4677271b046c7b6f39385f631304dd68f16933a81edd7809b3ed3e702db09
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
@@ -706,18 +706,18 @@ SHA256sum: 86aa340b68854c82fa6c4e26839c049f789cef2a4ab8bd9f3e5a5d5ac73d32f3
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-wireguard
-Version: git-22.297.83017-008fa18
+Version: git-22.313.72056-73aca68
 Depends: libc, wireguard-tools, ucode
 Source: feeds/luci/protocols/luci-proto-wireguard
 SourceName: luci-proto-wireguard
 Section: luci
-SourceDateEpoch: 1666652617
+SourceDateEpoch: 1668024056
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9079
-Filename: luci-proto-wireguard_git-22.297.83017-008fa18_all.ipk
-Size: 10177
-SHA256sum: de8e2d6aa4206037795a60bdf7f968e6784aa10649ce14d1db6ad5ebd861320d
+Installed-Size: 9203
+Filename: luci-proto-wireguard_git-22.313.72056-73aca68_all.ipk
+Size: 10293
+SHA256sum: 2226c0d0c344fb2638774013283bf20c3c6c6b620f41e5e0f681e2265395add5
 Description:  Support for WireGuard VPN
 
 Package: luci-ssl-openssl
