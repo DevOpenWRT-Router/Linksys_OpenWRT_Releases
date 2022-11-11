@@ -35,10 +35,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 262228
+Installed-Size: 262227
 Filename: busybox_1.35.0-5_arm_cortex-a9_vfpv3-d16.ipk
 Size: 263402
-SHA256sum: 2d6592d98b41ceeb44c6d53f2e707314b6f2fdf2e3678a6c674021d9ace354f7
+SHA256sum: f9769e601be957ff185295fc3c66e4f57a4a391fd6565fc73626b96c58f75888
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 213089
+Installed-Size: 213088
 Filename: dnsmasq-full_2.87-5_arm_cortex-a9_vfpv3-d16.ipk
-Size: 214459
-SHA256sum: 6ccac702b1c94187d21372945a75b9b68d7bffbace7a08fff08daac4209f39cd
+Size: 214465
+SHA256sum: 86cc34e13ce6d71bff467f2562cdacd17a238f43c12cd7127e05533f8703cf7a
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -425,8 +425,8 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 40702
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41728
-SHA256sum: aa97a174aa7104d6b1585be77e3c124602ffdad7e433e4983f67a273fd0282f3
+Size: 41732
+SHA256sum: 2af73f3b214f456d7b15c57356d70b6e258f6f3b70744346dd87a318e0436e77
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -852,8 +852,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 1223157
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1214102
-SHA256sum: 2368da9a1783f6952b60ab3a5fd533fe9f1b469c323c87e447008487f969edc6
+Size: 1214126
+SHA256sum: d6e222e57026fe31dfd6cb64b49d1264739001e747a5b04cdb59e72608f7aa64
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1235,10 +1235,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1646
+Installed-Size: 1648
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2989
-SHA256sum: 0b3e65408a80f511162ef44f2a5050270ba187674aae6784dd5201e65f35f93c
+Size: 2986
+SHA256sum: 965e1ee3595af16b0fb59af991084d062874e79db7bc5aa6c83a25485b470d87
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-ota
@@ -1270,10 +1270,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 2082
+Installed-Size: 2084
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3133
-SHA256sum: ab3344547ee1418126717496be612a11e967ff1a8a2a6688b52bd0aefd630cba
+Size: 3140
+SHA256sum: eeef362b28ad2b83d73b734a4a01125cfb64a46c49600c7a198e7f2b6c6d1c46
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1471,10 +1471,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598828
+Installed-Size: 598837
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599045
-SHA256sum: 6c043e57df10d78613d79f08f1bbc9dd7968134b25f38952393454721c71aa9b
+Size: 599114
+SHA256sum: 7176288727360575d58adc2efc50e99dee3cd6449f620dafd9dafbff41b2b260
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1505,40 +1505,40 @@ SHA256sum: aa68bbf144125d95e5f64ede71a106e024376b7d64e8174a2b4676b7f6f58d40
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
-Version: 2022-07-17-ef5d3e36-1
+Version: 2022-11-10-039b88f7-1
 Depends: libc, libubox20220927, libblobmsg-json20220927
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 14421
-Filename: procd-seccomp_2022-07-17-ef5d3e36-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 15272
-SHA256sum: feb4bbb8645d24021ceff410ee2c2415f2ead7f80061662e0b0d749732f42fea
+Filename: procd-seccomp_2022-11-10-039b88f7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 15229
+SHA256sum: cdba7a3facb5d1afe91f682d79ccb3f94028c7f2f3a4da23a64714d97553f548
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-ujail
-Version: 2022-07-17-ef5d3e36-1
+Version: 2022-11-10-039b88f7-1
 Depends: libc, libubox20220927, libubus20220601, libuci20130104, libblobmsg-json20220927
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 41495
-Filename: procd-ujail_2022-07-17-ef5d3e36-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 42261
-SHA256sum: a6c86109e5686830e7f3c2a965dda780129860f384e5df747ad979265e972f6e
+Installed-Size: 41510
+Filename: procd-ujail_2022-11-10-039b88f7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 42292
+SHA256sum: 7059e1a9248f3dad15e5706b9b6f7c90c02e346c87302c13ba8aed4ac5794cc5
 Description:  OpenWrt process jail helper
 
 Package: procd
-Version: 2022-07-17-ef5d3e36-1
+Version: 2022-11-10-039b88f7-1
 Depends: libc, ubusd, ubus, libjson-script20220927, ubox, libubox20220927, libubus20220601, libblobmsg-json20220927, libjson-c5, jshn
 Conflicts: procd-selinux
 License: GPL-2.0
 Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 51809
-Filename: procd_2022-07-17-ef5d3e36-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 53012
-SHA256sum: 9d54b1d18e7ee9234ab0d921f293f275d173ac3099184cbaa78de7026f36e60e
+Installed-Size: 51945
+Filename: procd_2022-11-10-039b88f7-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 53165
+SHA256sum: cb8522cfb8c22d7c7017aa9a6f80808d457037916995013804d764f08893021a
 Description:  OpenWrt system process manager
 
 Package: qos-scripts
@@ -1832,8 +1832,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 7385
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8428
-SHA256sum: 231e2e718fd6f360d11219897d2b5225b22b1673368b789360183723edb0cebd
+Size: 8423
+SHA256sum: beaa3c933017253b29c39e50b657beab5dbf31561a0243deed5fa8c9b5eb3dd1
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1845,8 +1845,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25655
 Filename: uhttpd_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26628
-SHA256sum: 81f3dfd32ca454d27eedd8474f40346c4311a16ed798038689b7de015afb9383
+Size: 26631
+SHA256sum: 80880383218bcc43d5d40f69c431dde61a5f19fea314bb82d0320f5ef3c58f9f
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
