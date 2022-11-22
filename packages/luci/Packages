@@ -147,10 +147,10 @@ Version: git-22.313.71289-f6e2c72
 Depends: libc, ksmbd-server
 Section: luci
 Architecture: all
-Installed-Size: 1930
+Installed-Size: 1931
 Filename: luci-app-ksmbd_git-22.313.71289-f6e2c72_all.ipk
-Size: 3002
-SHA256sum: 7205bf3ee7bfa7fb555dfeffa94b0efd3c16c967b3308386860950383f8e3b6e
+Size: 2998
+SHA256sum: ff77ab6597b91b6c2f061756d0f1af5a805d480b5d6e1789612bd4b8d7367d1f
 Description:  Network Shares - Ksmbd the SMB kernel fileserver
 
 Package: luci-app-mwan3
@@ -324,17 +324,6 @@ Size: 4103
 SHA256sum: f5f1b5501101aaf8705f33297f11e26c299d0288d5c5073ec205e5d38e56e423
 Description:  Turns WiFi on and off according to a schedule
 
-Package: luci-app-wireguard
-Version: git-22.278.48139-a53fc77
-Depends: libc, luci-proto-wireguard
-Section: luci
-Architecture: all
-Installed-Size: 2343
-Filename: luci-app-wireguard_git-22.278.48139-a53fc77_all.ipk
-Size: 3410
-SHA256sum: 897841ef3b371b9eee4815e07844e461f2f761076fc1a558324acdaef3dbafa8
-Description:  WireGuard Status
-
 Package: luci-app-wol
 Version: git-21.154.28269-c7b7b42
 Depends: libc, etherwake
@@ -347,15 +336,15 @@ SHA256sum: d56473beae612fdcdecf632d7d0a38f253caa8d2ceadcd8fff256c0650066d4c
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.325.41248-fa17c15
+Version: git-22.326.33006-90a2b1e
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 122834
-Filename: luci-base_git-22.325.41248-fa17c15_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127386
-SHA256sum: bc0c853b06eb177888cde479ea6f2bcb86a83a99eb2f6985d55480b132843783
+Installed-Size: 122966
+Filename: luci-base_git-22.326.33006-90a2b1e_arm_cortex-a9_vfpv3-d16.ipk
+Size: 127519
+SHA256sum: 540ccd8640ebb970a08f9ab7c583add8975a4d4336caf9d5768f39c219723512
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -545,14 +534,15 @@ SHA256sum: 86aa340b68854c82fa6c4e26839c049f789cef2a4ab8bd9f3e5a5d5ac73d32f3
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-wireguard
-Version: git-22.313.72056-73aca68
+Version: git-22.326.35796-6e6fce3
 Depends: libc, wireguard-tools, ucode
+Provides: luci-app-wireguard
 Section: luci
 Architecture: all
-Installed-Size: 9203
-Filename: luci-proto-wireguard_git-22.313.72056-73aca68_all.ipk
-Size: 10293
-SHA256sum: 2226c0d0c344fb2638774013283bf20c3c6c6b620f41e5e0f681e2265395add5
+Installed-Size: 10491
+Filename: luci-proto-wireguard_git-22.326.35796-6e6fce3_all.ipk
+Size: 11706
+SHA256sum: af8e822dc4ec7e9b4d481fae6298fa658ed31cf8707e90eb927efa5ffcc66542
 Description:  Support for WireGuard VPN
 
 Package: luci-ssl-openssl
