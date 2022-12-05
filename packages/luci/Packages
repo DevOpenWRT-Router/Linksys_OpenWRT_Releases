@@ -77,10 +77,10 @@ Version: git-22.285.67526-18bfcca
 Depends: libc, luci-base, attendedsysupgrade-common, cgi-io
 Section: luci
 Architecture: all
-Installed-Size: 4264
+Installed-Size: 4265
 Filename: luci-app-attendedsysupgrade_git-22.285.67526-18bfcca_all.ipk
-Size: 5390
-SHA256sum: 5fa4f59994dc7a4d6608cdcd689c8b20f004f74b8c23215c8377e95be683f569
+Size: 5396
+SHA256sum: 932a10d45705847d71a6a0584836166a26e9fccc201a500bca3b21827683bbc4
 Description:  LuCI support for attended sysupgrades
 
 Package: luci-app-bcp38
@@ -231,7 +231,7 @@ Architecture: all
 Installed-Size: 3394
 Filename: luci-app-sqm_git-21.164.25180-005c09a_all.ipk
 Size: 4564
-SHA256sum: 1abc6a59377856172d72b61d98057316a62b4fb73314f7e449c409f8f3f0eaf7
+SHA256sum: 85e05ed25c906b86038d5196b392faa443157886e0b0d7183749d760c99d2334
 Description:  Luci interface for the SQM scripts queue management package
 
 Package: luci-app-statistics
@@ -250,10 +250,10 @@ Version: git-21.281.64389-70f3ae5
 Depends: libc, ttyd
 Section: luci
 Architecture: all
-Installed-Size: 2019
+Installed-Size: 2018
 Filename: luci-app-ttyd_git-21.281.64389-70f3ae5_all.ipk
-Size: 3162
-SHA256sum: 828119bc7081102f74983b7d6d5db655b458ee8326cb1adb7993f9d70ba92baa
+Size: 3163
+SHA256sum: 856ee19644cfb4eb969ed3e147c3455039708e7300fdd8ffcdb5f8210d0188be
 Description:  ttyd - Command-line tool for sharing terminal over the web
 
 Package: luci-app-uhttpd
@@ -265,7 +265,7 @@ Architecture: all
 Installed-Size: 2857
 Filename: luci-app-uhttpd_git-22.029.54222-e3fbfe9_all.ipk
 Size: 3966
-SHA256sum: 72a268a0827b4075e874b32e18c24fef6eca538e403fd9af78e0af970ea9d41a
+SHA256sum: 303b852442338708f5686addceec7e57ff88e93610c35f2bd39c5c8a9a3d1d66
 Description:  uHTTPd Webserver Configuration
 
 Package: luci-app-unbound
@@ -278,18 +278,6 @@ Filename: luci-app-unbound_git-21.303.32118-fce70a0_all.ipk
 Size: 8904
 SHA256sum: dab6ffd3ef1a282f47412f06da922242203b57817404171e0b386c24b745e199
 Description:  Unbound Recursive DNS Resolver Configuration
-
-Package: luci-app-vpn-policy-routing
-Version: 0.3.4-8
-Depends: libc, luci-compat, luci-mod-admin-full, vpn-policy-routing, luci-lua-runtime
-License: GPL-3.0-or-later
-Section: luci
-Architecture: all
-Installed-Size: 7008
-Filename: luci-app-vpn-policy-routing_0.3.4-8_all.ipk
-Size: 8578
-SHA256sum: a84ddfbcc61438caad6d724e4324c2ed412e52c3385b374a75d451a01f8d0866
-Description:  Provides Web UI for vpn-policy-routing service.
 
 Package: luci-app-watchcat
 Version: git-22.156.04817-ae5677b
@@ -330,10 +318,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 123040
+Installed-Size: 123026
 Filename: luci-base_git-22.335.71443-5f14c47_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127567
-SHA256sum: 645b8e75bcc36396d431beed5ed02e5153c3bb333e761168a120927ab23e9a57
+Size: 127566
+SHA256sum: 1b2a4ac2cb5ddbab24a1e9079b8c184894176039fbef1c88e4242c9db769b1f4
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -445,10 +433,10 @@ Depends: libc, luci-base, libiwinfo20210430
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 6675
+Installed-Size: 6674
 Filename: luci-mod-dashboard_git-22.210.50464-e96c1f3_all.ipk
-Size: 8265
-SHA256sum: b540c74bc22285c1e595217ae9041d063e0cc9119ea3cf64e8d4516d7066d249
+Size: 8273
+SHA256sum: 1bb2784537b1232841617a1fdc1c7ec8257542960acb2cf5cf216f97a7453ced
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
@@ -512,15 +500,15 @@ SHA256sum: 79d6e5a91302292f397ff20d5d6552bebba8571a77c19ca7d2b561b524edafb7
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-wireguard
-Version: git-22.327.44442-22c51ac
+Version: git-22.339.34491-785792a
 Depends: libc, wireguard-tools, ucode
 Provides: luci-app-wireguard
 Section: luci
 Architecture: all
-Installed-Size: 10496
-Filename: luci-proto-wireguard_git-22.327.44442-22c51ac_all.ipk
-Size: 11709
-SHA256sum: 8335495a1dee1e8cb8547daab344cc1ba61c4cdbd99536b83b9cc975bba09b14
+Installed-Size: 10490
+Filename: luci-proto-wireguard_git-22.339.34491-785792a_all.ipk
+Size: 11706
+SHA256sum: 0fa1ef25c90d8a89a1a2613f2c1cc5aac4df60e7ab6d9408a7a4b31f84b8fffc
 Description:  Support for WireGuard VPN
 
 Package: luci-ssl-openssl
