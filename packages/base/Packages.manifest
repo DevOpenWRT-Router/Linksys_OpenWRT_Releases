@@ -51,8 +51,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262227
 Filename: busybox_1.35.0-5_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263396
-SHA256sum: 8944888acf6790344c6a028c5fa710e97716aa4af78c4b92e67f92e4b86c7298
+Size: 263390
+SHA256sum: f2692b5318d1cd957483cdbd761b0d849a92a636cb928427900bfd52fff35f8e
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -115,13 +115,13 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1670244150
+SourceDateEpoch: 1670330740
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 213184
+Installed-Size: 213185
 Filename: dnsmasq-full_2.87-7_arm_cortex-a9_vfpv3-d16.ipk
-Size: 214381
-SHA256sum: 2655e2d1d9405b95c5cb10a2f9665fa2576a77159c7fc63f2b80a67a57ef8334
+Size: 214397
+SHA256sum: 85e20577f634c6fb6bf2923e7210c767c83e9860160db0e7d6e0fff8338c718d
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -534,10 +534,10 @@ ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 40701
+Installed-Size: 40703
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41708
-SHA256sum: 764227d0864f901e07fd34beb0e03a5cada4ee1c71e9d793fe2543137ba8c39c
+Size: 41750
+SHA256sum: 4c1273d3bd58429d6c19428058f83e51371c8021699bd33dbf04a5b1373a0954
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -1072,10 +1072,10 @@ ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1223161
+Installed-Size: 1223164
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1213965
-SHA256sum: 2da4ab274ee19b35478216932db0b81188f7e1be1fc00f13d0759e052b85cfd4
+Size: 1214046
+SHA256sum: c1210a8cb121b9ca36772e440df5b012a92696c993d47bd5983fe2b56a6856f0
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1305,21 +1305,21 @@ SHA256sum: 17042bff29d39cb63cb3437baf4b1f8ae2548bfe3741b92836edf27eea7d7bb0
 Description:  HTTP/1.1 client library
 
 Package: libucode20220812
-Version: 2022-10-18-00af0650-1
+Version: 2022-12-02-46d93c9c-1
 Depends: libc, libjson-c5
 Provides: libucode
 Source: package/utils/ucode
 SourceName: libucode
 License: ISC
 Section: utils
-SourceDateEpoch: 1666084048
+SourceDateEpoch: 1670323386
 ABIVersion: 20220812
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 61730
-Filename: libucode20220812_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 62509
-SHA256sum: e694d2831e1c067b891e544b1fd5f620e597ae76da9b3516691005870dca7bff
+Installed-Size: 61785
+Filename: libucode20220812_2022-12-02-46d93c9c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62709
+SHA256sum: 706484a29e07c911af3ab6bd912bef7106f1237c488251f99e385c9d423a32f5
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libustream-openssl20201210
@@ -1507,13 +1507,13 @@ Source: package/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1670243983
+SourceDateEpoch: 1670330546
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
-Installed-Size: 23428
+Installed-Size: 23431
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25066
-SHA256sum: 9b34adba9cbd17450ea66d85d27f9192f0d1752ab45db5ac89f306c212f0cc24
+Size: 25069
+SHA256sum: a084e8d1032dffc029622b2eef04f45663b8484246ca8771c8927486102dd7d3
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1634,13 +1634,13 @@ Source: package/gSpotx2f/luci-app-multilog
 SourceName: luci-app-multilog
 License: MIT
 Section: luci
-SourceDateEpoch: 1670243983
+SourceDateEpoch: 1670330546
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1650
+Installed-Size: 1648
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2998
-SHA256sum: 703a6728d1045e7eb234e344c0f3e0e4bcd32beb75080b84532ffca282730be4
+Size: 2990
+SHA256sum: e7dc98c24be28ecddbb24e4806ff9559015ac0c6d185090f1831a24c01bccd65
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1696,13 +1696,13 @@ Source: package/gSpotx2f/luci-app-textarea
 SourceName: luci-app-textarea
 License: MIT
 Section: luci
-SourceDateEpoch: 1670243983
+SourceDateEpoch: 1670330546
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2083
+Installed-Size: 2081
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3133
-SHA256sum: e933a95f69c2efb7f01e496f2deb74a49bbf4a51a51409cfa0f3495bb479af1d
+Size: 3134
+SHA256sum: 9d6f4ec967376ee17d6cb8d8affb0d4f30115660dea56185f5c3bcff7083d10b
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1810,7 +1810,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 58828
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
 Size: 60105
-SHA256sum: 5aae9d9ebdc3371439e911b89a7ca70dac07cf1698fada19a72fc3198ce915de
+SHA256sum: 1cfef8b1d5501afc86d5ed85269262d744bac6ae4e70cc930dbcacd419653397
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -2003,12 +2003,12 @@ Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Source: package/parted
 SourceName: parted
 Section: utils
-SourceDateEpoch: 1670243983
+SourceDateEpoch: 1670330546
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598843
+Installed-Size: 598844
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599106
-SHA256sum: 7a48219fa099c0c7ae40750a2803bdc170c00e251c1d490d6109bbc0f2349aba
+Size: 599094
+SHA256sum: 228829877c0788ccd978d93ca78441b3d2fd4a9a813a4d993ea19e046adc2449
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -2387,84 +2387,84 @@ SHA256sum: 72abe8e4c3847e2cdc334d819bbd88bcb359df2da676fbac3eab00c3cc1461ac
 Description:  Tiny wget replacement using libuclient
 
 Package: ucode-mod-fs
-Version: 2022-10-18-00af0650-1
+Version: 2022-12-02-46d93c9c-1
 Depends: libc, ucode
 Source: package/utils/ucode
 SourceName: ucode-mod-fs
 License: ISC
 Section: utils
-SourceDateEpoch: 1666084048
+SourceDateEpoch: 1670323386
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8677
-Filename: ucode-mod-fs_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9546
-SHA256sum: f0c6fb3f6791b18ee9e36e055712b6262cd56eed637b7154f2a974cc25a6693b
+Installed-Size: 8786
+Filename: ucode-mod-fs_2022-12-02-46d93c9c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9601
+SHA256sum: 906b16c99356a873e559cc79f77b72d91dcfd530fab228fa0b3986968267288a
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-math
-Version: 2022-10-18-00af0650-1
+Version: 2022-12-02-46d93c9c-1
 Depends: libc, ucode
 Source: package/utils/ucode
 SourceName: ucode-mod-math
 License: ISC
 Section: utils
-SourceDateEpoch: 1666084048
+SourceDateEpoch: 1670323386
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2308
-Filename: ucode-mod-math_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3148
-SHA256sum: c85e810059ff31f05b603559ea78315cfcc091802ea127825ec09f6ce4f6979b
+Installed-Size: 2403
+Filename: ucode-mod-math_2022-12-02-46d93c9c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3250
+SHA256sum: 690b708b3411c844af2aa39c940c279b6d44f597b9b67a260b0d13eb9beccfc8
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-ubus
-Version: 2022-10-18-00af0650-1
+Version: 2022-12-02-46d93c9c-1
 Depends: libc, ucode, libubus20220601, libblobmsg-json20220927
 Source: package/utils/ucode
 SourceName: ucode-mod-ubus
 License: ISC
 Section: utils
-SourceDateEpoch: 1666084048
+SourceDateEpoch: 1670323386
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12186
-Filename: ucode-mod-ubus_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13088
-SHA256sum: 77768f5f360d1b96fea27189caa17a6fb28ca433bf2970fed6127fa242908e63
+Installed-Size: 12188
+Filename: ucode-mod-ubus_2022-12-02-46d93c9c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13095
+SHA256sum: 3dc08551ae2caab4a8fb64b6664d78ea287757b77e775503045f104acdf2bc89
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
  procedures.
 
 Package: ucode-mod-uci
-Version: 2022-10-18-00af0650-1
+Version: 2022-12-02-46d93c9c-1
 Depends: libc, ucode, libuci20130104
 Source: package/utils/ucode
 SourceName: ucode-mod-uci
 License: ISC
 Section: utils
-SourceDateEpoch: 1666084048
+SourceDateEpoch: 1670323386
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6277
-Filename: ucode-mod-uci_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7194
-SHA256sum: 0fd2c30a27c5694d2d7d55580f1aae0c27c38b1555805b81510a498ac43e7ba1
+Installed-Size: 6356
+Filename: ucode-mod-uci_2022-12-02-46d93c9c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7269
+SHA256sum: a5ab8593a22c651a98c9228052b69e81ab30e5f597882dfa6d05d35e5c322c3f
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode
-Version: 2022-10-18-00af0650-1
+Version: 2022-12-02-46d93c9c-1
 Depends: libc, libucode20220812
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: utils
-SourceDateEpoch: 1666084048
+SourceDateEpoch: 1670323386
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6150
-Filename: ucode_2022-10-18-00af0650-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7067
-SHA256sum: c4220d9b3afa4dfcf6d5f5f31e1c4796860b99297c3e39181f750356a958f46c
+Installed-Size: 6151
+Filename: ucode_2022-12-02-46d93c9c-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7066
+SHA256sum: e4bba84139613ecaf93643e9397eb6f36e6ab82cc67ecd672c5143ea13a18534
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -2475,13 +2475,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd-mod-ubus
 License: ISC
 Section: net
-SourceDateEpoch: 1670244149
+SourceDateEpoch: 1670330740
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7385
+Installed-Size: 7386
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8427
-SHA256sum: e924ebd1b914e819f6a405a2f4e154e73f725aebee36cb2c5f0f2cf896893d4f
+Size: 8424
+SHA256sum: 6d890b5789819cdc9fa10575c9a09d949478a0d60e6b2c0ea8dd588cfeb604e7
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2492,13 +2492,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1670244149
+SourceDateEpoch: 1670330740
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25655
 Filename: uhttpd_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
 Size: 26631
-SHA256sum: 847921db02f757d24fef7bd322b4749af8e5573e1df67362f3153dad3b067083
+SHA256sum: 51498dc90bf00e03ada1029ce48d22497001e5b0907e7709ce0aaaf28994030d
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
