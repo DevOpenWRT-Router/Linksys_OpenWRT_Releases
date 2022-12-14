@@ -113,10 +113,10 @@ Depends: libc, luci-mod-admin-full, luci-lua-runtime, ddns-scripts
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 12527
+Installed-Size: 12531
 Filename: luci-app-ddns_git-22.297.83017-036424d_all.ipk
-Size: 13842
-SHA256sum: 0648f442a47bed63369f3c4658724397c36f54da84395ae4102168f10be07bf3
+Size: 13849
+SHA256sum: 9e3247694446cce7a1d9fb6391b50ba3a862fe68a3f028c44f2123b2a32cdf44
 Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
 
 Package: luci-app-dnscrypt-proxy
@@ -147,10 +147,10 @@ Version: git-22.313.71289-f6e2c72
 Depends: libc, ksmbd-server
 Section: luci
 Architecture: all
-Installed-Size: 1931
+Installed-Size: 1929
 Filename: luci-app-ksmbd_git-22.313.71289-f6e2c72_all.ipk
-Size: 2999
-SHA256sum: 65b21448e117ea4c706d1ee28855e0affaa860e0eaa1680140f9c7a16b41c3b6
+Size: 2993
+SHA256sum: a4e65eb64c5c0a2fc24ddadd59cfc413e79a7d205a1695cd7cdaaf10e3221c71
 Description:  Network Shares - Ksmbd the SMB kernel fileserver
 
 Package: luci-app-mwan3
@@ -159,10 +159,10 @@ Depends: libc, mwan3
 License: GPLv2
 Section: luci
 Architecture: all
-Installed-Size: 8557
+Installed-Size: 8555
 Filename: luci-app-mwan3_git-22.181.29827-675a0ea_all.ipk
-Size: 10336
-SHA256sum: 34cf993b00d814b928ff639a4affdc3827c4f15f4054c93744673d5a273e453c
+Size: 10323
+SHA256sum: 8ab039824857597c7b465c90030e3b66483cab9b8018d6d6d25517757331bc07
 Description:  LuCI support for the MWAN3 MultiWAN Manager
 
 Package: luci-app-openvpn
@@ -207,8 +207,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2358
 Filename: luci-app-samba4_git-21.223.80587-f533f9d_all.ipk
-Size: 3437
-SHA256sum: 2062e26f1517e2b56af4505cf383a2ed920da7252ffde658bc4a846cf6430ddc
+Size: 3439
+SHA256sum: 74404b75dae72b3a4e17f9e493dbda70a80533bde31720587d5c516a0f0a7e14
 Description:  Network Shares - Samba 4 SMB/CIFS fileserver
 
 Package: luci-app-smartdns
@@ -239,10 +239,10 @@ Version: git-22.340.41867-4b49b45
 Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Section: luci
 Architecture: all
-Installed-Size: 31017
+Installed-Size: 31016
 Filename: luci-app-statistics_git-22.340.41867-4b49b45_all.ipk
-Size: 37592
-SHA256sum: 330e0ad509f6d7678c0a0db1b054f3ce0419340c0c9ea0c3b2cac0ec5cc39600
+Size: 37587
+SHA256sum: 0709fb42638bb437e1b917834f8378c211c28f5375b44ad4d51ff55601eda278
 Description:  LuCI Statistics Application
 
 Package: luci-app-ttyd
@@ -295,10 +295,10 @@ Version: git-22.156.04817-ae5677b
 Depends: libc, watchcat
 Section: luci
 Architecture: all
-Installed-Size: 2387
+Installed-Size: 2384
 Filename: luci-app-watchcat_git-22.156.04817-ae5677b_all.ipk
-Size: 3519
-SHA256sum: 0b988f498942360896c71085193b41b8fcac187367d44b9ca10b628cb8aa2c1b
+Size: 3515
+SHA256sum: adc279903196a65db5e38bd30b7b56e6c58a47fdc9e274870ba8688cbfc45d2f
 Description:  LuCI Support for Watchcat
 
 Package: luci-app-wifischedule
@@ -324,15 +324,15 @@ SHA256sum: 306a89b46ef245ebdfde6e01f85ec59582f4996349eed53b3dcd911e1c88c71e
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-base
-Version: git-22.335.71443-5f14c47
+Version: git-22.347.45170-440a2e7
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 123030
-Filename: luci-base_git-22.335.71443-5f14c47_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127552
-SHA256sum: b59870a2d065063d6d0da008634fd86611fb4b05bdb3a7262bd3d6d84d93ebca
+Installed-Size: 123033
+Filename: luci-base_git-22.347.45170-440a2e7_arm_cortex-a9_vfpv3-d16.ipk
+Size: 127558
+SHA256sum: 63e3c51cd22af8c375140de68b23cd4693070c35cd45761086ab66d6d3054a69
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -474,15 +474,15 @@ SHA256sum: ad06df3abdb77eb9bc900a2a2c8f2478b945b857f7588f7570a3d64a4d46c746
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
-Version: git-22.297.83017-97da0ba
+Version: git-22.347.82151-bad783a
 Depends: libc, luci-base, libiwinfo20210430, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 35237
-Filename: luci-mod-status_git-22.297.83017-97da0ba_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37692
-SHA256sum: 77f11e08c44b171f475774bbcd48a8901583b3b5a3d4cf591f7a2fd4dcd990c7
+Installed-Size: 35420
+Filename: luci-mod-status_git-22.347.82151-bad783a_arm_cortex-a9_vfpv3-d16.ipk
+Size: 37962
+SHA256sum: 00f0b78802ee8b44f5b3dd11fd93bacb4eb43df99238752e4518d9cf7fc8db68
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
