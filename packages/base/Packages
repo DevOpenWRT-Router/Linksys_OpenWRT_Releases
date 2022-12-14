@@ -38,7 +38,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262226
 Filename: busybox_1.35.0-5_arm_cortex-a9_vfpv3-d16.ipk
 Size: 263391
-SHA256sum: 1acc5b5a8e6d78c8e19dbe05f85d5aacaa2656d69a5d41cca173e01c4bf75fd0
+SHA256sum: 496412d7f43c211cda3ec6a83ada8577c076548d45c7ce4d7c06aae47c81553c
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -76,8 +76,8 @@ Section: base
 Architecture: all
 Installed-Size: 122716
 Filename: ca-certificates_20211016-1_all.ipk
-Size: 130013
-SHA256sum: b7c383144557689190ecd7c856045b426cd141558c52a365eddc60cdeb7d597e
+Size: 130027
+SHA256sum: 2e15dcd92d1f6d5d4582b3a6b1081c8696132b3a8ef9927b1cf10213a36fc7b2
 Description:  System CA certificates
 
 Package: dnsmasq-full
@@ -90,8 +90,8 @@ CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 213182
 Filename: dnsmasq-full_2.87-7_arm_cortex-a9_vfpv3-d16.ipk
-Size: 214511
-SHA256sum: bcffb0cf15fdfbb69eee92a90d633a5fc4666a374e566cdbea6340cbe827ee65
+Size: 214515
+SHA256sum: 74e55d05ed73f4c15b31bf80480a4148b8c9df6c9821fb9945090eb3d4d11b88
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -106,8 +106,8 @@ CPE-ID: cpe:/a:e2fsprogs_project:e2fsprogs
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 217259
 Filename: e2fsprogs_1.46.5-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 217936
-SHA256sum: cc14f4541bddc1bd91df7048e7dfdbf97a814d0e84da5687f0ea5285681b9d36
+Size: 217942
+SHA256sum: 95cb8aa0644c4913db30b9b0bb74589adea3e9f4929465d9e3a7b9fa403cbd5a
 Description:  This package contains essential ext2 filesystem utilities which consists of
  e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
 
@@ -134,8 +134,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 49811
 Filename: firewall_2022-02-17-4cd7d4f3-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 50922
-SHA256sum: 0885edb474aaaf1cecc4921f82bc48e30e03b9d8fb7dc6c7aff27a28cbc654db
+Size: 50924
+SHA256sum: 29cf8695c08b8eafaa82b88efb95c85f70c3980e45d9b4dbc2cd29bac783437d
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fstrim
@@ -166,16 +166,16 @@ SHA256sum: 4ea314de7d2541b5fd708fd2c52fd76c89405d84d297fbebbab50908d2a0d708
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
-Version: 2022-07-29-b704dc72-7.1
+Version: 2022-07-29-b704dc72-10.1
 Depends: libc
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12532
-Filename: hostapd-common_2022-07-29-b704dc72-7.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13700
-SHA256sum: 48fed326d08db7537519f833555125c438e18feee44c57cc430a3f1c472e9c17
+Installed-Size: 12527
+Filename: hostapd-common_2022-07-29-b704dc72-10.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13696
+SHA256sum: 2993ce8c96438ff29c37ac8f6e4d7cddcaea86ade1ce5b465367fa150ee77e25
 Description:  hostapd/wpa_supplicant common support files
 
 Package: internet-detector
@@ -185,8 +185,8 @@ Section: net
 Architecture: all
 Installed-Size: 8088
 Filename: internet-detector_0.6-0_all.ipk
-Size: 9573
-SHA256sum: 8ddbba901c01e8c16b1397734b6450da6ed36ffb045c29443f7bdfbd8047591e
+Size: 9575
+SHA256sum: 0b9d91e46f9358a623c764d65a0df3cfbb1e359c85b44a036ac30b4718a0bfd1
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the nixio library.
@@ -213,10 +213,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 288688
+Installed-Size: 288746
 Filename: ip-full_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 289491
-SHA256sum: 4083681a6f895d6444aa403b6a38f845eca2f9a4f7ddd838b6632a3dae2fa158
+Size: 289637
+SHA256sum: e2f59d586df244c0962b395358719cf1d8710d60c2f0c64a2de20c83fe2ff977
 Description:  Routing control utility (full)
 
 Package: ip-tiny
@@ -228,10 +228,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 190442
+Installed-Size: 190387
 Filename: ip-tiny_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 191264
-SHA256sum: f12a1ed16f3a7252bb6d84877828f92e64eeb47a08cda2c09fb69e6a7948d1c4
+Size: 191218
+SHA256sum: dacaadbfeaf528858ab8860d81a882de5f6d451074af9813bb5baa1523c6aa31
 Description:  Routing control utility (minimal)
 
 Package: ipset
@@ -293,8 +293,8 @@ Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 6369
 Filename: jshn_2022-09-27-ea560134-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7325
-SHA256sum: f3114082da464f06d57b5d8389e2a207d6d235a37b5e990657452953e73759ad
+Size: 7327
+SHA256sum: beaf812cb487bb62e92163d70243177e37bc7c9fe0120a1bcc5008a2a73d5cbd
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -411,8 +411,8 @@ CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 40702
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41736
-SHA256sum: cde80edc9024096269be3d8e3e526d5c7683ff9dc530b2cebf6c653c03fa4ef3
+Size: 41727
+SHA256sum: 19dfb668a1dd27a02fafa67cd4a08a0baae8f15b4f4b56aeeced812a70ed1254
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -663,8 +663,8 @@ CPE-ID: cpe:/a:gnu:ncurses
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 178570
 Filename: libncurses6_6.3-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 176935
-SHA256sum: 6a867e190d9b859e06f5c32068e6541915c30999796fdd5e27c06d3de14e0c9b
+Size: 176932
+SHA256sum: bc187a84aca74f7a42af2ccfb51221067422da7e9c59a77da8ab62ad84c68274
 Description:  Terminal handling library (Unicode)
 
 Package: libnetfilter-conntrack3
@@ -696,8 +696,8 @@ CPE-ID: cpe:/a:nettle_project:nettle
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 344659
 Filename: libnettle8_3.8.1-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 344801
-SHA256sum: 13ebd4126baa88414f9b92725f5607e34a6aa1ae0ab5abe6948b9c8b83ff4df2
+Size: 344800
+SHA256sum: 78fb23255821cf9f20c43d29b5444fa56a5cbc6861613afcc62d4d8677f24566
 Description:  GNU crypto library
 
 Package: libnfnetlink0
@@ -802,8 +802,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 4470
 Filename: libopenssl-conf_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 5680
-SHA256sum: 767bc156ed2e16d7c8db66ab98dac5ec33dbfb731adc0d96615f60b1431e34fb
+Size: 5679
+SHA256sum: 10eec8bd60a9ed964436f2f2b62ddbaba646ca19bee5fe35a35fab09765cd574
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -836,10 +836,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1223164
+Installed-Size: 1223161
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1214048
-SHA256sum: a61b9de098cc9b207ef5e7dd3565eb390943733ba23db07f23baddba059e1d1e
+Size: 1213954
+SHA256sum: 32510b95ffa1e5ad0f0b1285957a0cf1144c0064e285ca2d167ac2ca4ac07f63
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -847,17 +847,17 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: libpcap1
-Version: 1.10.1-4
+Version: 1.10.1-5
 Depends: libc
 Provides: libpcap
 License: BSD-3-Clause
 Section: libs
 ABIVersion: 1
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 99432
-Filename: libpcap1_1.10.1-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 100412
-SHA256sum: 53cd5836daac20cea6a6ab8951aeaade5f6e404c3c590f1dd958a5ec093efbd2
+Installed-Size: 100379
+Filename: libpcap1_1.10.1-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 101342
+SHA256sum: 7436e1517135ddd7170f068cf3158e58f067bf3e467311bff7f0609a32ecc866
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
@@ -870,8 +870,8 @@ CPE-ID: cpe:/a:pcre:pcre
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 158322
 Filename: libpcre_8.45-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 159311
-SHA256sum: 5a637b5dc034f688b9743b38a0e0eaf2ec6649e29bbbdc143e8f22eccbea33d4
+Size: 159310
+SHA256sum: aab81d9d9b24f6900bddf3c5e2bc7991c9cfab5dcabda7c66930dce48360a09b
 Description:  A Perl Compatible Regular Expression library
 
 Package: libpopt0
@@ -1090,8 +1090,8 @@ Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 10551
 Filename: logd_2022-08-13-4c7b720b-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11525
-SHA256sum: 1afde3292143103f29726ff354519febb100fb806ad784dc1c1aff9383166e48
+Size: 11523
+SHA256sum: d4e3458a50c16e32dc68fc3784521a522e836ec22172eef9b59ec53f266e3642
 Description:  OpenWrt system log implementation
 
 Package: lsblk
@@ -1124,24 +1124,24 @@ Description:  Lua is a powerful light-weight programming language designed for e
 
 Package: luci-app-argon-config
 Version: 0.9
-Depends: libc, luci-compat, luci-theme-argon, luci-lua-runtime
+Depends: libc, luci-compat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 3574
+Installed-Size: 3573
 Filename: luci-app-argon-config_0.9_all.ipk
-Size: 4922
-SHA256sum: d25046a970fa57047ba7a89a41827959ef555fb931caf2c8f00616bade13b4a1
+Size: 4911
+SHA256sum: 09b99212e853f280758fd2ad5f14e7e4211ff3a7f02aff6bba47539312fd1a2d
 Description:  LuCI page for Argon Config
 
 Package: luci-app-control-timewol
-Version: 1.0
-Depends: libc, etherwake, luci-lua-runtime
+Version: 2.2
+Depends: libc, wol, etherwake, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 2774
-Filename: luci-app-control-timewol_1.0_all.ipk
-Size: 4078
-SHA256sum: 033e4b0eb251fe80e0bac6d4ea26f7c8952f0a93dac4ae6df102ba492cc6021d
+Installed-Size: 2459
+Filename: luci-app-control-timewol_2.2_all.ipk
+Size: 3691
+SHA256sum: aeb903af0562c518321e7821156df31b702b017ef440ea1bfe5ed81b0da25175
 Description:  LuCI support for Timewol From Koolshare
 
 Package: luci-app-cpu-perf
@@ -1152,8 +1152,8 @@ Section: luci
 Architecture: all
 Installed-Size: 6496
 Filename: luci-app-cpu-perf_0.4-0_all.ipk
-Size: 7824
-SHA256sum: d8def8e3547cc213a6b1507e22fdd00a8d25e300cc44bac7f15dcb414fc96e70
+Size: 7818
+SHA256sum: 8bc4b4c1d2de6eb5a52ee549b735e543cc8f592ac9efbe861430939254fb56bb
 Description:  CPU performance information and management for LuCI
 
 Package: luci-app-cpu-status
@@ -1164,8 +1164,8 @@ Section: luci
 Architecture: all
 Installed-Size: 1426
 Filename: luci-app-cpu-status_0.4-1_all.ipk
-Size: 2438
-SHA256sum: 7c64f84b0a68f9be5bd94df5e23b7d4f274f1580c54bf6a13c947fc51833edae
+Size: 2437
+SHA256sum: 1f35ad57a324520d3bf0e9c8bfa30358486ead0c6af893369af52a11c93ef254
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-diskman
@@ -1174,10 +1174,10 @@ Depends: libc, e2fsprogs, parted, smartmontools, blkid, btrfs-progs, lsblk
 License: AGPL-3.0
 Section: luci
 Architecture: all
-Installed-Size: 23431
+Installed-Size: 23427
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25066
-SHA256sum: 8f7cbd99fda418593d6f169750761fb153786db4f56ae23d8554cef43566a6db
+Size: 25061
+SHA256sum: 52b37fd803db12ecf93b276ef57680195cf2ef7109ef9f56b546816fbd728142
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1189,7 +1189,7 @@ Architecture: all
 Installed-Size: 6609
 Filename: luci-app-disks-info_0.4-2_all.ipk
 Size: 7752
-SHA256sum: b0c1de3d673a418f59602ceb88c29efb1fb62373b96e5665ef2a9213179aa63d
+SHA256sum: 6fa786b20484b386fab53b5cade8d8b31094b0b6aab06f538cd5e85030b2a105
 Description:  Information about connected disk devices (partitions, filesystems, SMART).
 
 Package: luci-app-dnscrypt-proxy2
@@ -1200,8 +1200,8 @@ Section: luci
 Architecture: all
 Installed-Size: 25718
 Filename: luci-app-dnscrypt-proxy2_2.1.1-1_all.ipk
-Size: 27899
-SHA256sum: ce01979ae78bcac10ef656a90722776175bdbfb6155e89877c10208dd91b129c
+Size: 27902
+SHA256sum: 97c3d49b55cde954bf49c1762335d56a3154dec1d2798c91969f16e478c25355
 Description:  LuCI Support for dnscrypt-proxy2.
 
 Package: luci-app-interfaces-statistics
@@ -1212,8 +1212,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2083
 Filename: luci-app-interfaces-statistics_0.4-4_all.ipk
-Size: 3141
-SHA256sum: e5951642b1b3fe95b429ca97abe1b9d9cf16af7d8a44d4c6e1d4bf9eee5c02c2
+Size: 3143
+SHA256sum: 7d991b54170ba9ff57bfbf2a94cfaa34c8d70510c3919f6a9aa5276e7f309048
 Description:  Network interfaces statistics
 
 Package: luci-app-internet-detector
@@ -1223,8 +1223,8 @@ Section: luci
 Architecture: all
 Installed-Size: 7300
 Filename: luci-app-internet-detector_0.6-0_all.ipk
-Size: 8445
-SHA256sum: b8928eb9f5d9ceedfcbbcea6bf642d15deca61f7700b4648d475bf050b55e0fc
+Size: 8448
+SHA256sum: 57162c722d8f0b65d7152e0c0dc326dd68dac18d5aeea977bcea1f7043700826
 Description:  LuCI support for internet-detector
 
 Package: luci-app-iperf
@@ -1235,8 +1235,8 @@ Section: luci
 Architecture: all
 Installed-Size: 3329
 Filename: luci-app-iperf_git-22.327.03092-e8c1858_all.ipk
-Size: 4491
-SHA256sum: 310c9581a40399ac9c50f284928a97795a162db103819e043882eb3ea928b56d
+Size: 4495
+SHA256sum: a3d1ae2e758b94d942c5782458c0c6afe449c743e1832f9b9220d83a3fd2a9bc
 Description:  LuCI Support for iPerf3
 
 Package: luci-app-log
@@ -1247,8 +1247,8 @@ Section: luci
 Architecture: all
 Installed-Size: 5772
 Filename: luci-app-log_0.6-1_all.ipk
-Size: 6953
-SHA256sum: 3858480bb972d2e04ecb88e2040f5bd2e2f1296d0fedd5d554d978fb720d8f1a
+Size: 6950
+SHA256sum: db60f44c95b7f614d8d8b59026201b55ff725b8d5e324c7f68e2abe958e67b91
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mqos
@@ -1258,8 +1258,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2066
 Filename: luci-app-mqos_1_all.ipk
-Size: 3202
-SHA256sum: 8969ead6c13f77069752738694e53bf30adb2d49dde54acf8238c117902f70b9
+Size: 3200
+SHA256sum: 1c01171aeb14df46b657a4c61560bb710568a665e5a420a1c2da3b6ebcfe8f9d
 Description:  Qos by MAC Address
 
 Package: luci-app-multilog
@@ -1268,21 +1268,21 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1648
+Installed-Size: 1650
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2990
-SHA256sum: 799f64a3a179ca54b6da173f7f57914d3a5e09de777bda4aec2b05cefaf45697
+Size: 2992
+SHA256sum: a52e1538f55fc837a252e5d8825d4d8d8fce7933e43135038af83fa3ef7aeebe
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
-Version: 1.1
+Version: 1.1-20210610
 Depends: libc, netdata, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 191945
-Filename: luci-app-netdata_1.1_all.ipk
-Size: 193647
-SHA256sum: cdc46cea62c90caed9d3161b49eaf31c8703217fc73649970d25fffc1b4186f8
+Installed-Size: 180604
+Filename: luci-app-netdata_1.1-20210610_all.ipk
+Size: 182381
+SHA256sum: c63451aec7512923f3e712b1dd324c963fbe308ecbf497e678f92db0c65ce35d
 Description:  LuCI support for Netdata
 
 Package: luci-app-ota
@@ -1292,8 +1292,8 @@ Section: luci
 Architecture: all
 Installed-Size: 5507
 Filename: luci-app-ota_1.3_all.ipk
-Size: 6586
-SHA256sum: 7d1590804332d69429740005c05d11044477ae22072b7e59c0339f6d3e9d6f79
+Size: 6584
+SHA256sum: f39431f44d15e40a7fefa29184192410f0b1aec6d50ed1d90e2cd7f48280b682
 Description:  LuCI for OTA upgrade
 
 Package: luci-app-temp-status
@@ -1304,8 +1304,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2019
 Filename: luci-app-temp-status_0.3-5_all.ipk
-Size: 3093
-SHA256sum: 735c461e9e217208f39773431dbb21b471de67dd7ddce97dcc584ea8a19139db
+Size: 3095
+SHA256sum: adbb51bae15524b33c18479bd5ac63a134fb4a5382c79c6eae31a3ac16a34e5e
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-textarea
@@ -1314,10 +1314,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 2083
+Installed-Size: 2084
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3141
-SHA256sum: 0e9c0e4b65825ff78dc382130c0ee8a21a07092a8a12e9c4618e31e8df5ac03b
+Size: 3137
+SHA256sum: 5e739aae4174720b06200c000263e61e1f0fecc391d89e231af8853d5f8d7f5e
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1328,8 +1328,8 @@ Section: luci
 Architecture: all
 Installed-Size: 15120
 Filename: luci-app-tn-netports_2.0.5_all.ipk
-Size: 17680
-SHA256sum: fca9e42b39189c3b13142e074cd0b0904a868291422ddfaa2e5215cbc3b07b28
+Size: 17681
+SHA256sum: d21ba2296a2badee544594b64d4f689e714d0d34af4b7f0d2eaeddd11f72a5aa
 Description:  Network interfaces netports
 
 Package: luci-app-upnp
@@ -1339,8 +1339,8 @@ Section: luci
 Architecture: all
 Installed-Size: 3275
 Filename: luci-app-upnp_git-22.347.28938-074a185_all.ipk
-Size: 4491
-SHA256sum: dc8095845fd44a5017f086b729ce350528da025814320dd20fbdfc1e9a392e4a
+Size: 4489
+SHA256sum: ebc3e58f0469096f4a20bc4fefb7e92a66328ea6cdf1e1e69be09121e47a964f
 Description:  Universal Plug & Play configuration module
 
 Package: luci-app-webguide
@@ -1350,19 +1350,19 @@ Section: luci
 Architecture: all
 Installed-Size: 7765
 Filename: luci-app-webguide_1_all.ipk
-Size: 8996
-SHA256sum: 007f63cc4e799792c1e4baa8c32a35b621ede63b843b0468e4b8d96baeb84b65
+Size: 8995
+SHA256sum: 62ea057899b523ffb4ba22e1ccf4c3b858e6022da51d6d9b22317104978a1785
 Description:  LuCI support for Simple Web Guide editor page
 
 Package: luci-lib-ipkg
-Version: git-22.281.42660-4ee170d
-Depends: libc, luci-base
+Version: git-22.267.30167-839297b
+Depends: libc, luci-base, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 96
-Filename: luci-lib-ipkg_git-22.281.42660-4ee170d_all.ipk
-Size: 949
-SHA256sum: 8375739e7d7dbb17c24eac9d4f10e52c4903911b7c36d12ebea469b6a5c0b132
+Installed-Size: 1465
+Filename: luci-lib-ipkg_git-22.267.30167-839297b_all.ipk
+Size: 2426
+SHA256sum: 3effa2115eae38670e1e9649635776a085a3fad59aea04db6f04bddf533d4a4d
 Description:  Legacy opkg interface class
 
 Package: luci-theme-argon
@@ -1372,8 +1372,8 @@ Section: luci
 Architecture: all
 Installed-Size: 414506
 Filename: luci-theme-argon_2.2.9.4_all.ipk
-Size: 417452
-SHA256sum: 99014f15873cdd5adf811367f7f11c9292301313255e9b432c8f0be360dadcfd
+Size: 417453
+SHA256sum: c8d2b36d9aa9c5329e5cfed21d2f9b62192f62cdeac9af9a98b50299553720c3
 Description:  Argon Theme
 
 Package: luci-theme-lafite-port
@@ -1384,8 +1384,8 @@ Section: luci
 Architecture: all
 Installed-Size: 511066
 Filename: luci-theme-lafite-port_git-22.198.85481-bf61d46_all.ipk
-Size: 517780
-SHA256sum: eb703297eb4ae9e5cd97497903279e6a83281e056713f0e2e9f7a4ac1d61c694
+Size: 517776
+SHA256sum: 691fb6bee62d0b286222a3e0fa2ad6892bb87b2ce8d49c2a42987591d30e0bef
 Description:  LAFITE Theme
 
 Package: miniupnpd
@@ -1394,10 +1394,10 @@ Depends: libc, iptables, libip4tc2, libuuid1
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 58828
+Installed-Size: 58829
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60104
-SHA256sum: ed7182b621c925dc20a66c9e1ff7fbc5322e0e6dfc6f43dc98f3ab8bedf16cc1
+Size: 60101
+SHA256sum: ec30852c0860ed13fba2bf1f45dc89329ec2cec548b9cb0aebea9e90ff80860b
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -1409,8 +1409,8 @@ CPE-ID: cpe:/a:kernel:util-linux
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 56811
 Filename: mount-utils_2.38-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 57319
-SHA256sum: d3da7ce85d8d8b4de279ca42c20e1880dfc6ab6ca587071fbfb7a0f0bb3f1fb0
+Size: 57315
+SHA256sum: 49e6c0e181b716ce58ded9c1939cc8f58dbf0a49f088decc2fb223bea29cec77
 Description:  contains: mount, umount, findmnt
 
 Package: mwan3
@@ -1421,8 +1421,8 @@ Section: net
 Architecture: all
 Installed-Size: 13101
 Filename: mwan3_2.8.8-2_all.ipk
-Size: 14790
-SHA256sum: 1587fc254e6e7a1d4a797ee8c12840e83400e3ee70f722cee711ca64b1ce28af
+Size: 14787
+SHA256sum: f08444fdbf52669725c0753ddbe8406896f19e910bd0e56ea45f75dbae61a4dc
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
  and manageable. With loadbalancing/failover support for up to 250 wan
  interfaces, connection tracking and an easy to manage traffic ruleset.
@@ -1434,8 +1434,8 @@ Section: firmware
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 876716
 Filename: mwifiex-sdio-firmware_20221109-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 877208
-SHA256sum: a2e7c645940be27f7894108cc44aed4a14b68d840bc5a98ac1bef2b0149b8cff
+Size: 877210
+SHA256sum: dca0afd1be2ce2efd91c315e3f6b06a099376a025b2fe1773895ff5a7aa494db
 Description:  Marvell 8887/8997 firmware
 
 Package: netifd
@@ -1446,8 +1446,8 @@ Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 94828
 Filename: netifd_2022-08-25-76d2d41b-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 96421
-SHA256sum: 1ee8bfdb15fbeed019e4ec0fe7be968d5c2fa115147bb053d01c2a54537c520d
+Size: 96429
+SHA256sum: 4fa1aaf76754d938a965935d9e0638e4abe17cad2bcbd1fb2efe770e6ac61532
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1471,8 +1471,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25444
 Filename: odhcp6c_2022-08-05-7d21e8d8-19_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26488
-SHA256sum: 1f64590ad26648c36e379a37217da101ddf969c76e4b6fecd25388f61ba61208
+Size: 26495
+SHA256sum: adb7541b52e8993bc2d87633e56c6f711e2a2a28ccbf8083eb80b59cb82a7c19
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
@@ -1483,8 +1483,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 35793
 Filename: odhcpd-ipv6only_2022-10-31-a92c0a73-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37092
-SHA256sum: 1e19528c2e12feab39ee445bda60e78e58ad2d50796fb72c16f32598c0d6f8ae
+Size: 37089
+SHA256sum: e15356fbbcad229195c3d9c85e3e58fffbb3ad54352b53daa16faa3404ead6f6
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -1532,8 +1532,8 @@ Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 66814
 Filename: opkg_2022-02-24-d038e5b6-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 68131
-SHA256sum: 41f5afd49dcc674333bd147aa6dc4ad07308471305561743bf1cac678bf3a278
+Size: 68126
+SHA256sum: 5cb4e1cfefedd35b785bb15215c96f2718a8dceea52e03c7d8b009d509ba99a3
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -1547,10 +1547,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598837
+Installed-Size: 598841
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599008
-SHA256sum: 17f64063afdd759f267c9d214dbf0afecb347580530a536a25a269dc87ef85fe
+Size: 599133
+SHA256sum: ec5812ce460e2d54ccd1e1c1f5872843b81f1f9faf417c35a2f4dc4db4e4dad3
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1576,8 +1576,8 @@ CPE-ID: cpe:/a:samba:ppp
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 135594
 Filename: ppp_2.4.9.git-2021-01-04-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 136615
-SHA256sum: b15fc0d4066ad78590fcfeafff34ea3ff157a19aefde5f76293e666ec834d575
+Size: 136616
+SHA256sum: e2f60204716ba40eb493f147748a584e70da9560de9db60d853ea46b1f560eba
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
@@ -1613,8 +1613,8 @@ Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 51936
 Filename: procd_2022-11-10-039b88f7-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 53118
-SHA256sum: 61e1919855fa45075249f99a93d5531f59f60c16b28c074acfc2c4982cf09c86
+Size: 53113
+SHA256sum: f6eed1045855dad90b5e004bee2d311550312375b9a3a5614c6c3318a6dad175
 Description:  OpenWrt system process manager
 
 Package: qos-scripts
@@ -1625,8 +1625,8 @@ Section: utils
 Architecture: all
 Installed-Size: 6364
 Filename: qos-scripts_1.3.1-33_all.ipk
-Size: 7733
-SHA256sum: b33176ff3ba38317b2d0f93ac473929f9c8cc0b8e63781fb9909e83df863e338
+Size: 7729
+SHA256sum: 305af9981249e38b0852da951720d74b4ed1dcba4ccb7c9cd6ad21a0a8f0fa3a
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.
@@ -1703,8 +1703,8 @@ Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 22574
 Filename: rpcd_2022-09-21-8c852b65-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 23680
-SHA256sum: 6c0a539fa654147500a750da7221cd94fc3cd7a8771ca394a97b998df521a89d
+Size: 23683
+SHA256sum: 04e8295c064d5343e39f6e749a473785b57716130c35beb59b7e2d4fe4efa22b
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -1730,10 +1730,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 214279
+Installed-Size: 214247
 Filename: tc-tiny_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 215168
-SHA256sum: 605f45bae6bbca45c004e4552b3809d60e8c0345fcb288af6bd061ef07c74552
+Size: 215018
+SHA256sum: e9ce8b6b1fd954bad62b9472a25d6862b2aa07f6fa4d99ae4aea64368c0d4248
 Description:  Traffic control utility (minimal)
 
 Package: tcpdump
@@ -1758,8 +1758,8 @@ CPE-ID: cpe:/a:gnu:ncurses
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 7287
 Filename: terminfo_6.3-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8734
-SHA256sum: 3e3f4f3ce134e62386b40a5b8732669fa47f57f5faf94d0353595577f43b4141
+Size: 8737
+SHA256sum: 4df14960f94eb24c10cb4731104db19e7a77a5432648d660884c8224d9e3d010
 Description:  Terminal Info Database (ncurses)
 
 Package: tune2fs
@@ -1785,7 +1785,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 14601
 Filename: ubox_2022-08-13-4c7b720b-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 15678
-SHA256sum: c3e30f03e1284b74ec3645bf2aa2a610a4869d1a5d2a392a59943dce0aa837c2
+SHA256sum: 021ad74a8ca6c9e122d7f80106224573a9894a5e906d09c09ba34168708eee6b
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -1908,8 +1908,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 7386
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8424
-SHA256sum: 21aada07119b0d5b95add5245211c1dcb96c5382d69088fd2055b799fe6c1bc8
+Size: 8429
+SHA256sum: 94a3640e3e6f4c9aaf066c1146b34fcf7927dae6151a9b111be3469240aea8c5
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1919,10 +1919,10 @@ Depends: libc, libubox20220927, libblobmsg-json20220927, libjson-script20220927,
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25652
+Installed-Size: 25655
 Filename: uhttpd_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26624
-SHA256sum: 3477def38c727b3652d526fbe9347c5d499a98bac875731e6f79d760cb892b61
+Size: 26626
+SHA256sum: 3448d8fe9346f30c3a115a4a28d78088eebe3a3d901b8bb2b9a0aa457bed480d
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -1935,8 +1935,8 @@ Section: base
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 827
 Filename: urandom-seed_3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1755
-SHA256sum: ee867601cfeb3e2a2dcb496177d2ce24724127dbe0aee30fd5fa71def86394b0
+Size: 1756
+SHA256sum: f120898d14615611a0a3be3acef3340f9ad1a2c5f7172e6a124d90601523ace1
 Description:  /etc/urandom.seed handling for OpenWrt
 
 Package: urngd
@@ -1948,7 +1948,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 5081
 Filename: urngd_2020-01-21-c7f7b6b6-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 6206
-SHA256sum: a2e5d8910037036a16116acf95ab226429d61f9e99bd6190012c8669aa51c07e
+SHA256sum: 3b45d2d3fc625c5f7ac7258c69a1835b098b7bd92e4e46f26c2421e7ac37076c
 Description:  urngd is OpenWrt's micro non-physical true random number generator based on
  timing jitter.
  
@@ -1981,8 +1981,8 @@ Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 30466
 Filename: wireguard-tools_1.0.20210914-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 31801
-SHA256sum: d01cd6e312a397958425379d840390d7be55e8bd15fefcb71b158df0c526cc9f
+Size: 31797
+SHA256sum: b0574e71812be3e53636ed7446aa05aae4913b78a1cb26e0c41943bccd77a9e1
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
@@ -2005,18 +2005,18 @@ SHA256sum: c74da1adc4050b827e71a3f802b33daa60f8c01cf53fba00d43124961bd5e1ae
 Description:  Wireless Regulatory Database
 
 Package: wpad-openssl
-Version: 2022-07-29-b704dc72-7.1
-Depends: hostapd-common (=2022-07-29-b704dc72-7.1), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
+Version: 2022-07-29-b704dc72-10.1
+Depends: hostapd-common (=2022-07-29-b704dc72-10.1), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-mini
 Provides: hostapd, wpa-supplicant
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 790408
-Filename: wpad-openssl_2022-07-29-b704dc72-7.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 790494
-SHA256sum: 5ec8fd5483d98833b6f5e18ceae963e031413eb3b2601d6a66aee700c1efb9db
+Installed-Size: 790416
+Filename: wpad-openssl_2022-07-29-b704dc72-10.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 790516
+SHA256sum: eb76e12dbb32193bcad1f4f23aa2d310f071b3fd266790518cd695718067f4dc
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
