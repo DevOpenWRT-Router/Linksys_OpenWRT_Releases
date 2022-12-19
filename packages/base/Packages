@@ -35,10 +35,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 262227
+Installed-Size: 262228
 Filename: busybox_1.35.0-5_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263397
-SHA256sum: 1aa2e705ecf276886b491c3fd5a876453bff9bc0b21c0cec92f309fe091cec14
+Size: 263381
+SHA256sum: 05c79ddc6db64040d60b5bdc18c491a680019a6ef0c750b87e5f23bf9e2a8224
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 213184
+Installed-Size: 213183
 Filename: dnsmasq-full_2.87-7_arm_cortex-a9_vfpv3-d16.ipk
-Size: 214509
-SHA256sum: 270f48a453e640cf3231af65f9d440b841aaad1e64800fc73a7c11585e26e300
+Size: 214513
+SHA256sum: c2d58f208a356cdbca09744beea246f05c1aece1bfb5594ed0df2ce191eae463
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -206,20 +206,20 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the nixio library.
 
 Package: ip-bridge
-Version: 6.0.0-1
+Version: 6.1.0-1
 Depends: libc, libnl-tiny2022-11-01
 License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 42684
-Filename: ip-bridge_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 43660
-SHA256sum: 31a93d9a203c015fcdea4230fa6d3c6402fdd0955ea435713d3983812a4ce5bb
+Installed-Size: 42677
+Filename: ip-bridge_6.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 43649
+SHA256sum: 4af1a3c707c5d89b88f97c9632a7368ddf09c344327085c95f625d2b366bb74b
 Description:  Bridge configuration utility from iproute2
 
 Package: ip-full
-Version: 6.0.0-1
+Version: 6.1.0-1
 Depends: libc, libnl-tiny2022-11-01, libbpf20220308
 Provides: ip
 Alternatives: 300:/sbin/ip:/usr/libexec/ip-full
@@ -227,14 +227,14 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 288746
-Filename: ip-full_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 289637
-SHA256sum: e2f59d586df244c0962b395358719cf1d8710d60c2f0c64a2de20c83fe2ff977
+Installed-Size: 292265
+Filename: ip-full_6.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 293087
+SHA256sum: 7923ca0dd5e2714b9a6eaac92e6b032a6473fa09665b0d5f4e1201acb0cbe45c
 Description:  Routing control utility (full)
 
 Package: ip-tiny
-Version: 6.0.0-1
+Version: 6.1.0-1
 Depends: libc, libnl-tiny2022-11-01
 Provides: ip
 Alternatives: 200:/sbin/ip:/usr/libexec/ip-tiny
@@ -242,10 +242,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 190387
-Filename: ip-tiny_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 191218
-SHA256sum: dacaadbfeaf528858ab8860d81a882de5f6d451074af9813bb5baa1523c6aa31
+Installed-Size: 193323
+Filename: ip-tiny_6.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 194213
+SHA256sum: 86459a3c22467727841522c2196bbaa0dc2484df382135223c7a26be5cda7324
 Description:  Routing control utility (minimal)
 
 Package: ipset
@@ -423,10 +423,10 @@ Section: libs
 ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 40703
+Installed-Size: 40700
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41713
-SHA256sum: 12c580950ff3713323176ff52ea94ece704f1d60a9f2ee1ce667d6ff7cb44a1c
+Size: 41733
+SHA256sum: 52557f4264caaeb906a8df4f1b49a4dbb19f73702ee88f93449d693bb765852d
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -850,10 +850,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1223164
+Installed-Size: 1223161
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1214034
-SHA256sum: b14c09c7135c891260c2eb3d685b704782b1f80c6e0bf9528e76c590deea44ae
+Size: 1213971
+SHA256sum: 3101ae2116d32f989fc4598ae26a967dc8b426c52533bd3500a933f0a2309194
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1235,10 +1235,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1647
+Installed-Size: 1648
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2990
-SHA256sum: 2a3d14b83d6ccd2033d1ea4a72b631ba1596d7a96b65459cf026858f97982865
+Size: 2991
+SHA256sum: 1a425fa1547ceab8e56feb30a9f46df97b32c3453ecc1d5f2b50a063da65e66c
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-ota
@@ -1270,10 +1270,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 2082
+Installed-Size: 2083
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3137
-SHA256sum: 4dfca46b6cffd4024653d70a0980005d7e2525e4e01e3aa2482308dd4bca9c73
+Size: 3131
+SHA256sum: eb8ea587ef805fc5febadb123b55353ea27dd023f8c85c02c96b9dea1b446715
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1352,14 +1352,14 @@ SHA256sum: 49e6c0e181b716ce58ded9c1939cc8f58dbf0a49f088decc2fb223bea29cec77
 Description:  contains: mount, umount, findmnt
 
 Package: mwifiex-sdio-firmware
-Version: 20221109-4
+Version: 20221109-5
 Depends: libc
 Section: firmware
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 876716
-Filename: mwifiex-sdio-firmware_20221109-4_arm_cortex-a9_vfpv3-d16.ipk
-Size: 877210
-SHA256sum: dca0afd1be2ce2efd91c315e3f6b06a099376a025b2fe1773895ff5a7aa494db
+Installed-Size: 876717
+Filename: mwifiex-sdio-firmware_20221109-5_arm_cortex-a9_vfpv3-d16.ipk
+Size: 877206
+SHA256sum: 8bcdf105ad990bc96ac748391453d1bda166931a977b8c25321149ac5d0547ac
 Description:  Marvell 8887/8997 firmware
 
 Package: netifd
@@ -1471,10 +1471,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598840
+Installed-Size: 598843
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599046
-SHA256sum: eabaaf609142d7fc41b77d283aa6e06a88081aec9a39cecc30e51e46264f6a22
+Size: 599030
+SHA256sum: 15886b6cffcfca61fc22b63708eef1a1a8f71af2c984141a3c03ed389911512b
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1633,20 +1633,20 @@ Description:  This package provides the UBUS RPC backend server to expose variou
  functionality to frontend programs via JSON-RPC.
 
 Package: tc-mod-iptables
-Version: 6.0.0-1
+Version: 6.1.0-1
 Depends: libc, libxtables12, libbpf20220308
 License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3467
-Filename: tc-mod-iptables_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4342
-SHA256sum: b2a461a8258d8463af27502985e059e799a00f3e10e069c75abc6c79175ef9db
+Installed-Size: 3466
+Filename: tc-mod-iptables_6.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4339
+SHA256sum: 1d0a03c695b0c4abca55d3d9f5c67c97e3b4f729d940585baedd73a9477ce697
 Description:  Traffic control module - iptables action
 
 Package: tc-tiny
-Version: 6.0.0-1
+Version: 6.1.0-1
 Depends: libc, kmod-sched-core
 Provides: tc
 Alternatives: 200:/sbin/tc:/usr/libexec/tc-tiny
@@ -1654,10 +1654,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 214247
-Filename: tc-tiny_6.0.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 215018
-SHA256sum: e9ce8b6b1fd954bad62b9472a25d6862b2aa07f6fa4d99ae4aea64368c0d4248
+Installed-Size: 214456
+Filename: tc-tiny_6.1.0-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 215349
+SHA256sum: 5ec740e8d6464770ebe7e50afbbb3c63f5e534150ce24e52b2344ce676d49285
 Description:  Traffic control utility (minimal)
 
 Package: tcpdump
@@ -1830,10 +1830,10 @@ Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220927
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7383
+Installed-Size: 7385
 Filename: uhttpd-mod-ubus_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8418
-SHA256sum: ce4aff5e24d8501a419bb04a9e2c2cb42a4ddd903f761f1231474c073bbb912e
+Size: 8428
+SHA256sum: 58201f42409be561201da072e80d4ef1151b2d29b18a6c4c47f30a5d55df5fcd
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1843,10 +1843,10 @@ Depends: libc, libubox20220927, libblobmsg-json20220927, libjson-script20220927,
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25653
+Installed-Size: 25656
 Filename: uhttpd_2022-08-12-e3395cd9-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26615
-SHA256sum: e3c030f5046d5a186140f153e8d5c5d53e8efcb09802cfc03212d4e0d2718e80
+Size: 26631
+SHA256sum: f0b4e5d5879d3345e4bb42ebe6c201689f0c2fb1895c920c4000af6dfae172a2
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
