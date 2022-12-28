@@ -51,8 +51,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262229
 Filename: busybox_1.35.0-5_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263386
-SHA256sum: 2f7206adb4f2a487279f1ba9e967f2f4992a7380dd3ffd85796e2dcff9485bac
+Size: 263399
+SHA256sum: e1a0141fc0400eb35b7598694311e01de9def8e2fdc0b24ecd23c8e01f524d0e
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -115,13 +115,13 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1672144791
+SourceDateEpoch: 1672231252
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 217115
+Installed-Size: 217109
 Filename: dnsmasq-full_2.88-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 218472
-SHA256sum: ca42928e6cbb091b0e645459181c6d885e3b11faad5c9df723a3a776033ff224
+Size: 218474
+SHA256sum: f24ca6256bffc84216823a3c8ef456fc28280f8e565268e0765e47aaf5d79620
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -216,20 +216,20 @@ SHA256sum: 4ea314de7d2541b5fd708fd2c52fd76c89405d84d297fbebbab50908d2a0d708
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
-Version: 2022-07-29-b704dc72-14.1
+Version: 2022-07-29-b704dc72-15.1
 Depends: libc
 Source: package/network/services/hostapd
 SourceName: hostapd-common
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1671452855
+SourceDateEpoch: 1672164604
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 12589
-Filename: hostapd-common_2022-07-29-b704dc72-14.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13763
-SHA256sum: 70458f8a2d8103c0ee25241abcfae60d1d5af4e6f7f2fe43abeede1e3e5a1a37
+Filename: hostapd-common_2022-07-29-b704dc72-15.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13766
+SHA256sum: 46ebbe8c523a7fb1caa0c1603b1c517f923a62590c13d72439d6707e900848f8
 Description:  hostapd/wpa_supplicant common support files
 
 Package: internet-detector
@@ -536,8 +536,8 @@ Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 40702
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41738
-SHA256sum: bb191360ccbb5bb94bf5093eff4993ad44cde6569bca205f76321314bc7121d8
+Size: 41730
+SHA256sum: a1ac0effd2e49dc7d9d1fee4deed75dbc960adb8b1b7a6623c9aeb0e1450c67c
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -1072,10 +1072,10 @@ ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1223129
+Installed-Size: 1223126
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1213967
-SHA256sum: 208849325f2a6df3cb1c321d5f8c44278bf9e56dda95388cc1a9eadc9aa28e7f
+Size: 1214010
+SHA256sum: fa493a0210b9341cdf058d5a5fa57fd4d8ab4e4c8f33f2e747836e89e86c1cff
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1507,13 +1507,13 @@ Source: package/luci-app-diskman
 SourceName: luci-app-diskman
 License: AGPL-3.0
 Section: luci
-SourceDateEpoch: 1672144638
+SourceDateEpoch: 1672231085
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 23430
 Filename: luci-app-diskman_v0.2.11-beta_all.ipk
-Size: 25063
-SHA256sum: b0b27062c869fc5ae6dd1fe9892f1f0aead04d07daf72bf5a04d917eeb9bea39
+Size: 25057
+SHA256sum: fd982c5db7343f483e9fb55087959872118d9d87f57be74cc88759bed8d5c7cf
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-disks-info
@@ -1634,13 +1634,13 @@ Source: package/gSpotx2f/luci-app-multilog
 SourceName: luci-app-multilog
 License: MIT
 Section: luci
-SourceDateEpoch: 1672144638
+SourceDateEpoch: 1672231085
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1649
+Installed-Size: 1646
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2992
-SHA256sum: 4a8ac68bc08bf32eb207c0798f7b8c550615669e29a1bf5056d2ddc2951d97f9
+Size: 2985
+SHA256sum: e78ea39645fa05a95b570be8788d1f69ea8944c79525c6f9c5c0e05de702d69d
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-netdata
@@ -1696,13 +1696,13 @@ Source: package/gSpotx2f/luci-app-textarea
 SourceName: luci-app-textarea
 License: MIT
 Section: luci
-SourceDateEpoch: 1672144638
+SourceDateEpoch: 1672231085
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2083
+Installed-Size: 2081
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3138
-SHA256sum: 196443774a8a3439927136dde0f3bae22b1bfbbcb795e43396b5e913da27f9b8
+Size: 3136
+SHA256sum: 956cc6953d260d543abf015f5acc1b7d467d54885fa0eb23dc9d820adcfed1f7
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1809,8 +1809,8 @@ Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 58821
 Filename: miniupnpd_2.0.20170421-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 60128
-SHA256sum: 5c49c2d0802e208084aa0ffabbfc7c782fced13fd471382683b531373fda2ad0
+Size: 60129
+SHA256sum: fe478b7ec6c4582e8e63b5637e640e8eb698532f7b8c478569655b922339f345
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
 Package: mount-utils
@@ -2003,12 +2003,12 @@ Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Source: package/parted
 SourceName: parted
 Section: utils
-SourceDateEpoch: 1672144638
+SourceDateEpoch: 1672231085
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598843
+Installed-Size: 598820
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599133
-SHA256sum: 6cf66f671c06d375589b495af3d62040f5ae7b18ad6b6b344d96f5be197fc77d
+Size: 599090
+SHA256sum: a5d6820118f9a7fc64d5afce4cd685ab952ab8ac59a5e5e228da16acafa9c6c7
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -2475,13 +2475,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd-mod-ubus
 License: ISC
 Section: net
-SourceDateEpoch: 1672144791
+SourceDateEpoch: 1672231252
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7385
+Installed-Size: 7386
 Filename: uhttpd-mod-ubus_2022-10-31-23977554-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8425
-SHA256sum: 0e184b60b40d09b14da58936a32b121a9c51535aa35ba213f2fcc40da38bd0e0
+Size: 8426
+SHA256sum: aafef98583305efe1c3c28ca41127a91ee1eae0e690065445322d00698dad56b
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2492,13 +2492,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1672144791
+SourceDateEpoch: 1672231252
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25649
+Installed-Size: 25650
 Filename: uhttpd_2022-10-31-23977554-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26629
-SHA256sum: d57a31642f501ab308bd7f7df7f8e6249c03bf8a38590fdeb89c68973d5ce8c0
+Size: 26625
+SHA256sum: 335d2a5344481e961e9cc9d1e0dbde67ea662080af09f4b9a335738eb32ef047
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -2600,8 +2600,8 @@ SHA256sum: c74da1adc4050b827e71a3f802b33daa60f8c01cf53fba00d43124961bd5e1ae
 Description:  Wireless Regulatory Database
 
 Package: wpad-openssl
-Version: 2022-07-29-b704dc72-14.1
-Depends: hostapd-common (=2022-07-29-b704dc72-14.1), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
+Version: 2022-07-29-b704dc72-15.1
+Depends: hostapd-common (=2022-07-29-b704dc72-15.1), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -2609,14 +2609,14 @@ SourceName: wpad-openssl
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1671452855
+SourceDateEpoch: 1672164604
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 790657
-Filename: wpad-openssl_2022-07-29-b704dc72-14.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 790714
-SHA256sum: 5500f258d0865805d7d8a2ca51492c9efb01e0ed2e3ff5628637bc58e3d9a697
+Installed-Size: 790985
+Filename: wpad-openssl_2022-07-29-b704dc72-15.1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 791126
+SHA256sum: 719f3991f346b6609d752705ab3e1d5b82a2cb8f6777a078eef1ee1e2decf539
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
