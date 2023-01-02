@@ -35,10 +35,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 262227
+Installed-Size: 262229
 Filename: busybox_1.35.0-5_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263395
-SHA256sum: f4a9bbaeebd5e9934bdbbcfb4d1b77768a8d31cf3ee0108119c1a6cbeae52d3b
+Size: 263379
+SHA256sum: 369fe6d249ee247f505e73e06750dcbc9beac068c769161fb8967269bf072aff
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 217105
+Installed-Size: 217108
 Filename: dnsmasq-full_2.88-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 218483
-SHA256sum: 976738d880cd17e38e04e0aed0b890b896377ebfb3268bb8ab66716b1bc72e23
+Size: 218474
+SHA256sum: 9bcd4ab39defa36d173be40fd6c23ea9571a317493885327e2eb730e6e2916e3
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -180,16 +180,16 @@ SHA256sum: f237ef34c2bd786eb6ccc2f12e8c8c230c339494262c64a2aa0b19019710bb18
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
-Version: 2022-07-29-b704dc72-16.1
+Version: 2022-07-29-b704dc72-17.2
 Depends: libc
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12585
-Filename: hostapd-common_2022-07-29-b704dc72-16.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13755
-SHA256sum: 3594a1513e0acf7a53a413ee6457a82b6e1ca8da392f7ad5eb65a7290b87e973
+Installed-Size: 12590
+Filename: hostapd-common_2022-07-29-b704dc72-17.2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 13761
+SHA256sum: d8444bfdbc70cefd95fe0e7c92f30876a1a090d42a67ec920c16b07c443aea05
 Description:  hostapd/wpa_supplicant common support files
 
 Package: internet-detector
@@ -423,10 +423,10 @@ Section: libs
 ABIVersion: 1
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 40701
+Installed-Size: 40700
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41726
-SHA256sum: 51ca968726beea118a5168a42a602578684f46ccdd4b933cf28bd18f96b186b2
+Size: 41740
+SHA256sum: c287ca99834c4621ba7193633ca9c93cf17c2ad4d8ff8eeb75b0bd95a772e513
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -850,10 +850,10 @@ Section: libs
 ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1223126
+Installed-Size: 1223127
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1213990
-SHA256sum: 94096b2841fe3b9adbd0c9b384e45b5a1383d8368cbc5022cc877a63b879783f
+Size: 1214005
+SHA256sum: 8628dbf85975d63e8d30046bda1f4515c401cb0576349a6ae24e97a6add19e79
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1048,17 +1048,17 @@ SHA256sum: 706484a29e07c911af3ab6bd912bef7106f1237c488251f99e385c9d423a32f5
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libustream-openssl20201210
-Version: 2022-12-08-9217ab46-1
+Version: 2022-12-08-9217ab46-2
 Depends: libc, libubox20220927, libopenssl1.1
 Provides: libustream-openssl
 License: ISC
 Section: libs
 ABIVersion: 20201210
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3963
-Filename: libustream-openssl20201210_2022-12-08-9217ab46-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4822
-SHA256sum: 3ff8d856a008aa24ef46fd440d230b27267316c13b3dc561eda7b6f30e79b924
+Installed-Size: 3965
+Filename: libustream-openssl20201210_2022-12-08-9217ab46-2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4828
+SHA256sum: 11b4f76d368f78c423f2a0b90be7e5b22f57680b7fdddc1ceaed3d989d310107
 Description:  ustream SSL Library (openssl)
 
 Package: libuuid1
@@ -1079,20 +1079,20 @@ Description:  The UUID library is used to generate unique identifiers for object
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
 
-Package: libwolfssl5.5.3.4edc9f28
-Version: 5.5.3-stable-3
+Package: libwolfssl5.5.4.4edc9f28
+Version: 5.5.4-stable-1
 Depends: libc
 Conflicts: libwolfsslcpu-crypto
-Provides: libcyassl, libwolfssl, libcyassl5.5.3.4edc9f28
+Provides: libcyassl, libwolfssl, libcyassl5.5.4.4edc9f28
 License: GPL-2.0-or-later
 Section: libs
-ABIVersion: 5.5.3.4edc9f28
+ABIVersion: 5.5.4.4edc9f28
 CPE-ID: cpe:/a:wolfssl:wolfssl
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 506680
-Filename: libwolfssl5.5.3.4edc9f28_5.5.3-stable-3_arm_cortex-a9_vfpv3-d16.ipk
-Size: 505940
-SHA256sum: 974ba631d9c97394ac98e8ac8b2140bbb46ed558d7c3242a669527f8bd5d24ba
+Installed-Size: 509584
+Filename: libwolfssl5.5.4.4edc9f28_5.5.4-stable-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 508982
+SHA256sum: a9cb4f08c5b09378f0d91a7a621490e928fa62fa05a62536550c1ad34dec7afe
 Description:  wolfSSL (formerly CyaSSL) is an SSL library optimized for small
  footprint, both on disk and for memory use.
 
@@ -1235,10 +1235,10 @@ Depends: libc
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 1647
+Installed-Size: 1645
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2995
-SHA256sum: 5fbe85b83a872d7be9a527ac2c91a5005711909fc04a1f6cfcd746e460fb8331
+Size: 2985
+SHA256sum: 10e6f0bc143bd30a01fa7d2fcabc31e4b5f5c0fdf444d35be20ec166204587c3
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-ota
@@ -1272,8 +1272,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2083
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3138
-SHA256sum: 133ccf61c72d8696a4846a5ef2e07f180afe762837ff0c22e551be66736bcf3b
+Size: 3141
+SHA256sum: f752afb4839321637fa3f3cbc4fea988b3c20379a713c73e5da6907fbdc702d4
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1471,10 +1471,10 @@ Version: 3.3-1
 Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 598841
+Installed-Size: 598845
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 599091
-SHA256sum: ba53036f6efe93dd2477642795311cc1294d9337f517a8e2a803ceb639bd69f7
+Size: 599111
+SHA256sum: 937483c6177e56ddd333e16a5456485d0bbd989d76aa8db3e008417baf6acd64
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -1830,10 +1830,10 @@ Depends: libc, uhttpd, libubus20220601, libblobmsg-json20220927
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7383
+Installed-Size: 7385
 Filename: uhttpd-mod-ubus_2022-10-31-23977554-1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 8425
-SHA256sum: 986488a730970acec2320a23fa7f7c11924ae7166a20f1e6f7d79f20b3b66332
+SHA256sum: 42ac696280277dd4bb6ae38a445226047a8d495a2aef1935278d58ef42726ee2
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -1843,10 +1843,10 @@ Depends: libc, libubox20220927, libblobmsg-json20220927, libjson-script20220927,
 License: ISC
 Section: net
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25648
+Installed-Size: 25650
 Filename: uhttpd_2022-10-31-23977554-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26627
-SHA256sum: 50816c258db93cb0de734d7ee17a9f6d3e451a84187eecec443d38c4d2e29600
+Size: 26632
+SHA256sum: 84c0a35f31db6997e71edcdaad20e33b9f315117056fb901a5648b1c58a73fa5
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -1929,8 +1929,8 @@ SHA256sum: c74da1adc4050b827e71a3f802b33daa60f8c01cf53fba00d43124961bd5e1ae
 Description:  Wireless Regulatory Database
 
 Package: wpad-openssl
-Version: 2022-07-29-b704dc72-16.1
-Depends: hostapd-common (=2022-07-29-b704dc72-16.1), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
+Version: 2022-07-29-b704dc72-17.2
+Depends: hostapd-common (=2022-07-29-b704dc72-17.2), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libopenssl1.1
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 License: BSD-3-Clause
@@ -1938,9 +1938,9 @@ Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 790986
-Filename: wpad-openssl_2022-07-29-b704dc72-16.1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 791092
-SHA256sum: d4a930ddba5e38bc3b09ac215b2d9f69490d1dc5331bb4ad9d6c3fc089e8b5d7
+Filename: wpad-openssl_2022-07-29-b704dc72-17.2_arm_cortex-a9_vfpv3-d16.ipk
+Size: 791117
+SHA256sum: a878e463ace561521835f72630be8aac4ffa8b2464d75992d601da76926cf2f9
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
