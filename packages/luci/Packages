@@ -6,8 +6,8 @@ Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 3238
 Filename: liblucihttp-lua_2022-07-08-6e68a106-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4107
-SHA256sum: 33b7f253514191ff8df9726de7ea9ffc80d65419db4d88d0c03ee9617e3f67b9
+Size: 4108
+SHA256sum: 469a45573e3be6c0cb24542312de31a5c4d24b61b0681548d09388d4a3517d11
 Description:  Lua binding for the LuCI HTTP utility library
 
 Package: liblucihttp-ucode
@@ -16,10 +16,10 @@ Depends: libc, liblucihttp0, libucode20220812
 License: ISC
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3710
+Installed-Size: 3705
 Filename: liblucihttp-ucode_2022-07-08-6e68a106-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4587
-SHA256sum: ebd78c79e222e9a36fe4ca07d8c7c71b10c33bf832e9686c5e1cbb4ccd28835d
+Size: 4585
+SHA256sum: b33d4c9e54accf9f0cc56432024761c9837ca6b169a9ea4130e62e9f7d49be9a
 Description:  ucode binding for the LuCI HTTP utility library
 
 Package: liblucihttp0
@@ -30,10 +30,10 @@ License: ISC
 Section: libs
 ABIVersion: 0
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6731
+Installed-Size: 7068
 Filename: liblucihttp0_2022-07-08-6e68a106-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7637
-SHA256sum: b17096eeffc45b9a61225da9cd91b3aab84b0895f7c1fe43d57a644fbaeb67ee
+Size: 7973
+SHA256sum: 1384d50e12bdf208cb4cf8406e9379e0e05f9f42cfc68f6dd9d7f1d00fd1d5dd
 Description:  LuCI HTTP utility library
 
 Package: luci-app-acme
@@ -42,10 +42,10 @@ Depends: libc, luci-mod-admin-full, acme
 License: GPL-3.0-or-later
 Section: luci
 Architecture: all
-Installed-Size: 2582
+Installed-Size: 2583
 Filename: luci-app-acme_git-21.173.22454-e265ea3_all.ipk
-Size: 3675
-SHA256sum: 079d5204f9fb9875e0d24fd2599bf153022a3b31c3a456a7d4edd8bd3b3a8b5d
+Size: 3681
+SHA256sum: 415d20e6aaf82c717530a09ae39ec7a70502bb2bab473bda3ad5bb696241d3c6
 Description:  ACME package - LuCI interface
 
 Package: luci-app-adblock
@@ -136,10 +136,10 @@ Depends: libc, uci-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 14233
+Installed-Size: 14237
 Filename: luci-app-firewall_git-22.089.67453-0eb3aeb_all.ipk
-Size: 15551
-SHA256sum: 6f4c24eb52494a28fcc524c05aa381a798ab3f1d515460fd7516fb6098d512ce
+Size: 15555
+SHA256sum: 5b8159e0d6c61814fa03a80cb9e41fbd8e65fb59e3e8663bab2f4a110e67980f
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-ksmbd
@@ -178,14 +178,14 @@ SHA256sum: fc399d26124f983d5428ad82b9f001d1b5fa3ff203bb1d9a46abf5d0829acc0b
 Description:  LuCI Support for OpenVPN
 
 Package: luci-app-opkg
-Version: git-22.273.28779-84ba6a5
+Version: git-23.009.82915-ec3aac4
 Depends: libc, opkg
 Section: luci
 Architecture: all
-Installed-Size: 9133
-Filename: luci-app-opkg_git-22.273.28779-84ba6a5_all.ipk
-Size: 10273
-SHA256sum: 7b10fafa4766d374eff5959530d919a4bfe45a86dcb32d75c22fb99e50b4c40c
+Installed-Size: 9135
+Filename: luci-app-opkg_git-23.009.82915-ec3aac4_all.ipk
+Size: 10279
+SHA256sum: dd770e033d06f3449c27e8d4abffe3c059ff35e8e1a78c05b39d9327f4040560
 Description:  OPKG package management application
 
 Package: luci-app-qos
@@ -329,10 +329,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 123096
+Installed-Size: 123171
 Filename: luci-base_git-22.361.69865-deed682_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127646
-SHA256sum: c812e6b4fd291e3dade4cb77b11b6804d6a9082a0aa8f90a78da2f877e58e4e8
+Size: 127681
+SHA256sum: 747dabaa0a26ef12fba334aad10235f5ed374b1947d513d06989c990cbf6c6e9
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -386,10 +386,10 @@ Depends: libc, liblua5.1.5, libnl-tiny2022-11-01
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 10814
+Installed-Size: 10817
 Filename: luci-lib-ip_git-20.250.76529-62505bd_arm_cortex-a9_vfpv3-d16.ipk
-Size: 11804
-SHA256sum: 2ac5a984fee224403f2dd95b585e0b3359cf4b7303f7084cf3fdc6e21fdf6a4f
+Size: 11806
+SHA256sum: fcf4370d906f4c38596f324a53f93d8be610cefba7b161cbaa36fbcb902f2169
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-ipkg
@@ -410,8 +410,8 @@ Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 3910
 Filename: luci-lib-jsonc_git-22.079.54693-45f411b_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4863
-SHA256sum: 608f9aeceeea9149b243930990747a6d2cc0579b724bc4d551495121c65f4924
+Size: 4855
+SHA256sum: 20b87502f10ed16c2318df65d7d20a089543e71f28dfd132f006a154ccbb52d8
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
@@ -420,10 +420,10 @@ Depends: libc, liblua5.1.5
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 30400
+Installed-Size: 30459
 Filename: luci-lib-nixio_git-22.222.71555-88b9088_arm_cortex-a9_vfpv3-d16.ipk
-Size: 31351
-SHA256sum: ebfbb321e61a855aa03f9120797b03cceea927bc5c4cdac5f1939c79c2d2c3ac
+Size: 31405
+SHA256sum: ec568c546fca6425368e865a325349e4211ccce743b03c90651e1c90908c4e1c
 Description:  NIXIO POSIX library
 
 Package: luci-lua-runtime
@@ -431,10 +431,10 @@ Version: git-22.325.41248-fa17c15
 Depends: libc, luci-base, lua, luci-lib-base, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, libubus-lua, liblucihttp-lua, ucode-mod-lua
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 24725
+Installed-Size: 24815
 Filename: luci-lua-runtime_git-22.325.41248-fa17c15_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26631
-SHA256sum: 7d0357f18e76bd3167f400eacbe0c5159d263231f57f5a3e503a322967c103a3
+Size: 26706
+SHA256sum: 248b630d57d157a62be2cd9cf482391a04fe921245211f587f9f60c06f381e4f
 Description:  LuCI Lua runtime libraries
 
 Package: luci-mod-admin-full
@@ -479,10 +479,10 @@ Depends: libc, luci-base, libiwinfo20210430, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 35398
+Installed-Size: 35449
 Filename: luci-mod-status_git-22.364.46313-a18b1a6_arm_cortex-a9_vfpv3-d16.ipk
-Size: 37947
-SHA256sum: 542c73216176923f8cadff05e57bb45fddfe2cc8924f3cf77ba58e5e3a5a7255
+Size: 37961
+SHA256sum: ed196bdf8866ff6a47eb3972cf72229aa24165b1ccd70042aeea38387ad0dd39
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -545,15 +545,15 @@ SHA256sum: 98fa49f40a463695dee4ac22dec97245738f0a04c907c96417934c8d0ebea5db
 Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
 
 Package: luci-theme-bootstrap
-Version: git-22.297.83017-2e3282e
+Version: git-23.009.43662-21b4065
 Depends: libc
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 15810
-Filename: luci-theme-bootstrap_git-22.297.83017-2e3282e_all.ipk
-Size: 17195
-SHA256sum: 5f064c8b1af00bae7ef97393036cb7307ecd7548b6a3155460503992f39d2d90
+Filename: luci-theme-bootstrap_git-23.009.43662-21b4065_all.ipk
+Size: 17265
+SHA256sum: 988e5fdc6310d785efae3e61026ca9d90bcb37987de268c73922fd2e6bb55c99
 Description:  Bootstrap Theme (default)
 
 Package: luci
@@ -574,10 +574,10 @@ Depends: libc, rpcd, libubox20220927, libubus20220601, libnl-tiny2022-11-01
 License: Apache-2.0
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12578
+Installed-Size: 12489
 Filename: rpcd-mod-luci_20210614_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13520
-SHA256sum: f84fec9da1814e24b68a052a0c8d9f7b9a48dbc58eab69c978f1814adfefc4a4
+Size: 13438
+SHA256sum: 27a3ba438643c76bf1a05a81cc7c0ee5cb03cdc5222681513b3ba6d433545f7a
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
@@ -586,10 +586,10 @@ Depends: libc, rpcd, libubox20220927, libubus20220601
 License: Apache-2.0
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3352
+Installed-Size: 3337
 Filename: rpcd-mod-rrdns_20170710_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4265
-SHA256sum: f2e1bfc80d5eb3284a716b89d0bd7208112f06a3ca2a4d80752bda921eef651c
+Size: 4256
+SHA256sum: ef1170afd7f25091e4588f3b4c910973558b615262630503354f248a7af4204d
 Description:  Provides rapid mass reverse DNS lookup functionality.
 
 Package: ucode-mod-html
@@ -598,10 +598,10 @@ Depends: libc, libucode20220812
 License: ISC
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25493
+Installed-Size: 25299
 Filename: ucode-mod-html_1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 24199
-SHA256sum: 004ac4695787505d9a57f73b06dce62437d426e42cbb1b4fa1cfd6c82d847e0c
+Size: 24059
+SHA256sum: 1178f355aac6f94bc942aa2111d8417eb0f1dcbd963033f90a01e34abd041172
 Description:  ucode HTML utility library
 
 Package: ucode-mod-lua
@@ -610,9 +610,9 @@ Depends: libc, libucode20220812, liblua5.1.5
 License: ISC
 Section: utils
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8158
+Installed-Size: 8166
 Filename: ucode-mod-lua_1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8977
-SHA256sum: e4288d1d8bf47cabd714cc5a03a60e2f6f83371ce7159cfe4a0d772b506476d1
+Size: 8981
+SHA256sum: 965e920c2df4ba52641dd418b074644ba36401aa5fc3d4d6c3955945378a19b7
 Description:  ucode to Lua bridge library
 
