@@ -182,10 +182,10 @@ Version: git-23.009.82915-ec3aac4
 Depends: libc, opkg
 Section: luci
 Architecture: all
-Installed-Size: 9136
+Installed-Size: 9137
 Filename: luci-app-opkg_git-23.009.82915-ec3aac4_all.ipk
-Size: 10281
-SHA256sum: 15030467d96fdedcd67ce7fd68a72487d5a9b8c454fc3fac8471b5b71cb24b0a
+Size: 10283
+SHA256sum: b52bd95169f0a14c787da710dd3fd8d3f5e77cb1564559cc35b1f56b1d190a19
 Description:  OPKG package management application
 
 Package: luci-app-qos
@@ -241,8 +241,8 @@ Section: luci
 Architecture: all
 Installed-Size: 31126
 Filename: luci-app-statistics_git-23.010.50531-9f321b8_all.ipk
-Size: 37722
-SHA256sum: 991a27f5d960a3301ffd13ecfa970b28e98190fd5e80b6c580b556a24505347d
+Size: 37727
+SHA256sum: 177db5775caad1677a99428c68c4b3574c204b53861c58eb8c4d88569bbb7b00
 Description:  LuCI Statistics Application
 
 Package: luci-app-ttyd
@@ -318,10 +318,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 123173
+Installed-Size: 123178
 Filename: luci-base_git-23.013.73089-9634086_arm_cortex-a9_vfpv3-d16.ipk
-Size: 127713
-SHA256sum: 93220a16248483f53ca5749b6923d7e1f0a2a7121a3acdc0eeb650cda10c9d68
+Size: 127671
+SHA256sum: 64244839287ee2664bf122c6cb9f960596208027de1a4554f64ad116dafaa4b2
 Description:  LuCI core runtime
 
 Package: luci-compat
@@ -429,14 +429,14 @@ Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-dashboard
 Version: git-22.210.50464-e96c1f3
-Depends: libc, luci-base, libiwinfo20210430
+Depends: libc, luci-base, libiwinfo20230121
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 6672
 Filename: luci-mod-dashboard_git-22.210.50464-e96c1f3_all.ipk
-Size: 8265
-SHA256sum: e304fcf7e4fe6b5ed1ec8730e7c46c48d0f1447142be4564168305c6aa38dd18
+Size: 8266
+SHA256sum: ea1ba4a219450eb70833882512a7b2be2ffdfd0fc8ccfd8e0909a26a45cf8b46
 Description:  LuCI Dashboard Pages
 
 Package: luci-mod-network
@@ -453,14 +453,14 @@ Description:  LuCI Network Administration
 
 Package: luci-mod-status
 Version: git-22.364.46313-a18b1a6
-Depends: libc, luci-base, libiwinfo20210430, rpcd-mod-iwinfo
+Depends: libc, luci-base, libiwinfo20230121, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 35449
 Filename: luci-mod-status_git-22.364.46313-a18b1a6_arm_cortex-a9_vfpv3-d16.ipk
 Size: 37962
-SHA256sum: 752166eac921decd30714c83b9ea29292264cedde3a1847c55b1d99125bf1139
+SHA256sum: 5348c9016326f80697d51a2d6900005424e3086ce8091631f7a0b35e343f7f6b
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -552,10 +552,10 @@ Depends: libc, rpcd, libubox20220927, libubus20220601, libnl-tiny2022-11-01
 License: Apache-2.0
 Section: libs
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12489
+Installed-Size: 12453
 Filename: rpcd-mod-luci_20210614_arm_cortex-a9_vfpv3-d16.ipk
-Size: 13438
-SHA256sum: 27a3ba438643c76bf1a05a81cc7c0ee5cb03cdc5222681513b3ba6d433545f7a
+Size: 13397
+SHA256sum: e7da35878fca8b5b9e39ea83d6020caf19c270a45fc399b46b7be59c3c9981b2
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
