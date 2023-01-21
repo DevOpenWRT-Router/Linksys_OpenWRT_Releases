@@ -51,8 +51,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 262501
 Filename: busybox_1.36.0-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 263752
-SHA256sum: 2b18f0255f25533fdfa195fa41f01c2aaee1dcbd4c1e49449609ae188d7adee2
+Size: 263748
+SHA256sum: 5832a135e03cec44f24fae8ad2b378721b86e5f0c635cd9dc05c58cf54227410
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -106,7 +106,7 @@ SHA256sum: f0cda74a8cb46b696d6eefe540b87a200270f6ff24b7d48c0d0447d173ad9614
 Description:  System CA certificates
 
 Package: dnsmasq-full
-Version: 2.88-2
+Version: 2.88-3
 Depends: libc, libubus20220601, libnettle8, kmod-ipt-ipset, libnetfilter-conntrack3, nftables-json
 Provides: dnsmasq
 Source: package/network/services/dnsmasq
@@ -115,13 +115,13 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1674217877
+SourceDateEpoch: 1674304086
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 217410
-Filename: dnsmasq-full_2.88-2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 218739
-SHA256sum: af97c020e06af1039a90113eab9b7d22d725e636bd1afa68fcd8ff2433620b09
+Installed-Size: 217423
+Filename: dnsmasq-full_2.88-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 218803
+SHA256sum: 591067141b61f2f730d346d272c96f0a8928edfefb7df5288aa21933e31382be
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
@@ -355,19 +355,19 @@ SHA256sum: 3f46401651d5fdf9f45fbf07f530011127c87f52cca3a6c839a00f206aad52c3
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
-Version: 2023-01-06-c7b420a2-1
-Depends: libc, libiwinfo20210430
+Version: 2023-01-21-f7661386-1
+Depends: libc, libiwinfo20230121
 Source: package/network/utils/iwinfo
 SourceName: iwinfo
 License: GPL-2.0
 Section: utils
-SourceDateEpoch: 1673308471
+SourceDateEpoch: 1674260602
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7431
-Filename: iwinfo_2023-01-06-c7b420a2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8340
-SHA256sum: e446d9777ce01b5cab6badb2ef8f273bc869947f349224ea0468d5f48a98366f
+Installed-Size: 7611
+Filename: iwinfo_2023-01-21-f7661386-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8518
+SHA256sum: 1ae98cdd1b953945252f6d049bc3dce3dc2923efb3b80d68b275a345c31ee4df
 Description:  Command line frontend for the wireless information library.
 
 Package: jansson4
@@ -554,8 +554,8 @@ Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 40659
 Filename: libelf1_0.188-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41690
-SHA256sum: 4f8eae18b5c18ec95684a11cae120aff69f55c59b02ca08adf268525fcdf18e0
+Size: 41687
+SHA256sum: 828e8f448333aad432d19e56dff78e447f61b9a076f6686c806ad282b18fc1c7
 Description:  ELF manipulation libraries (libelf)
 
 Package: libevent2-7
@@ -664,54 +664,54 @@ SHA256sum: bb845c64a7ca2e9e52d99de4f165d485d0fd8ccff5b51d021fc9fe802a39943a
 Description:  IPset administration utility
 
 Package: libiwinfo-data
-Version: 2023-01-06-c7b420a2-1
+Version: 2023-01-21-f7661386-1
 Depends: libc
 Source: package/network/utils/iwinfo
 SourceName: libiwinfo-data
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1673308471
+SourceDateEpoch: 1674260602
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2205
-Filename: libiwinfo-data_2023-01-06-c7b420a2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3061
-SHA256sum: d6156464f29985e39fd20bd3dd0cf33cd3ccdbed7675017809f3da1618605252
+Installed-Size: 2944
+Filename: libiwinfo-data_2023-01-21-f7661386-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3813
+SHA256sum: 3f0aa528d41eb0bd50de3109699798488a9a49d6f2b534b1c3d0e695767305e1
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo-lua
-Version: 2023-01-06-c7b420a2-1
-Depends: libc, libiwinfo20210430, liblua5.1.5
+Version: 2023-01-21-f7661386-1
+Depends: libc, libiwinfo20230121, liblua5.1.5
 Source: package/network/utils/iwinfo
 SourceName: libiwinfo-lua
 License: GPL-2.0
 Section: lang
-SourceDateEpoch: 1673308471
+SourceDateEpoch: 1674260602
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6533
-Filename: libiwinfo-lua_2023-01-06-c7b420a2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7482
-SHA256sum: bee44bcc550d8b5f61c87f169dce44dc0772a4280b013845f2a6073cb3b8595f
+Installed-Size: 6471
+Filename: libiwinfo-lua_2023-01-21-f7661386-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7421
+SHA256sum: 1b72dcc6ea6f04864b60a471f6b77c2b8eab8101988a04df98bcc6e3fd67e256
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
-Package: libiwinfo20210430
-Version: 2023-01-06-c7b420a2-1
+Package: libiwinfo20230121
+Version: 2023-01-21-f7661386-1
 Depends: libc, libnl-tiny2022-11-01, libuci20130104, libubus20220601, libiwinfo-data
 Provides: libiwinfo
 Source: package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: libs
-SourceDateEpoch: 1673308471
-ABIVersion: 20210430
+SourceDateEpoch: 1674260602
+ABIVersion: 20230121
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 25805
-Filename: libiwinfo20210430_2023-01-06-c7b420a2-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26695
-SHA256sum: 29eec0f85cc2ddc3f2a0d9164d56d36bc2554a99a0bfa6d0ffbfcf6988c3208d
+Installed-Size: 25743
+Filename: libiwinfo20230121_2023-01-21-f7661386-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 26631
+SHA256sum: 88d4128970ede485c4ee1979f28195be0ad73ad4e8340b8dcb403b007ff32ff6
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -1090,10 +1090,10 @@ ABIVersion: 1.1
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1225330
+Installed-Size: 1225332
 Filename: libopenssl1.1_1.1.1s-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1215929
-SHA256sum: 2ab6b7b5748f116562ec83ca9a6f1b979410ac0f9416e74c874de18d79649443
+Size: 1215858
+SHA256sum: 006260e779008404af16295190a52184f63ceb7ce1a619d8f994a93aebf8bd9d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1323,21 +1323,21 @@ SHA256sum: 86b1d1e6c6062cbb4be5e9502fd8e7b8e8d36943a494dd455bca774e8015a761
 Description:  HTTP/1.1 client library
 
 Package: libucode20220812
-Version: 2023-01-07-1e4d2093-1
+Version: 2023-01-09-8dad974b-1
 Depends: libc, libjson-c5
 Provides: libucode
 Source: package/utils/ucode
 SourceName: libucode
 License: ISC
 Section: utils
-SourceDateEpoch: 1673260520
+SourceDateEpoch: 1674259343
 ABIVersion: 20220812
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 61687
-Filename: libucode20220812_2023-01-07-1e4d2093-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 62609
-SHA256sum: 4d9bbd5db0d2db5d66ac62174f789b69ca2a3f6ca65aeb76893f9b2ff2f9528f
+Installed-Size: 61689
+Filename: libucode20220812_2023-01-09-8dad974b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 62570
+SHA256sum: a068391b7954c1a19335f66aba57c537ee69771e97b9c035e46b600376493a8e
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libustream-openssl20201210
@@ -1588,13 +1588,13 @@ Source: package/gSpotx2f/luci-app-multilog
 SourceName: luci-app-multilog
 License: MIT
 Section: luci
-SourceDateEpoch: 1674217734
+SourceDateEpoch: 1674303952
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1647
+Installed-Size: 1646
 Filename: luci-app-multilog_0.6-1_all.ipk
-Size: 2987
-SHA256sum: 982c2d3bd48a7d46f64242d142a717a1dc9d69c90b2a9f881d02da41b3be5156
+Size: 2991
+SHA256sum: 6469b155ecd2911bc9021c6bf171cb4f874454b8f5e3228ee43269f3b706f33b
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-ota
@@ -1635,13 +1635,13 @@ Source: package/gSpotx2f/luci-app-textarea
 SourceName: luci-app-textarea
 License: MIT
 Section: luci
-SourceDateEpoch: 1674217734
+SourceDateEpoch: 1674303952
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2083
+Installed-Size: 2084
 Filename: luci-app-textarea_0.6-1_all.ipk
-Size: 3137
-SHA256sum: 81c5e209b776e1aa5ba75ff598e32f2dd26f866e3ecaaaea86bb62dea5a84333
+Size: 3140
+SHA256sum: 2ef93a6955e7bf0787f641af284499110d3045f8527a0acaa8b8060ebe8e184b
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-tn-netports
@@ -1898,12 +1898,12 @@ Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
 Source: package/parted
 SourceName: parted
 Section: utils
-SourceDateEpoch: 1674217734
+SourceDateEpoch: 1674303952
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 584171
+Installed-Size: 583828
 Filename: parted_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 584435
-SHA256sum: 3eb17b015099dbe68576098e9dce2167ffed631d9b5c7a7177a54290f463fe1e
+Size: 584225
+SHA256sum: 182254d8acc14866dd58fcd040d474dffc25dfb4920ada977697ac967174244c
 Description:  parted Partition editor
  http://www.gnu.org/software/parted/index.shtml
 
@@ -2030,83 +2030,83 @@ Description:  This package contains the small resolveip utility which
  runtime in case of slow or defunct DNS servers.
 
 Package: rpcd-mod-file
-Version: 2022-12-15-7de4820c-1
+Version: 2023-01-21-c0df2a7a-1
 Depends: libc, libubus20220601, libubox20220927, rpcd
 Source: package/system/rpcd
 SourceName: rpcd-mod-file
 License: ISC
 Section: utils
-SourceDateEpoch: 1671148551
+SourceDateEpoch: 1674260779
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6345
-Filename: rpcd-mod-file_2022-12-15-7de4820c-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7322
-SHA256sum: dd046294c0fe30d8cf1131a180820f48d7d02a9f15c0ba8b9497ed43401ef6bc
+Installed-Size: 6348
+Filename: rpcd-mod-file_2023-01-21-c0df2a7a-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7323
+SHA256sum: e9a5275ed12b8779c0052e9ac2829bbcab7db04cfc5d655a6b627c93c35b824d
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2022-12-15-7de4820c-1
-Depends: libiwinfo (>= 2022-12-15), libc, libubus20220601, libubox20220927, rpcd, libiwinfo20210430
+Version: 2023-01-21-c0df2a7a-1
+Depends: libiwinfo (>= 2022-12-15), libc, libubus20220601, libubox20220927, rpcd, libiwinfo20230121
 Source: package/system/rpcd
 SourceName: rpcd-mod-iwinfo
 License: ISC
 Section: utils
-SourceDateEpoch: 1671148551
+SourceDateEpoch: 1674260779
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6779
-Filename: rpcd-mod-iwinfo_2022-12-15-7de4820c-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7767
-SHA256sum: 1dbb06d493c86e5c507c3973871e288b0b3fe8714e5a9a5d3d5ed89b51ce4a8d
+Installed-Size: 6958
+Filename: rpcd-mod-iwinfo_2023-01-21-c0df2a7a-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7948
+SHA256sum: d3ad8e9f396e451295423acc661e691b994f43e803fbaf40c7dd04925d82b926
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-rpcsys
-Version: 2022-12-15-7de4820c-1
+Version: 2023-01-21-c0df2a7a-1
 Depends: libc, libubus20220601, libubox20220927, rpcd
 Source: package/system/rpcd
 SourceName: rpcd-mod-rpcsys
 License: ISC
 Section: utils
-SourceDateEpoch: 1671148551
+SourceDateEpoch: 1674260779
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 3471
-Filename: rpcd-mod-rpcsys_2022-12-15-7de4820c-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4379
-SHA256sum: 2fb7f712b2140f0989db53e936a34733ddc09c228378e88666c4c9e644a87e4d
+Installed-Size: 3474
+Filename: rpcd-mod-rpcsys_2023-01-21-c0df2a7a-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 4401
+SHA256sum: d173280c254d03462eaa782f4a98bb51cb6c9421c3c7cb035fd612086bae8895
 Description:  Provides ubus calls for sysupgrade and password changing.
 
 Package: rpcd-mod-ucode
-Version: 2022-12-15-7de4820c-1
+Version: 2023-01-21-c0df2a7a-1
 Depends: libc, libubus20220601, libubox20220927, rpcd, libucode20220812
 Source: package/system/rpcd
 SourceName: rpcd-mod-ucode
 License: ISC
 Section: utils
-SourceDateEpoch: 1671148551
+SourceDateEpoch: 1674260779
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7136
-Filename: rpcd-mod-ucode_2022-12-15-7de4820c-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8084
-SHA256sum: 76139dad797d127509f3a8717156e499190d3bed71dae299caee2a5367ba6dce
+Installed-Size: 7138
+Filename: rpcd-mod-ucode_2023-01-21-c0df2a7a-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 8122
+SHA256sum: 81ad0e7e1287671ab0e04873ad0f343a9afa181337eda1f8aa882c02121e2a1a
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2022-12-15-7de4820c-1
+Version: 2023-01-21-c0df2a7a-1
 Depends: libc, libubus20220601, libubox20220927, libuci20130104, libblobmsg-json20220927, libjson-c5
 Source: package/system/rpcd
 SourceName: rpcd
 License: ISC
 Section: utils
-SourceDateEpoch: 1671148551
+SourceDateEpoch: 1674260779
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 22569
-Filename: rpcd_2022-12-15-7de4820c-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 23698
-SHA256sum: 2c099b39d4517165089a613edcb1e1c5351b1241644d5807f57754b54a70e379
+Installed-Size: 22571
+Filename: rpcd_2023-01-21-c0df2a7a-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 23713
+SHA256sum: 739eaf03b4f7a114a3c4c67a744f8ff33060aba01a6babe5e68a4dfb13e04a29
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
@@ -2282,84 +2282,84 @@ SHA256sum: 0897e7fa51f71b644ae07a5162ab8df627b979590b5afcf0395fc1b582d63698
 Description:  Tiny wget replacement using libuclient
 
 Package: ucode-mod-fs
-Version: 2023-01-07-1e4d2093-1
+Version: 2023-01-09-8dad974b-1
 Depends: libc, ucode
 Source: package/utils/ucode
 SourceName: ucode-mod-fs
 License: ISC
 Section: utils
-SourceDateEpoch: 1673260520
+SourceDateEpoch: 1674259343
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 8598
-Filename: ucode-mod-fs_2023-01-07-1e4d2093-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 9434
-SHA256sum: da5405e4c1b6f587546fb8bc4243aa5a922eb2cb91a796ea6dceb029b6b0a63f
+Installed-Size: 8657
+Filename: ucode-mod-fs_2023-01-09-8dad974b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 9513
+SHA256sum: 64797e0a576098de32dbdc3d55ae2cae79eff850f523cd6c23438a9408e01ead
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-math
-Version: 2023-01-07-1e4d2093-1
+Version: 2023-01-09-8dad974b-1
 Depends: libc, ucode
 Source: package/utils/ucode
 SourceName: ucode-mod-math
 License: ISC
 Section: utils
-SourceDateEpoch: 1673260520
+SourceDateEpoch: 1674259343
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 2394
-Filename: ucode-mod-math_2023-01-07-1e4d2093-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 3247
-SHA256sum: 9c6710ccdbc1ad5253960be8309a030c9fffca61cc5c155d81b003250683088d
+Installed-Size: 2400
+Filename: ucode-mod-math_2023-01-09-8dad974b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 3246
+SHA256sum: c99f9adbb295193495632f4e9a3273c9bdaaa7582a50f0be1f9483a3df269f27
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-ubus
-Version: 2023-01-07-1e4d2093-1
+Version: 2023-01-09-8dad974b-1
 Depends: libc, ucode, libubus20220601, libblobmsg-json20220927
 Source: package/utils/ucode
 SourceName: ucode-mod-ubus
 License: ISC
 Section: utils
-SourceDateEpoch: 1673260520
+SourceDateEpoch: 1674259343
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 12055
-Filename: ucode-mod-ubus_2023-01-07-1e4d2093-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 12953
-SHA256sum: 5eb1236985b8d8505a993c9ac60428c3c04b3875da4f3c915303d4b663a6f11a
+Installed-Size: 12057
+Filename: ucode-mod-ubus_2023-01-09-8dad974b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 12960
+SHA256sum: 84c76b3c549d5977e7ec39e9c5f05351d96d1d8575a6e39879761938524449fb
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
  procedures.
 
 Package: ucode-mod-uci
-Version: 2023-01-07-1e4d2093-1
+Version: 2023-01-09-8dad974b-1
 Depends: libc, ucode, libuci20130104
 Source: package/utils/ucode
 SourceName: ucode-mod-uci
 License: ISC
 Section: utils
-SourceDateEpoch: 1673260520
+SourceDateEpoch: 1674259343
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 6140
-Filename: ucode-mod-uci_2023-01-07-1e4d2093-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7006
-SHA256sum: b0b5d01ee35b42dba4e4d0ba471950d8a04078e3e6632e1aee1c665a08fd47f7
+Installed-Size: 6143
+Filename: ucode-mod-uci_2023-01-09-8dad974b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7014
+SHA256sum: c0d017e107f197c56de41c7dd577d3c5ca1be2f37ba15ecd96069bd6ab6f183b
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode
-Version: 2023-01-07-1e4d2093-1
+Version: 2023-01-09-8dad974b-1
 Depends: libc, libucode20220812
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: utils
-SourceDateEpoch: 1673260520
+SourceDateEpoch: 1674259343
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 6205
-Filename: ucode_2023-01-07-1e4d2093-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 7147
-SHA256sum: 624b12ca530a6d643bd2020057a2150888f8af193bbeb875f3b8a8530a9018fd
+Filename: ucode_2023-01-09-8dad974b-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 7145
+SHA256sum: a1b8f6e2cfc6d03d5a1d43421d237838524b8943fee0d2823efdca8eca78c8a1
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -2370,13 +2370,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd-mod-ubus
 License: ISC
 Section: net
-SourceDateEpoch: 1674217877
+SourceDateEpoch: 1674304086
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 7363
+Installed-Size: 7365
 Filename: uhttpd-mod-ubus_2022-10-31-23977554-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 8393
-SHA256sum: 71d818fb01869016fb7d8ab3581d1111eb6adfcd13b30c6bec91c0f84fdfdf87
+Size: 8391
+SHA256sum: a8ef118742de3ec6079e242af1915d9b73ef4f2152211dd957cb0f55d7c66c49
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2387,13 +2387,13 @@ Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1674217877
+SourceDateEpoch: 1674304086
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 25619
 Filename: uhttpd_2022-10-31-23977554-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 26648
-SHA256sum: 3e1736cf4b96f68f028e7e621146bc41c002f5084e3e6af025637080f901e503
+Size: 26630
+SHA256sum: 25c8f3f88252bd284b18ce888843e14abf4fb83ec3aa5b4f5403ebd5fa29115e
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
