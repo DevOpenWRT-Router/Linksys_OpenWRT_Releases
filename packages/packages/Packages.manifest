@@ -36,6 +36,34 @@ Description:  Extended attributes support
  - getfattr
  - setfattr
 
+Package: confuse
+Version: 3.3-1
+Depends: libc
+Source: feeds/packages/libs/confuse
+SourceName: confuse
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1594839799
+CPE-ID: cpe:/a:libconfuse_project:libconfuse
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 19349
+Filename: confuse_3.3-1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 20572
+SHA256sum: 6503dd342d509dded68ddbbf3fdd783fe1fc30d7e9fb72187d6e61c0e4fa8451
+Description:  libConfuse is a configuration file parser library, licensed under the
+ terms of the ISC license, and written in C. It supports sections and
+ (lists of) values (strings, integers, floats, booleans or other
+ sections), as well as some other features (such as single/double-quoted
+ strings, environment variable expansion, functions and nested include
+ statements). It makes it very easy to add configuration file capability
+ to a program using a simple API.
+ 
+ The goal of libConfuse is not to be the configuration file parser
+ library with a gazillion of features. Instead, it aims to be easy to use
+ and quick to integrate with your code. libConfuse was called libcfg
+ before, but was changed to not confuse with other similar libraries.
+
 Package: libattr
 Version: 2.5.1-1
 Depends: libc
